@@ -10,7 +10,7 @@
 * Includes
 **********************************************************************/
 #include "GPIO_config.h" /* For GPIO configuration */
-
+#include "Std_Types.h"
 /**********************************************************************
 * Preprocessor Constants
 **********************************************************************/
@@ -47,13 +47,12 @@ void GPIO_ChannelWrite(GPIOChannel_t Channel, GPIOPinState_t State);
 
 void GPIO_ChannelToggle(GPIOChannel_t Channel);
 
-void GPIO_RegisterWrite(uint32_t Address, TYPE Value);
+void GPIO_RegisterWrite(uint32 Address, uint32 Value);
 
-TYPE GPIO_RegisterRead(uint32_t Address);
+uint32 GPIO_RegisterRead(uint32 Address);
 
-void GPIO_CallbackRegister(GPIOCallback_t Function,
-
-TYPE (*CallbackFunction)(type));
+// void GPIO_CallbackRegister(GPIOCallback_t Function,
+// TYPE (*CallbackFunction)(type));
 
 #ifdef __cplusplus
 } // extern "C"

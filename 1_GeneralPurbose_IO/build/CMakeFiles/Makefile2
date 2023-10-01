@@ -28,6 +28,9 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -85,12 +88,12 @@ clean: CMakeFiles/flash_2.dir/clean
 CMakeFiles/application.axf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70 "Built target application.axf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72 "Built target application.axf"
 .PHONY : CMakeFiles/application.axf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/application.axf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 72
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/application.axf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 0
 .PHONY : CMakeFiles/application.axf.dir/rule
@@ -116,7 +119,7 @@ CMakeFiles/application.bin.dir/all: CMakeFiles/application.axf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/application.bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 72
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/application.bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 0
 .PHONY : CMakeFiles/application.bin.dir/rule
@@ -142,7 +145,7 @@ CMakeFiles/flash.dir/all: CMakeFiles/application.bin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 72
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/flash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 0
 .PHONY : CMakeFiles/flash.dir/rule
@@ -168,7 +171,7 @@ CMakeFiles/flash_2.dir/all: CMakeFiles/application.axf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/flash_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 72
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/flash_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles 0
 .PHONY : CMakeFiles/flash_2.dir/rule

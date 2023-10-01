@@ -23,49 +23,54 @@
 * Module Variable Definitions
 **********************************************************************/
 /**
-* Defines a table of pointers to the peripheral input register on the
+* Defines a table of pointers to the peripheral Data (in/out) register on the
 * microcontroller.
 */
-static TYPE* volatile * const DataIn[NUM_PORTS] =
+
+
+#define NUM_PINS_PER_PORT NUMBER_OF_CHANNELS_PER_PORT
+#define NUM_PORTS NUMBER_OF_PORTS
+
+static uint32 volatile * const portsData[NUM_PORTS] =
 {
-    (TYPE*)&REGISTER0, (TYPE*)&REGISTER1,
-    (TYPE*)&REGISTER2, (TYPE*)&REGISTER3,
-    (TYPE*)&REGISTER4, (TYPE*)&REGISTER5,
-    (TYPE*)&REGISTER6, (TYPEv*)&REGISTER7
+    (uint32*)GPIO_PORTA_BASE_ADDRESS+PORT_DATA_REG_OFFSET, (uint32*)GPIO_PORTB_BASE_ADDRESS+PORT_DATA_REG_OFFSET,
+    (uint32*)GPIO_PORTC_BASE_ADDRESS+PORT_DATA_REG_OFFSET, (uint32*)GPIO_PORTD_BASE_ADDRESS+PORT_DATA_REG_OFFSET,
+    (uint32*)GPIO_PORTE_BASE_ADDRESS+PORT_DATA_REG_OFFSET, (uint32*)GPIO_PORTF_BASE_ADDRESS+PORT_DATA_REG_OFFSET
 };
 /**
 * Defines a table of pointers to the peripheral data direction register
 on
 * the microcontroller.
 */
-static TYPE volatile * const DataDirectin[NUM_PORTS] =
+static uint32 volatile * const portsddr[NUM_PORTS] =
 {
-(TYPE*)&REGISTER1, (TYPE*)&REGISTER2,
+    (uint32*)GPIO_PORTA_BASE_ADDRESS+PORT_DIR_REG_OFFSET, (uint32*)GPIO_PORTB_BASE_ADDRESS+PORT_DIR_REG_OFFSET,
+    (uint32*)GPIO_PORTC_BASE_ADDRESS+PORT_DIR_REG_OFFSET, (uint32*)GPIO_PORTD_BASE_ADDRESS+PORT_DIR_REG_OFFSET,
+    (uint32*)GPIO_PORTE_BASE_ADDRESS+PORT_DIR_REG_OFFSET, (uint32*)GPIO_PORTF_BASE_ADDRESS+PORT_DIR_REG_OFFSET
 };
+
 /**
-* Defines a table of pointers to the peripheral latch register on the
-* microcontroller
-*/
-static TYPE volatile * const DataOut[NUM_PORTS] =
-{
-(TYPE*)&REGISTER1, (TYPE*)&REGISTER2,
-};
-/**
- ** Defines a table of pointers to the peripheral resistor enable register
+ ** Defines a table of pointers to the pull-up resistor enable register
 * on the microcontroller
 */
-static TYPE volatile * const Resistor[NUM_PORTS] =
+static uint32 volatile * const Resistor[NUM_PORTS] =
 {
-(TYPE*)&REGISTER1, (TYPE*)&REGISTER2,
+    (uint32*)GPIO_PORTA_BASE_ADDRESS+PORT_PULL_UP_REG_OFFSET, (uint32*)GPIO_PORTB_BASE_ADDRESS+PORT_PULL_UP_REG_OFFSET,
+    (uint32*)GPIO_PORTC_BASE_ADDRESS+PORT_PULL_UP_REG_OFFSET, (uint32*)GPIO_PORTD_BASE_ADDRESS+PORT_PULL_UP_REG_OFFSET,
+    (uint32*)GPIO_PORTE_BASE_ADDRESS+PORT_PULL_UP_REG_OFFSET, (uint32*)GPIO_PORTF_BASE_ADDRESS+PORT_PULL_UP_REG_OFFSET
 };
+
 /**
-* Defines a table of pointers to the port’s function select register
+ ** Defines a table of pointers to the digital enable register
 * on the microcontroller
 */
-static TYPE volatile * const Function[NUM_PORTS] =
+static uint32 volatile * const DEN[NUM_PORTS] =
 {
-(TYPE*)&REGISTER1, (TYPE*)&REGISTER2,
+    (uint32*)GPIO_PORTA_BASE_ADDRESS+PORT_DIGITAL_ENABLE_REG_OFFSET, (uint32*)GPIO_PORTB_BASE_ADDRESS+PORT_DIGITAL_ENABLE_REG_OFFSET,
+    (uint32*)GPIO_PORTC_BASE_ADDRESS+PORT_DIGITAL_ENABLE_REG_OFFSET, (uint32*)GPIO_PORTD_BASE_ADDRESS+PORT_DIGITAL_ENABLE_REG_OFFSET,
+    (uint32*)GPIO_PORTE_BASE_ADDRESS+PORT_DIGITAL_ENABLE_REG_OFFSET, (uint32*)GPIO_PORTF_BASE_ADDRESS+PORT_DIGITAL_ENABLE_REG_OFFSET
 };
+
 /**********************************************************************
 * Function Prototypes
 **********************************************************************/
@@ -80,6 +85,7 @@ static TYPE volatile * const Function[NUM_PORTS] =
 * This function is used to initialize the GPIO based on the configuration
 * table defined in GPIO_cfg module.
 *
+* PRE-CONDITION: Port_Init() should be called before any action
 * PRE-CONDITION: Configuration table needs to populated (sizeof > 0) <br>
 * PRE-CONDITION: NUMBER_OF_CHANNELS_PER_PORT > 0 <br>
 * PRE-CONDITION: NUMBER_OF_PORTS > 0 <br>
@@ -111,8 +117,33 @@ peripheral.
 **********************************************************************/
 void GPIO_Init(const GPIOConfig_t * Config)
 {
-/* TODO: Define implementation */
+    /* TODO: Define implementation */
+    uint8 i = 0; // Loop counter variable
+    uint8 number = 0; // Port Number
+    uint8 position = 0; // Pin Number
+    // Loop through all pins, set the data register bit and the data-direction
+    // register bit according to the dio configuration table values
+    for (i = 0; i < NUM_DIGITAL_PINS; i++)
+    {
+        if(Config[i].Function == GPIO_Notused_MODE){
+            continue;
+        }
+        number = Config[i].Channel / NUM_PINS_PER_PORT;
+        position = Config[i].Channel % NUM_PINS_PER_PORT;
+        if (Config[i].Direction == OUTPUT){
+            *portsddr[number] |= (1UL<<(position));
+        }else{
+            *portsddr[number] &=~ (1UL<<(position));
+        }
+        // Set the Data register bit for this channel
+        if (Config[i].Data == GPIO_HIGH){
+            *portsData[number] |= (1UL<<(position));
+        }else{
+            *portsData[number] &= ~(1UL<<(position));
+        }
+    }
 }
+
 /**********************************************************************
 * Function : GPIO_ChannelRead()
 *//**
@@ -146,6 +177,19 @@ void GPIO_Init(const GPIOConfig_t * Config)
 **********************************************************************/
 GPIOPinState_t GPIO_ChannelRead(GPIOChannel_t Channel)
 {
+    uint32 dataRegister;
+    uint8 number = 0; // Port Number
+    uint8 position = 0; // Pin Number
+    number = Channel / NUM_PINS_PER_PORT;
+    position = Channel % NUM_PINS_PER_PORT;
+
+    dataRegister = *portsData[number] ;
+    dataRegister = (dataRegister >> position) & 0x01;
+    if (dataRegister == GPIO_HIGH){
+        *portsData[number] |= (1UL<<(position));
+    }else{
+        *portsData[number] &= ~(1UL<<(position));
+    }
 }
 /**********************************************************************
 * Function : GPIO_ChannelWrite()
@@ -184,6 +228,18 @@ GPIOPinState_t GPIO_ChannelRead(GPIOChannel_t Channel)
 ***********************************************************************/
 void GPIO_ChannelWrite(GPIOChannel_t Channel, GPIOPinState_t State)
 {
+    uint8 number = 0; // Port Number
+    uint8 position = 0; // Pin Number
+
+    number = Channel / NUM_PINS_PER_PORT;
+    position = Channel % NUM_PINS_PER_PORT;
+
+    // Set the Data register bit for this channel
+    if (State == GPIO_HIGH){
+        *portsData[number] |= (1UL<<(position));
+    }else{
+        *portsData[number] &= ~(1UL<<(position));
+    }
 }
 /**************************************************************************
 * Function : GPIO_ChannelToggle()
@@ -221,6 +277,9 @@ void GPIO_ChannelWrite(GPIOChannel_t Channel, GPIOPinState_t State)
 **********************************************************************/
 void GPIO_ChannelToggle(GPIOChannel_t Channel)
 {
+    GPIOPinState_t pinState = GPIO_ChannelRead(Channel);
+    GPIO_ChannelWrite(Channel, pinState);
+
 }
 /**************************************************************************
 * Function : GPIO_RegisterWrite()
@@ -258,8 +317,9 @@ void GPIO_ChannelToggle(GPIOChannel_t Channel)
 * @see GPIO_CallbackRegister
 *
 **********************************************************************/
-void GPIO_RegisterWrite(uint32_t Address, TYPE Value)
+void GPIO_RegisterWrite(uint32 Address, uint32 Value)
 {
+    (*(volatile uint32*)Address) = Value;
 }
 /**********************************************************************
 * Function : GPIO_RegisterRead()
@@ -295,8 +355,9 @@ void GPIO_RegisterWrite(uint32_t Address, TYPE Value)
 *
 *
 **********************************************************************/
-TYPE GPIO_RegisterRead(uint32_t Address)
+uint32 GPIO_RegisterRead(uint32 Address)
 {
+   return (*(volatile uint32*)Address);
 }
 /**********************************************************************
 * Function : GPIO_CallbackRegister()
@@ -336,8 +397,9 @@ TYPE GPIO_RegisterRead(uint32_t Address)
 * @see GPIO_CallbackRegister
 *
 **********************************************************************/
-void GPIO_CallbackRegister(GPIOCallback_t Function,
-TYPE (*CallbackFunction)(type))
-{
-}
+// void GPIO_CallbackRegister(GPIOCallback_t Function,
+// void (*CallbackFunction)(void))
+// {
+
+// }
 /*************** END OF FUNCTIONS ********************************/ 

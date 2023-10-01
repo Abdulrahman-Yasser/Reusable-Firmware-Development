@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO"
+    "cmake.sourceDirectory": "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO",
+    "files.associations": {
+        "mcu_hw.h": "c",
+        "type_traits": "c"
+    }
 }

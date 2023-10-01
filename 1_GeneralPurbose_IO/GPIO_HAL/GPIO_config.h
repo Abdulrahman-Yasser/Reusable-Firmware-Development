@@ -20,6 +20,8 @@
 */
 #define NUMBER_OF_CHANNELS_PER_PORT 8U
 
+#define NUM_DIGITAL_PINS    43
+
 /**
 * Defines the number of ports on the processor.
 */
@@ -48,20 +50,31 @@ typedef enum
 typedef enum
 {
     /* TODO: Populate this list based on available MCU pins */
-    PORT1_0, /**< PORT1_0 */
-    PORT1_1, /**< PORT1_1 */
-    PORT1_2, /**< PORT1_2 */
-    PORT1_3, /**< PORT1_3 */
-    PORT1_4, /**< PORT1_4 */
-    PORT1_5, /**< PORT1_5 */
-    PORT1_6, /**< PORT1_6 */
-    PORT1_7, /**< PORT1_7 */
+    PORTa_0, /**< PORTa_0 */ PORTa_1, /**< PORTa_1 */ PORTa_2, /**< PORTa_2 */ PORTa_3, /**< PORTa_3 */
+    PORTa_4, /**< PORTa_4 */ PORTa_5, /**< PORTa_5 */ PORTa_6, /**< PORTa_6 */ PORTa_7, /**< PORTa_7 */
+    PORTb_0, /**< PORTb_0 */ PORTb_1, /**< PORTb_1 */ PORTb_2, /**< PORTb_2 */ PORTb_3, /**< PORTb_3 */
+    PORTb_4, /**< PORTb_4 */ PORTb_5, /**< PORTb_5 */ PORTb_6, /**< PORTb_6 */ PORTb_7, /**< PORTb_7 */
+    PORTc_0, /**< PORTc_0 */ PORTc_1, /**< PORTc_1 */ PORTc_2, /**< PORTc_2 */ PORTc_3, /**< PORTc_3 */
+    PORTc_4, /**< PORTc_4 */ PORTc_5, /**< PORTc_5 */ PORTc_6, /**< PORTc_6 */ PORTc_7, /**< PORTc_7 */
+    PORTd_0, /**< PORTd_0 */ PORTd_1, /**< PORTd_1 */ PORTd_2, /**< PORTd_2 */ PORTd_3, /**< PORTd_3 */
+    PORTd_4, /**< PORTd_4 */ PORTd_5, /**< PORTd_5 */ PORTd_6, /**< PORTd_6 */ PORTd_7, /**< PORTd_7 */
+    PORTe_0, /**< PORTe_0 */ PORTe_1, /**< PORTe_1 */ PORTe_2, /**< PORTe_2 */ PORTe_3, /**< PORTe_3 */
+    PORTe_4, /**< PORTe_4 */ PORTe_5, /**< PORTe_5 */ 
+    PORTf_0=36, /**< PORTf_0 */ PORTf_1, /**< PORTf_1 */ PORTf_2, /**< PORTf_2 */ PORTf_3, /**< PORTf_3 */
+    PORTf_4, /**< PORTf_4 */
     GPIO_MAX_PIN_NUMBER /**< MAX CHANNELS */ 
 }GPIOChannel_t;
 
-
-
-
+/**
+* Defines the possible GPIO pin multiplexing values. The datasheet
+* should be reviewed for proper muxing options.
+*/
+typedef enum
+{
+    /* TODO: Populate with possible mode options */
+    OUTPUT,
+    INPUT
+}GPIODirection_t;
 
 
 /**
@@ -71,7 +84,8 @@ typedef enum
 typedef enum
 {
     /* TODO: Populate with possible mode options */
-    GPIO_MAX_MODE  
+    GPIO_MAX_MODE,
+    GPIO_Notused_MODE
 }GPIOMode_t;
 
 /**

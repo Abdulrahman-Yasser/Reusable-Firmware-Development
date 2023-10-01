@@ -5,7 +5,6 @@
 /**********************************************************************
 * Includes
 **********************************************************************/
-
 #include "GPIO_config.h" /* For this modules definitions */
 
 /**********************************************************************
@@ -28,19 +27,54 @@ single pin. Each column is representing a member of the GPIOConfig_t
 * structure. This table is read in by GPIO_Init, where each channel is then
 * set up based on this table.
 */
-const GPIOConfig_t GPIOConfig[] =
+GPIOConfig_t const GPIOConfig[] =
 {
     /* Resistor Initial */
     /* Channel Enabled Direction Pin Function */
     /* */
-    { PORT1_0, DISABLED, OUTPUT, HIGH, FCN_GPIO },
-    { PORT1_1, DISABLED, OUTPUT, HIGH, FCN_GPIO },
-    { PORT1_2, DISABLED, OUTPUT, HIGH, FCN_GPIO },
-    { PORT1_3, DISABLED, OUTPUT, HIGH, FCN_GPIO },
-    { PORT1_4, DISABLED, OUTPUT, HIGH, FCN_GPIO },
-    { PORT1_5, DISABLED, OUTPUT, HIGH, FCN_GPIO },
-    { PORT1_6, DISABLED, OUTPUT, HIGH, FCN_GPIO },
-    { PORT1_7, DISABLED, OUTPUT, HIGH, FCN_GPIO },
+    { PORTa_0, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTa_1, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTa_2, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTa_3, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTa_4, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTa_5, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTa_6, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTa_7, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTb_0, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTb_1, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTb_2, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTb_3, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTb_4, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTb_5, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTb_6, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTb_7, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTc_0, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTc_1, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTc_2, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTc_3, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTc_4, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTc_5, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTc_6, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTc_7, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTd_0, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTd_1, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTd_2, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTd_3, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTd_4, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTd_5, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTd_6, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTd_7, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTe_0, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTe_1, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTe_2, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTe_3, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTe_4, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTe_5, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTf_0, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTf_1, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_MAX_MODE },
+    { PORTf_2, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTf_3, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
+    { PORTf_4, GPIO_PULLUP_DISABLED, OUTPUT, GPIO_HIGH, GPIO_Notused_MODE },
 };
 /**********************************************************************
 * Function Prototypes
@@ -80,13 +114,13 @@ const GPIOConfig_t GPIOConfig[] =
 * @see GPIO_RegisterRead
 *
 **********************************************************************/
-const GPIOConfig_t * const GPIO_ConfigGet(void)
+GPIOConfig_t const* GPIO_ConfigGet(void)
 {
     /*
     * The cast is performed to ensure that the address of the first element
     * of configuration table is returned as a constant pointer and NOT a
     * pointer that can be modified.
     */
-    return (const *)GPIOConfig[0];
+    return (GPIOConfig_t const*)&GPIOConfig[0];
 }
 /*************** END OF FUNCTIONS ********************************/

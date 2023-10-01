@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/application.axf.dir/GPIO_HAL/GPIO.c.o"
+  "CMakeFiles/application.axf.dir/GPIO_HAL/GPIO.c.o.d"
+  "CMakeFiles/application.axf.dir/GPIO_HAL/GPIO_config.c.o"
+  "CMakeFiles/application.axf.dir/GPIO_HAL/GPIO_config.c.o.d"
   "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.o"
   "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.o.d"
   "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o"

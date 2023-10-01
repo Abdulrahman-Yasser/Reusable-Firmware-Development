@@ -31,6 +31,9 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -167,6 +170,54 @@ flash_2: cmake_check_build_system
 flash_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash_2.dir/build.make CMakeFiles/flash_2.dir/build
 .PHONY : flash_2/fast
+
+GPIO_HAL/GPIO.o: GPIO_HAL/GPIO.c.o
+.PHONY : GPIO_HAL/GPIO.o
+
+# target to build an object file
+GPIO_HAL/GPIO.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/GPIO_HAL/GPIO.c.o
+.PHONY : GPIO_HAL/GPIO.c.o
+
+GPIO_HAL/GPIO.i: GPIO_HAL/GPIO.c.i
+.PHONY : GPIO_HAL/GPIO.i
+
+# target to preprocess a source file
+GPIO_HAL/GPIO.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/GPIO_HAL/GPIO.c.i
+.PHONY : GPIO_HAL/GPIO.c.i
+
+GPIO_HAL/GPIO.s: GPIO_HAL/GPIO.c.s
+.PHONY : GPIO_HAL/GPIO.s
+
+# target to generate assembly for a file
+GPIO_HAL/GPIO.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/GPIO_HAL/GPIO.c.s
+.PHONY : GPIO_HAL/GPIO.c.s
+
+GPIO_HAL/GPIO_config.o: GPIO_HAL/GPIO_config.c.o
+.PHONY : GPIO_HAL/GPIO_config.o
+
+# target to build an object file
+GPIO_HAL/GPIO_config.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/GPIO_HAL/GPIO_config.c.o
+.PHONY : GPIO_HAL/GPIO_config.c.o
+
+GPIO_HAL/GPIO_config.i: GPIO_HAL/GPIO_config.c.i
+.PHONY : GPIO_HAL/GPIO_config.i
+
+# target to preprocess a source file
+GPIO_HAL/GPIO_config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/GPIO_HAL/GPIO_config.c.i
+.PHONY : GPIO_HAL/GPIO_config.c.i
+
+GPIO_HAL/GPIO_config.s: GPIO_HAL/GPIO_config.c.s
+.PHONY : GPIO_HAL/GPIO_config.s
+
+# target to generate assembly for a file
+GPIO_HAL/GPIO_config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/GPIO_HAL/GPIO_config.c.s
+.PHONY : GPIO_HAL/GPIO_config.c.s
 
 home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.o
 .PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.o
@@ -1836,6 +1887,12 @@ help:
 	@echo "... flash"
 	@echo "... flash_2"
 	@echo "... application.axf"
+	@echo "... GPIO_HAL/GPIO.o"
+	@echo "... GPIO_HAL/GPIO.i"
+	@echo "... GPIO_HAL/GPIO.s"
+	@echo "... GPIO_HAL/GPIO_config.o"
+	@echo "... GPIO_HAL/GPIO_config.i"
+	@echo "... GPIO_HAL/GPIO_config.s"
 	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.o"
 	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.i"
 	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.s"
