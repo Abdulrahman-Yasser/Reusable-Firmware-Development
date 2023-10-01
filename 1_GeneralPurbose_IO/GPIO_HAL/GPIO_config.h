@@ -60,7 +60,7 @@ typedef enum
     PORTd_4, /**< PORTd_4 */ PORTd_5, /**< PORTd_5 */ PORTd_6, /**< PORTd_6 */ PORTd_7, /**< PORTd_7 */
     PORTe_0, /**< PORTe_0 */ PORTe_1, /**< PORTe_1 */ PORTe_2, /**< PORTe_2 */ PORTe_3, /**< PORTe_3 */
     PORTe_4, /**< PORTe_4 */ PORTe_5, /**< PORTe_5 */ 
-    PORTf_0=36, /**< PORTf_0 */ PORTf_1, /**< PORTf_1 */ PORTf_2, /**< PORTf_2 */ PORTf_3, /**< PORTf_3 */
+    PORTf_0=40, /**< PORTf_0 */ PORTf_1, /**< PORTf_1 */ PORTf_2, /**< PORTf_2 */ PORTf_3, /**< PORTf_3 */
     PORTf_4, /**< PORTf_4 */
     GPIO_MAX_PIN_NUMBER /**< MAX CHANNELS */ 
 }GPIOChannel_t;
