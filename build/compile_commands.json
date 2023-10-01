@@ -1,0 +1,428 @@
+[
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.o -c /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/GPIO_HAL/GPIO.c.o -c /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/GPIO_HAL/GPIO.c",
+  "file": "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/GPIO_HAL/GPIO.c",
+  "output": "CMakeFiles/application.axf.dir/GPIO_HAL/GPIO.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/GPIO_HAL/GPIO_config.c.o -c /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/GPIO_HAL/GPIO_config.c",
+  "file": "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/GPIO_HAL/GPIO_config.c",
+  "output": "CMakeFiles/application.axf.dir/GPIO_HAL/GPIO_config.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/main.c.o -c /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/main.c",
+  "file": "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/main.c",
+  "output": "CMakeFiles/application.axf.dir/main.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/tm4c123gh6pm_startup_ccs_gcc.c.o -c /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm_startup_ccs_gcc.c",
+  "file": "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm_startup_ccs_gcc.c",
+  "output": "CMakeFiles/application.axf.dir/tm4c123gh6pm_startup_ccs_gcc.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o"
+},
+{
+  "directory": "/home/abdu/Study/Reusable-Firmware-Development/build",
+  "command": "/home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc  -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=\"nosys.specs\" -Wl,--gc-sections -Wl,--script \"/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/tm4c123gh6pm.lds\" -g -o CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.o -c /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c",
+  "file": "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c",
+  "output": "CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.o"
+}
+]

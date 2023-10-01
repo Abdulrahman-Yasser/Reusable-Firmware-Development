@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "targetPrj",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "application.axf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-application.axf-Debug-8d5a0031f3e32eb92b1d.json",
+					"name" : "application.axf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "application.bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-application.bin-Debug-ddefa7331399edf7e5e5.json",
+					"name" : "application.bin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flash-Debug-4f2e3123acff98e4eb29.json",
+					"name" : "flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flash_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flash_2-Debug-cc93606cf76e8fd1a206.json",
+					"name" : "flash_2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdu/Study/Reusable-Firmware-Development/build",
+		"source" : "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,6 @@
+/home/abdu/Study/Reusable-Firmware-Development/build/CMakeFiles/application.axf.dir
+/home/abdu/Study/Reusable-Firmware-Development/build/CMakeFiles/application.bin.dir
+/home/abdu/Study/Reusable-Firmware-Development/build/CMakeFiles/flash.dir
+/home/abdu/Study/Reusable-Firmware-Development/build/CMakeFiles/flash_2.dir
+/home/abdu/Study/Reusable-Firmware-Development/build/CMakeFiles/edit_cache.dir
+/home/abdu/Study/Reusable-Firmware-Development/build/CMakeFiles/rebuild_cache.dir
