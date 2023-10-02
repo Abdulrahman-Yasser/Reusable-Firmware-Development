@@ -1,4 +1,5 @@
 # Hashes of file build rules.
 bb499f4b35daf5754bd535a78666bd95 CMakeFiles/application.bin
+2c08911ba6b275384cca2f83efb90acc CMakeFiles/doc_doxygen
 bb499f4b35daf5754bd535a78666bd95 CMakeFiles/flash
 6fe2ed0b825450ff01497739813dbd03 CMakeFiles/flash_2

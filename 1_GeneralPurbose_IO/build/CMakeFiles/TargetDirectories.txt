@@ -2,5 +2,6 @@
 /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles/application.bin.dir
 /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles/flash.dir
 /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles/flash_2.dir
+/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles/doc_doxygen.dir
 /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles/edit_cache.dir
 /home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/build/CMakeFiles/rebuild_cache.dir

@@ -28,9 +28,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -68,6 +65,7 @@ CMAKE_BINARY_DIR = /home/abdu/Study/Reusable-Firmware-Development/build
 # The main recursive "all" target.
 all: CMakeFiles/application.axf.dir/all
 all: CMakeFiles/application.bin.dir/all
+all: CMakeFiles/doc_doxygen.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,6 +77,7 @@ clean: CMakeFiles/application.axf.dir/clean
 clean: CMakeFiles/application.bin.dir/clean
 clean: CMakeFiles/flash.dir/clean
 clean: CMakeFiles/flash_2.dir/clean
+clean: CMakeFiles/doc_doxygen.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -184,6 +183,32 @@ flash_2: CMakeFiles/flash_2.dir/rule
 CMakeFiles/flash_2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash_2.dir/build.make CMakeFiles/flash_2.dir/clean
 .PHONY : CMakeFiles/flash_2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/doc_doxygen.dir
+
+# All Build rule for target.
+CMakeFiles/doc_doxygen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc_doxygen.dir/build.make CMakeFiles/doc_doxygen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc_doxygen.dir/build.make CMakeFiles/doc_doxygen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abdu/Study/Reusable-Firmware-Development/build/CMakeFiles --progress-num= "Built target doc_doxygen"
+.PHONY : CMakeFiles/doc_doxygen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/doc_doxygen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/doc_doxygen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdu/Study/Reusable-Firmware-Development/build/CMakeFiles 0
+.PHONY : CMakeFiles/doc_doxygen.dir/rule
+
+# Convenience name for target.
+doc_doxygen: CMakeFiles/doc_doxygen.dir/rule
+.PHONY : doc_doxygen
+
+# clean rule for target.
+CMakeFiles/doc_doxygen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc_doxygen.dir/build.make CMakeFiles/doc_doxygen.dir/clean
+.PHONY : CMakeFiles/doc_doxygen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

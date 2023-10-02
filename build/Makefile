@@ -31,9 +31,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -170,6 +167,19 @@ flash_2: cmake_check_build_system
 flash_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash_2.dir/build.make CMakeFiles/flash_2.dir/build
 .PHONY : flash_2/fast
+
+#=============================================================================
+# Target rules for targets named doc_doxygen
+
+# Build rule for target.
+doc_doxygen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 doc_doxygen
+.PHONY : doc_doxygen
+
+# fast build rule for target.
+doc_doxygen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc_doxygen.dir/build.make CMakeFiles/doc_doxygen.dir/build
+.PHONY : doc_doxygen/fast
 
 GPIO_HAL/GPIO.o: GPIO_HAL/GPIO.c.o
 .PHONY : GPIO_HAL/GPIO.o
@@ -1884,6 +1894,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... application.bin"
+	@echo "... doc_doxygen"
 	@echo "... flash"
 	@echo "... flash_2"
 	@echo "... application.axf"

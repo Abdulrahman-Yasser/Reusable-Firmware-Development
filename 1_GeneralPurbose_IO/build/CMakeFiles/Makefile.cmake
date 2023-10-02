@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/CMakeLists.txt"
   "CMakeFiles/3.27.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.6/CMakeSystem.cmake"
+  "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/docs/Doxyfile.in"
   "/usr/share/cmake-3.27/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake-3.27/Modules/CMakeGenericSystem.cmake"
@@ -20,6 +21,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/usr/share/cmake-3.27/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.27/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.27/Modules/FindDoxygen.cmake"
+  "/usr/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.27/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake"
@@ -35,6 +39,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "Doxyfile"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -44,4 +49,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/application.bin.dir/DependInfo.cmake"
   "CMakeFiles/flash.dir/DependInfo.cmake"
   "CMakeFiles/flash_2.dir/DependInfo.cmake"
+  "CMakeFiles/doc_doxygen.dir/DependInfo.cmake"
   )
