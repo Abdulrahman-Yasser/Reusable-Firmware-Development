@@ -193,7 +193,8 @@ GPIOPinState_t GPIO_ChannelRead(GPIOChannel_t Channel)
 }
 /**********************************************************************
 * Function : GPIO_ChannelWrite()
-*//*** \b Description:
+*//**
+* \b Description:
 *
 * This function is used to write the state of a channel (pin) as either
 * logic high or low through the use of the GPIOChannel_t enum to select

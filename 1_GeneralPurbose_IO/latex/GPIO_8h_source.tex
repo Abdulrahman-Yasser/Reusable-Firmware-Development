@@ -1,0 +1,88 @@
+\doxysection{GPIO.\+h}
+\hypertarget{GPIO_8h_source}{}\label{GPIO_8h_source}\index{GPIO\_HAL/GPIO.h@{GPIO\_HAL/GPIO.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/******************************************************************}}
+\DoxyCodeLine{00002\ \textcolor{comment}{*\ @Title\ :\ Digital\ Input\ /\ Output\ (DIO)}}
+\DoxyCodeLine{00003\ \textcolor{comment}{*\ @Filename\ :\ dio.c}}
+\DoxyCodeLine{00004\ \textcolor{comment}{*\ @Author\ :\ Jacob\ W.\ Beningo}}
+\DoxyCodeLine{00005\ \textcolor{comment}{*\ @Origin\ Date\ :\ 09/01/2015}}
+\DoxyCodeLine{00006\ \textcolor{comment}{*\ @Version\ :\ 1.0.0}}
+\DoxyCodeLine{00007\ \textcolor{comment}{*\ @Compiler\ :\ TBD}}
+\DoxyCodeLine{00008\ \textcolor{comment}{*\ @Target\ :\ TBD}}
+\DoxyCodeLine{00009\ \textcolor{comment}{*\ @Notes\ :\ None}}
+\DoxyCodeLine{00010\ \textcolor{comment}{*}}
+\DoxyCodeLine{00011\ \textcolor{comment}{*\ THIS\ SOFTWARE\ IS\ PROVIDED\ BY\ BENINGO\ EMBEDDED\ GROUP}}
+\DoxyCodeLine{00012\ \textcolor{comment}{*\ "{}AS\ IS"{}\ AND\ ANY\ EXPRESSED\ OR\ IMPLIED\ WARRANTIES,}}
+\DoxyCodeLine{00013\ \textcolor{comment}{*\ INCLUDING,\ BUT\ NOT\ LIMITED\ TO,\ THE\ IMPLIED\ WARRANTIES}}
+\DoxyCodeLine{00014\ \textcolor{comment}{*\ OF\ MERCHANTABILITY\ AND\ FITNESS\ FOR\ A\ PARTICULAR}}
+\DoxyCodeLine{00015\ \textcolor{comment}{*\ PURPOSE\ ARE\ DISCLAIMED.\ IN\ NO\ EVENT\ SHALL\ BENINGO}}
+\DoxyCodeLine{00016\ \textcolor{comment}{*\ EMBEDDED\ GROUP\ OR\ ITS\ CONTRIBUTORS\ BE\ LIABLE\ FOR\ ANY}}
+\DoxyCodeLine{00017\ \textcolor{comment}{*\ DIRECT,\ INDIRECT,\ INCIDENTAL,\ SPECIAL,\ EXEMPLARY,\ OR}}
+\DoxyCodeLine{00018\ \textcolor{comment}{*\ CONSEQUENTIAL\ DAMAGES\ (INCLUDING,\ BUT\ NOT\ LIMITED\ TO,}}
+\DoxyCodeLine{00019\ \textcolor{comment}{*\ PROCUREMENT\ OF\ SUBSTITUTE\ GOODS\ OR\ SERVICES;\ LOSS\ OF}}
+\DoxyCodeLine{00020\ \textcolor{comment}{*\ USE,\ DATA,\ OR\ PROFITS;\ OR\ BUSINESS\ INTERRUPTION)}}
+\DoxyCodeLine{00021\ \textcolor{comment}{*\ HOWEVER\ CAUSED\ AND\ ON\ ANY\ THEORY\ OF\ LIABILITY,}}
+\DoxyCodeLine{00022\ \textcolor{comment}{*\ WHETHER\ IN\ CONTRACT,\ STRICT\ LIABILITY,\ OR\ TORT}}
+\DoxyCodeLine{00023\ \textcolor{comment}{*\ (INCLUDING\ NEGLIGENCE\ OR\ OTHERWISE)\ ARISING\ IN\ ANY}}
+\DoxyCodeLine{00024\ \textcolor{comment}{*\ WAY\ OUT\ OF\ THE\ USE\ OF\ THIS\ SOFTWARE,\ EVEN\ IF\ ADVISED\ OF}}
+\DoxyCodeLine{00025\ \textcolor{comment}{*\ THE\ POSSIBILITY\ OF\ SUCH\ DAMAGE.}}
+\DoxyCodeLine{00026\ \textcolor{comment}{******************************************************************/}}
+\DoxyCodeLine{00027\ \textcolor{preprocessor}{\#ifndef\ GPIO\_H\_}}
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#define\ GPIO\_H\_}}
+\DoxyCodeLine{00029\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00030\ \textcolor{comment}{*\ Includes}}
+\DoxyCodeLine{00031\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00032\ \textcolor{preprocessor}{\#include\ "{}GPIO\_config.h"{}}\ \textcolor{comment}{/*\ For\ GPIO\ configuration\ */}}
+\DoxyCodeLine{00033\ \textcolor{preprocessor}{\#include\ "{}Std\_Types.h"{}}}
+\DoxyCodeLine{00034\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00035\ \textcolor{comment}{*\ Preprocessor\ Constants}}
+\DoxyCodeLine{00036\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00039\ \textcolor{comment}{*\ Configuration\ Constants}}
+\DoxyCodeLine{00040\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00043\ \textcolor{comment}{*\ Macros}}
+\DoxyCodeLine{00044\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00047\ \textcolor{comment}{*\ Typedefs}}
+\DoxyCodeLine{00048\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00051\ \textcolor{comment}{*\ Variables}}
+\DoxyCodeLine{00052\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00055\ \textcolor{comment}{*\ Function\ Prototypes}}
+\DoxyCodeLine{00056\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{preprocessor}{\#ifdef\ \_\_cplusplus}}
+\DoxyCodeLine{00059\ \textcolor{keyword}{extern}\ \textcolor{stringliteral}{"{}C"{}}\{}
+\DoxyCodeLine{00060\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3}{GPIO\_Init}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{structGPIOConfig__t}{GPIOConfig\_t}}\ *\ \textcolor{keyword}{const}\ Config);}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ GPIOPinState\_t\ \mbox{\hyperlink{GPIO_8c_add1921d56b189cbf0beaf38c688c2fb0}{GPIO\_ChannelRead}}(GPIOChannel\_t\ Channel);}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{GPIO_8c_a42f221be2b3c514bcc839425fed8a527}{GPIO\_ChannelWrite}}(GPIOChannel\_t\ Channel,\ GPIOPinState\_t\ State);}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00068\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93}{GPIO\_ChannelToggle}}(GPIOChannel\_t\ Channel);}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00070\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594}{GPIO\_RegisterWrite}}(uint32\ Address,\ uint32\ Value);}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ uint32\ \mbox{\hyperlink{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17}{GPIO\_RegisterRead}}(uint32\ Address);}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00074\ \textcolor{comment}{//\ void\ GPIO\_CallbackRegister(GPIOCallback\_t\ Function,}}
+\DoxyCodeLine{00075\ \textcolor{comment}{//\ TYPE\ (*CallbackFunction)(type));}}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00077\ \textcolor{preprocessor}{\#ifdef\ \_\_cplusplus}}
+\DoxyCodeLine{00078\ \}\ \textcolor{comment}{//\ extern\ "{}C"{}}}
+\DoxyCodeLine{00079\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00081\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*GPIO\_H\_*/}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00082\ \textcolor{comment}{/***\ End\ of\ File\ ******************************************************/}}
+
+\end{DoxyCode}

@@ -1,0 +1,108 @@
+\doxysection{GPIO\+\_\+config.\+h}
+\hypertarget{GPIO__config_8h_source}{}\label{GPIO__config_8h_source}\index{GPIO\_HAL/GPIO\_config.h@{GPIO\_HAL/GPIO\_config.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ GPIO\_CONFIG\_H\_}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ GPIO\_CONFIG\_H\_}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00011\ \textcolor{comment}{*\ Includes}}
+\DoxyCodeLine{00012\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00015\ \textcolor{comment}{*\ Preprocessor\ Constants}}
+\DoxyCodeLine{00016\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#define\ NUMBER\_OF\_CHANNELS\_PER\_PORT\ 8U}}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#define\ NUM\_DIGITAL\_PINS\ \ \ \ 43}}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#define\ NUMBER\_OF\_PORTS\ 6U}}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00031\ \textcolor{comment}{*\ Typedefs}}
+\DoxyCodeLine{00032\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00037\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00038\ \{}
+\DoxyCodeLine{00039\ \ \ \ \ GPIO\_LOW,\ }
+\DoxyCodeLine{00040\ \ \ \ \ GPIO\_HIGH,\ }
+\DoxyCodeLine{00041\ \ \ \ \ GPIO\_PIN\_STATE\_MAX\ }
+\DoxyCodeLine{00042\ \}GPIOPinState\_t;}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00050\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00051\ \{}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{comment}{/*\ TODO:\ Populate\ this\ list\ based\ on\ available\ MCU\ pins\ */}}
+\DoxyCodeLine{00053\ \ \ \ \ PORTa\_0,\ \ PORTa\_1,\ \ PORTa\_2,\ \ PORTa\_3,\ }
+\DoxyCodeLine{00054\ \ \ \ \ PORTa\_4,\ \ PORTa\_5,\ \ PORTa\_6,\ \ PORTa\_7,\ }
+\DoxyCodeLine{00055\ \ \ \ \ PORTb\_0,\ \ PORTb\_1,\ \ PORTb\_2,\ \ PORTb\_3,\ }
+\DoxyCodeLine{00056\ \ \ \ \ PORTb\_4,\ \ PORTb\_5,\ \ PORTb\_6,\ \ PORTb\_7,\ }
+\DoxyCodeLine{00057\ \ \ \ \ PORTc\_0,\ \ PORTc\_1,\ \ PORTc\_2,\ \ PORTc\_3,\ }
+\DoxyCodeLine{00058\ \ \ \ \ PORTc\_4,\ \ PORTc\_5,\ \ PORTc\_6,\ \ PORTc\_7,\ }
+\DoxyCodeLine{00059\ \ \ \ \ PORTd\_0,\ \ PORTd\_1,\ \ PORTd\_2,\ \ PORTd\_3,\ }
+\DoxyCodeLine{00060\ \ \ \ \ PORTd\_4,\ \ PORTd\_5,\ \ PORTd\_6,\ \ PORTd\_7,\ }
+\DoxyCodeLine{00061\ \ \ \ \ PORTe\_0,\ \ PORTe\_1,\ \ PORTe\_2,\ \ PORTe\_3,\ }
+\DoxyCodeLine{00062\ \ \ \ \ PORTe\_4,\ \ PORTe\_5,\ }
+\DoxyCodeLine{00063\ \ \ \ \ PORTf\_0=40,\ \ PORTf\_1,\ \ PORTf\_2,\ \ PORTf\_3,\ }
+\DoxyCodeLine{00064\ \ \ \ \ PORTf\_4,\ }
+\DoxyCodeLine{00065\ \ \ \ \ GPIO\_MAX\_PIN\_NUMBER\ }
+\DoxyCodeLine{00066\ \}GPIOChannel\_t;}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00072\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00073\ \{}
+\DoxyCodeLine{00074\ \ \ \ \ \textcolor{comment}{/*\ TODO:\ Populate\ with\ possible\ mode\ options\ */}}
+\DoxyCodeLine{00075\ \ \ \ \ OUTPUT,}
+\DoxyCodeLine{00076\ \ \ \ \ INPUT}
+\DoxyCodeLine{00077\ \}GPIODirection\_t;}
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00084\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00085\ \{}
+\DoxyCodeLine{00086\ \ \ \ \ \textcolor{comment}{/*\ TODO:\ Populate\ with\ possible\ mode\ options\ */}}
+\DoxyCodeLine{00087\ \ \ \ \ GPIO\_MAX\_MODE,}
+\DoxyCodeLine{00088\ \ \ \ \ GPIO\_Notused\_MODE}
+\DoxyCodeLine{00089\ \}GPIOMode\_t;}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00094\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00095\ \{}
+\DoxyCodeLine{00096\ \ \ \ \ GPIO\_PULLUP\_DISABLED,\ \textcolor{comment}{/*<\ Used\ to\ disable\ the\ internal\ pull-\/ups\ */}}
+\DoxyCodeLine{00097\ \ \ \ \ GPIO\_PULLUP\_ENABLED,\ \textcolor{comment}{/*<\ Used\ to\ enable\ the\ internal\ pull-\/ups\ */}}
+\DoxyCodeLine{00098\ \ \ \ \ GPIO\_MAX\_RESISTOR\ \textcolor{comment}{/*<\ Resistor\ states\ should\ be\ below\ this\ value*/}}
+\DoxyCodeLine{00099\ \}GPIOResistor\_t;}
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00105\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}}
+\DoxyCodeLine{00106\ \{}
+\DoxyCodeLine{00107\ \ \ \ \ \textcolor{comment}{/*\ TODO:\ Add\ additional\ members\ for\ the\ MCU\ peripheral\ */}}
+\DoxyCodeLine{00108\ \ \ \ \ GPIOChannel\_t\ \mbox{\hyperlink{structGPIOConfig__t_a6b021de166ba43985c469db782f5ec13}{Channel}};\ }
+\DoxyCodeLine{00109\ \ \ \ \ GPIOResistor\_t\ \mbox{\hyperlink{structGPIOConfig__t_add853ed2a2e56bf06bb22b67ac0ce52b}{Resistor}};\ }
+\DoxyCodeLine{00110\ \ \ \ \ GPIODirection\_t\ \mbox{\hyperlink{structGPIOConfig__t_a67b16a1a40b2c03882e6aacf58aaeb3d}{Direction}};\ }
+\DoxyCodeLine{00111\ \ \ \ \ GPIOPinState\_t\ \mbox{\hyperlink{structGPIOConfig__t_a65a985cc446e32c15b6608c4b351ec3b}{Data}};\ \ }
+\DoxyCodeLine{00112\ \ \ \ \ GPIOMode\_t\ \mbox{\hyperlink{structGPIOConfig__t_a00aeaa605a84454abd6b23000d1a5e80}{Function}};\ }
+\DoxyCodeLine{00113\ \}\mbox{\hyperlink{structGPIOConfig__t}{GPIOConfig\_t}};}
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00118\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00119\ \{}
+\DoxyCodeLine{00120\ \ \ \ \ FAST,\ }
+\DoxyCodeLine{00121\ \ \ \ \ SLOW\ }
+\DoxyCodeLine{00122\ \}GPIOSlew\_t;}
+\DoxyCodeLine{00123\ }
+\DoxyCodeLine{00124\ \textcolor{comment}{/**********************************************************************}}
+\DoxyCodeLine{00125\ \textcolor{comment}{*\ Function\ Prototypes}}
+\DoxyCodeLine{00126\ \textcolor{comment}{**********************************************************************/}}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00128\ \textcolor{preprocessor}{\#ifdef\ \_\_cplusplus}}
+\DoxyCodeLine{00129\ \textcolor{keyword}{extern}\ \textcolor{stringliteral}{"{}C"{}}\{}
+\DoxyCodeLine{00130\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00131\ }
+\DoxyCodeLine{00132\ \textcolor{keyword}{const}\ \mbox{\hyperlink{structGPIOConfig__t}{GPIOConfig\_t}}\ *\ \textcolor{keyword}{const}\ GPIO\_ConfigGet(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00133\ }
+\DoxyCodeLine{00134\ \textcolor{preprocessor}{\#ifdef\ \_\_cplusplus}}
+\DoxyCodeLine{00135\ \}\ \textcolor{comment}{//\ extern\ "{}C"{}}}
+\DoxyCodeLine{00136\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00137\ }
+\DoxyCodeLine{00138\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00139\ \textcolor{comment}{/***End\ of\ File****************************************************/}}
+
+\end{DoxyCode}

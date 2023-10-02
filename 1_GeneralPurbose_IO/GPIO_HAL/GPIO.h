@@ -1,9 +1,29 @@
-/** @file GPIO.h
-* @brief The interface definition for the GPIO.
+/******************************************************************
+* @Title : Digital Input / Output (DIO)
+* @Filename : dio.c
+* @Author : Jacob W. Beningo
+* @Origin Date : 09/01/2015
+* @Version : 1.0.0
+* @Compiler : TBD
+* @Target : TBD
+* @Notes : None
 *
-* This is the header file for the definition of the interface for a digital
-* input/output peripheral on a standard microcontroller.
-*/
+* THIS SOFTWARE IS PROVIDED BY BENINGO EMBEDDED GROUP
+* "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES,
+* INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+* OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+* PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BENINGO
+* EMBEDDED GROUP OR ITS CONTRIBUTORS BE LIABLE FOR ANY
+* DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+* CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+* PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+* USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+* HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+* WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+* (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
+* WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+* THE POSSIBILITY OF SUCH DAMAGE.
+******************************************************************/
 #ifndef GPIO_H_
 #define GPIO_H_
 /**********************************************************************
