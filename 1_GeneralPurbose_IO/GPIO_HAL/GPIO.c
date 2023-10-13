@@ -13,18 +13,21 @@
 /**********************************************************************
 * Module Preprocessor Constants
 **********************************************************************/
+
 /*********************************************************************
 * Module Preprocessor Macros
 **********************************************************************/
+
 /**********************************************************************
 * Module Typedefs
 **********************************************************************/
+
 /**********************************************************************
 * Module Variable Definitions
 **********************************************************************/
+
 /**
-* Defines a table of pointers to the peripheral Data (in/out) register on the
-* microcontroller.
+* Defines a table of pointers to the peripheral Data (in/out) register on the microcontroller.
 */
 
 
@@ -38,9 +41,7 @@ static uint32 volatile * const portsData[NUM_PORTS] =
     GPIO_PORTE_BASE_ADDRESS+PORT_DATA_REG_OFFSET, GPIO_PORTF_BASE_ADDRESS+PORT_DATA_REG_OFFSET
 };
 /**
-* Defines a table of pointers to the peripheral data direction register
-on
-* the microcontroller.
+* Defines a table of pointers to the peripheral data direction register on the microcontroller.
 */
 static uint32 volatile * const portsddr[NUM_PORTS] =
 {
@@ -50,8 +51,7 @@ static uint32 volatile * const portsddr[NUM_PORTS] =
 };
 
 /**
- ** Defines a table of pointers to the pull-up resistor enable register
-* on the microcontroller
+ ** Defines a table of pointers to the pull-up resistor enable register on the microcontroller
 */
 static uint32 volatile * const Resistor[NUM_PORTS] =
 {
@@ -61,8 +61,7 @@ static uint32 volatile * const Resistor[NUM_PORTS] =
 };
 
 /**
- ** Defines a table of pointers to the digital enable register
-* on the microcontroller
+ ** Defines a table of pointers to the digital enable register on the microcontroller
 */
 static uint32 volatile * const DEN[NUM_PORTS] =
 {

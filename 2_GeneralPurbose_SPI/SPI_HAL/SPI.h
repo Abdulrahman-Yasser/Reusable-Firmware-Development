@@ -2,7 +2,7 @@
 * Title                 :   SPI module
 * Filename              :   SPI.h
 * Author                :   Abdulrahman Yasser
-* Origin Date           :   04/01/2015
+* Origin Date           :   12/10/2023
 * Version               :   1.0.0
 * Compiler              :   GCC
 * Target                :   TM4C123GH6PM
@@ -22,7 +22,7 @@
 *
 *****************************************************************************/
 
-/** @file TODO: SPI.h
+/** @file: SPI.h
  *  @brief This module contains all APIs of SPI module
  * 
  *  This is the header file for the SPI module that contains all the shared APIs!
@@ -33,18 +33,20 @@
 #define SPI_H_
 
 
+
+
 /******************************************************************************
 * Includes
 *******************************************************************************/
 
+#include "SPI_config.h"
 
 /******************************************************************************
 * Preprocessor Constants
 *******************************************************************************/
-/**
- * This constant is an example
- */
-#define Example 			32
+// /**
+//  * This constant is an example
+//  */
 
 /******************************************************************************
 * Configuration Constants
@@ -61,19 +63,19 @@
 * Typedefs
 *******************************************************************************/
 
-/**
- * This enumeration is a list of test types
- */
-
-typedef enum
-{
-	TEST_TEST1,			/**< Test Type 1 */
-	TEST_TEST2,			/**< Test Type 2 */
-}Test_t;
+// /**
+//  * This enumeration is a list of test types
+//  */
 
 /******************************************************************************
 * Variables
 *******************************************************************************/
+
+/** 
+ * Defines the number of spi channels on each processor port.
+*/
+#define NUMBER_OF_SPI_CHANNELS 4U
+
 
 
 /******************************************************************************
@@ -120,7 +122,7 @@ peripheral.
 * @see Spi_CallbackRegister
 *
 **********************************************************************/
-void Spi_Init(SpiConfig_t const * const Config);
+void Spi_Init(SpiConfig_t const * const SPIConfigs);
 
 
 /*********************************************************************
@@ -139,7 +141,7 @@ void Spi_Init(SpiConfig_t const * const Config);
 ** POST-CONDITION: The SPI peripheral is set up with the configuration
 * settings.
 *
-* @param[in] Config is a transmission way, either in or out
+* @param[in] SPIConfigs is a transmission way, either in or out
 *
 * @return void
 *
@@ -160,90 +162,7 @@ void Spi_Init(SpiConfig_t const * const Config);
 * @see Spi_CallbackRegister
 *
 **********************************************************************/
-void Spi_Transfer(SpiTransfer_t const * const Config);
-
-
-/*********************************************************************
-* Function : Spi_RegisterWrite()
-*//**
-* \b Description:
-*
-* This function is used to write any value into a specific register address
-*
-* PRE-CONDITION: Port_Init() should be called before any action
-* PRE-CONDITION: Spi_Init() should be called before using the Spi module
-* PRE-CONDITION: Configuration table needs to populated (sizeof > 0) <br>
-* PRE-CONDITION: NUMBER_OF_DEFINED_SPI > 0 <br>
-* PRE-CONDITION: NUMBER_OF_BOARD_SPI_CHANNELS > 0 <br>
-* PRE-CONDITION: The MCU clocks must be configured and enabled.
-** POST-CONDITION: The SPI peripheral is set up with the configuration
-* settings.
-*
-* @param[in] Address is a hardware register that need to be written
-* @param[in] Value is the value that will be written in the rigster
-* 
-* @return void
-*
-* \b Example:
-* @code
-* const SPIConfig_t *SPIConfig_t = SPI_ConfigGet();
-*
-* Spi_Init(SpiConfig_t);
-* 
-* Spi_RegisterWrite(SPI_DATA_REGISTER_ADDRESS,
-*                      0x01);
-* @endcode
-*
-* @see Spi_Init
-* @see Spi_Transfer
-* @see Spi_RegisterWrite
-* @see Spi_RegisterWrite
-* @see Spi_RegisterRead
-* @see Spi_CallbackRegister
-*
-**********************************************************************/
-void Spi_RegisterWrite(uint32 const Address,
-                       uint32 const Value);
-
-
-/*********************************************************************
-* Function : Spi_RegisterRead()
-*//**
-* \b Description:
-*
-* This function is used to read any given register and return it's content
-*
-* PRE-CONDITION: Port_Init() should be called before any action
-* PRE-CONDITION: Spi_Init() should be called before using the Spi module
-* PRE-CONDITION: Configuration table needs to populated (sizeof > 0) <br>
-* PRE-CONDITION: NUMBER_OF_DEFINED_SPI > 0 <br>
-* PRE-CONDITION: NUMBER_OF_BOARD_SPI_CHANNELS > 0 <br>
-* PRE-CONDITION: The MCU clocks must be configured and enabled.
-** POST-CONDITION: The SPI peripheral is set up with the configuration
-* settings.
-*
-* @param[in] Address is a hardware register that need to be written
-*
-* @return void
-*
-* \b Example:
-* @code
-* const SPIConfig_t *SPIConfig_t = SPI_ConfigGet();
-*
-* Spi_Init(SpiConfig_t);
-* 
-* uint32 x = Spi_RegisterRead(SPI_DATA_REGISTER_ADDRESS);
-* @endcode
-*
-* @see Spi_Init
-* @see Spi_Transfer
-* @see Spi_RegisterWrite
-* @see Spi_RegisterWrite
-* @see Spi_RegisterRead
-* @see Spi_CallbackRegister
-*
-**********************************************************************/
-uint32 Spi_RegisterRead(uint32 const Address);
+void Spi_Transfer(SSI_Channel_t channelNumber, uint16 *data, uint8 length);
 
 
 /*********************************************************************
@@ -287,8 +206,7 @@ uint32 Spi_RegisterRead(uint32 const Address);
 * @see Spi_CallbackRegister
 *
 **********************************************************************/
-void Spi_CallbackRegister(Spi_Callback_t const Function,
-                          void (*CallbackFunction)(void));
+void Spi_CallbackRegister(Spi_Callback_t const Function, void (*CallbackFunction)(void));
 
 #ifdef __cplusplus
 } // extern "C"

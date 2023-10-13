@@ -15,17 +15,12 @@
 * Preprocessor Constants
 **********************************************************************/
 
-/**
-* Defines the number of pins on each processor port.
-*/
-#define NUMBER_OF_CHANNELS_PER_PORT 8U
 
+/**
+* Defines the number of all the pins on the processor.
+*/
 #define NUM_DIGITAL_PINS    43
 
-/**
-* Defines the number of ports on the processor.
-*/
-#define NUMBER_OF_PORTS 6U
 
 /**********************************************************************
 * Typedefs

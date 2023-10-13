@@ -9,8 +9,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/CMakeLists.txt"
   "/home/abdu/Study/Reusable-Firmware-Development/1_GeneralPurbose_IO/docs/Doxyfile.in"
-  "CMakeFiles/3.27.6/CMakeCCompiler.cmake"
-  "CMakeFiles/3.27.6/CMakeSystem.cmake"
+  "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
+  "CMakeFiles/3.27.7/CMakeSystem.cmake"
   "/usr/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.27/Modules/CMakeCInformation.cmake"
@@ -34,7 +34,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake"
   "/usr/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake"
-  "/usr/share/cmake-3.27/Modules/CMakeUnixFindMake.cmake"
   "/usr/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/usr/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/usr/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
@@ -97,9 +96,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.27.6/CMakeSystem.cmake"
-  "CMakeFiles/3.27.6/CMakeCCompiler.cmake"
-  "CMakeFiles/3.27.6/CMakeCCompiler.cmake"
+  "CMakeFiles/3.27.7/CMakeSystem.cmake"
+  "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
+  "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
   "Doxyfile"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
