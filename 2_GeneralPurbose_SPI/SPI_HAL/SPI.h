@@ -162,7 +162,7 @@ void Spi_Init(SpiConfig_t const * const SPIConfigs);
 * @see Spi_CallbackRegister
 *
 **********************************************************************/
-void Spi_Transfer(SSI_Channel_t channelNumber, uint16 *data, uint8 length);
+void Spi_Transfer(SSI_Channel_t channelNumber, uint16 * const data, uint8 length);
 
 
 /*********************************************************************

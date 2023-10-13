@@ -57,3 +57,5 @@ typedef struct{
     SSI_SlaveMaster_t SlaveOrMaster;
     uint8 InterruptMask;
 }SpiConfig_t;
+
+SpiConfig_t* SPI_getConfig(void);

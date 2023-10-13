@@ -1,0 +1,339 @@
+\doxysection{GPIO\+\_\+\+HAL/\+GPIO.c File Reference}
+\hypertarget{GPIO_8c}{}\label{GPIO_8c}\index{GPIO\_HAL/GPIO.c@{GPIO\_HAL/GPIO.c}}
+
+
+The implementation for the GPIO.  
+
+
+{\ttfamily \#include "{}GPIO.\+h"{}}\newline
+{\ttfamily \#include "{}Std\+\_\+\+Types.\+h"{}}\newline
+{\ttfamily \#include "{}Common/\+Mcu\+\_\+\+Hw.\+h"{}}\newline
+{\ttfamily \#include "{}MCAL\+\_\+\+Layer/\+PORT/\+Static/inc/\+PORT.\+h"{}}\newline
+Include dependency graph for GPIO.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{GPIO_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{GPIO_8c_a921d57e72f9b4ad502b17538e1d9ec2a}\label{GPIO_8c_a921d57e72f9b4ad502b17538e1d9ec2a} 
+\#define {\bfseries NUM\+\_\+\+PINS\+\_\+\+PER\+\_\+\+PORT}~NUMBER\+\_\+\+OF\+\_\+\+CHANNELS\+\_\+\+PER\+\_\+\+PORT
+\begin{DoxyCompactList}\small\item\em Defines a table of pointers to the peripheral Data (in/out) register on the microcontroller. \end{DoxyCompactList}\item 
+\Hypertarget{GPIO_8c_af89985dbf9e670e3e7baebb0e05a0f46}\label{GPIO_8c_af89985dbf9e670e3e7baebb0e05a0f46} 
+\#define {\bfseries NUM\+\_\+\+PORTS}~NUMBER\+\_\+\+OF\+\_\+\+PORTS
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3}{GPIO\+\_\+\+Init}} (const \mbox{\hyperlink{structGPIOConfig__t}{GPIOConfig\+\_\+t}} \texorpdfstring{$\ast$}{*}Config)
+\begin{DoxyCompactList}\small\item\em {\bfseries{Description\+:}} \end{DoxyCompactList}\item 
+GPIOPin\+State\+\_\+t \mbox{\hyperlink{GPIO_8c_add1921d56b189cbf0beaf38c688c2fb0}{GPIO\+\_\+\+Channel\+Read}} (GPIOChannel\+\_\+t Channel)
+\begin{DoxyCompactList}\small\item\em {\bfseries{Description\+:}} This function is used to read the state of a GPIO channel (pin) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{GPIO_8c_a42f221be2b3c514bcc839425fed8a527}{GPIO\+\_\+\+Channel\+Write}} (GPIOChannel\+\_\+t Channel, GPIOPin\+State\+\_\+t State)
+\begin{DoxyCompactList}\small\item\em {\bfseries{Description\+:}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93}{GPIO\+\_\+\+Channel\+Toggle}} (GPIOChannel\+\_\+t Channel)
+\begin{DoxyCompactList}\small\item\em {\bfseries{Description\+:}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594}{GPIO\+\_\+\+Register\+Write}} (uint32 Address, uint32 Value)
+\begin{DoxyCompactList}\small\item\em {\bfseries{Description\+:}} \end{DoxyCompactList}\item 
+uint32 \mbox{\hyperlink{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17}{GPIO\+\_\+\+Register\+Read}} (uint32 Address)
+\begin{DoxyCompactList}\small\item\em {\bfseries{Description\+:}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The implementation for the GPIO. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{GPIO_8c_add1921d56b189cbf0beaf38c688c2fb0}\label{GPIO_8c_add1921d56b189cbf0beaf38c688c2fb0} 
+\index{GPIO.c@{GPIO.c}!GPIO\_ChannelRead@{GPIO\_ChannelRead}}
+\index{GPIO\_ChannelRead@{GPIO\_ChannelRead}!GPIO.c@{GPIO.c}}
+\doxysubsubsection{\texorpdfstring{GPIO\_ChannelRead()}{GPIO\_ChannelRead()}}
+{\footnotesize\ttfamily GPIOPin\+State\+\_\+t GPIO\+\_\+\+Channel\+Read (\begin{DoxyParamCaption}\item[{GPIOChannel\+\_\+t}]{Channel }\end{DoxyParamCaption})}
+
+
+
+{\bfseries{Description\+:}} This function is used to read the state of a GPIO channel (pin) 
+
+PRE-\/\+CONDITION\+: The channel is configured as INPUT ~\newline
+ PRE-\/\+CONDITION\+: The channel is configured as GPIO ~\newline
+ PRE-\/\+CONDITION\+: The channel is within the maximum GPIOChannel\+\_\+t definition
+
+POST-\/\+CONDITION\+: The channel state is returned.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Channel} & is the GPIOChannel\+\_\+t that represents a pin\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The state of the channel as HIGH or LOW
+\end{DoxyReturn}
+{\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{uint8\_t\ pin\ =\ GPIO\_ReadChannel(PORT1\_0);}
+
+\end{DoxyCode}
+
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3}{GPIO\+\_\+\+Init} 
+
+\doxylink{GPIO_8c_add1921d56b189cbf0beaf38c688c2fb0}{GPIO\+\_\+\+Channel\+Read} 
+
+\doxylink{GPIO_8c_a42f221be2b3c514bcc839425fed8a527}{GPIO\+\_\+\+Channel\+Write} 
+
+\doxylink{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93}{GPIO\+\_\+\+Channel\+Toggle} 
+
+\doxylink{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594}{GPIO\+\_\+\+Register\+Write} 
+
+\doxylink{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17}{GPIO\+\_\+\+Register\+Read} 
+
+GPIO\+\_\+\+Callback\+Register 
+\end{DoxySeeAlso}
+\Hypertarget{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93}\label{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93} 
+\index{GPIO.c@{GPIO.c}!GPIO\_ChannelToggle@{GPIO\_ChannelToggle}}
+\index{GPIO\_ChannelToggle@{GPIO\_ChannelToggle}!GPIO.c@{GPIO.c}}
+\doxysubsubsection{\texorpdfstring{GPIO\_ChannelToggle()}{GPIO\_ChannelToggle()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Channel\+Toggle (\begin{DoxyParamCaption}\item[{GPIOChannel\+\_\+t}]{Channel }\end{DoxyParamCaption})}
+
+
+
+{\bfseries{Description\+:}} 
+
+This function is used to toggle the current state of a channel (pin).
+
+PRE-\/\+CONDITION\+: The channel is configured as OUTPUT ~\newline
+ PRE-\/\+CONDITION\+: The channel is configured as GPIO ~\newline
+ PRE-\/\+CONDITION\+: The channel is within the maximum GPIOChannel\+\_\+t definition
+
+POST-\/\+CONDITION\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em Channel} & is the pin from the GPIOChannel\+\_\+t that is to be modified.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+{\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93}{GPIO\_ChannelToggle}}(PORTA\_1);}
+
+\end{DoxyCode}
+
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3}{GPIO\+\_\+\+Init} 
+
+\doxylink{GPIO_8c_add1921d56b189cbf0beaf38c688c2fb0}{GPIO\+\_\+\+Channel\+Read} 
+
+\doxylink{GPIO_8c_a42f221be2b3c514bcc839425fed8a527}{GPIO\+\_\+\+Channel\+Write} 
+
+\doxylink{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93}{GPIO\+\_\+\+Channel\+Toggle} 
+
+\doxylink{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594}{GPIO\+\_\+\+Register\+Write} 
+
+\doxylink{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17}{GPIO\+\_\+\+Register\+Read} 
+
+GPIO\+\_\+\+Callback\+Register
+\end{DoxySeeAlso}
+~\newline
+{\bfseries{ -\/ HISTORY OF CHANGES -\/ }} \Hypertarget{GPIO_8c_a42f221be2b3c514bcc839425fed8a527}\label{GPIO_8c_a42f221be2b3c514bcc839425fed8a527} 
+\index{GPIO.c@{GPIO.c}!GPIO\_ChannelWrite@{GPIO\_ChannelWrite}}
+\index{GPIO\_ChannelWrite@{GPIO\_ChannelWrite}!GPIO.c@{GPIO.c}}
+\doxysubsubsection{\texorpdfstring{GPIO\_ChannelWrite()}{GPIO\_ChannelWrite()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Channel\+Write (\begin{DoxyParamCaption}\item[{GPIOChannel\+\_\+t}]{Channel,  }\item[{GPIOPin\+State\+\_\+t}]{State }\end{DoxyParamCaption})}
+
+
+
+{\bfseries{Description\+:}} 
+
+This function is used to write the state of a channel (pin) as either logic high or low through the use of the GPIOChannel\+\_\+t enum to select the channel and the GPIOPin\+State\+\_\+t to define the desired state.
+
+PRE-\/\+CONDITION\+: The channel is configured as OUTPUT ~\newline
+ PRE-\/\+CONDITION\+: The channel is configured as GPIO ~\newline
+ PRE-\/\+CONDITION\+: The channel is within the maximum GPIOChannel\+\_\+t definition
+
+POST-\/\+CONDITION\+: The channel state will be State
+
+
+\begin{DoxyParams}{Parameters}
+{\em Channel} & is the pin to write using the GPIOChannel\+\_\+t enum definition \\
+\hline
+{\em State} & is HIGH or LOW as defined in the GPIOPin\+State\+\_\+t enum\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+{\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{GPIO\_WriteChannel(PORT1\_0,\ LOW);\ \textcolor{comment}{//\ Set\ the\ PORT1\_0\ pin\ low}}
+\DoxyCodeLine{GPIO\_WriteChannel(PORT1\_0,\ HIGH);\ \textcolor{comment}{//\ Set\ the\ PORT1\_0\ pin\ high}}
+
+\end{DoxyCode}
+
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3}{GPIO\+\_\+\+Init} 
+
+\doxylink{GPIO_8c_add1921d56b189cbf0beaf38c688c2fb0}{GPIO\+\_\+\+Channel\+Read} 
+
+\doxylink{GPIO_8c_a42f221be2b3c514bcc839425fed8a527}{GPIO\+\_\+\+Channel\+Write} 
+
+\doxylink{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93}{GPIO\+\_\+\+Channel\+Toggle} 
+
+\doxylink{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594}{GPIO\+\_\+\+Register\+Write} 
+
+\doxylink{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17}{GPIO\+\_\+\+Register\+Read} 
+
+GPIO\+\_\+\+Callback\+Register 
+\end{DoxySeeAlso}
+\Hypertarget{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3}\label{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3} 
+\index{GPIO.c@{GPIO.c}!GPIO\_Init@{GPIO\_Init}}
+\index{GPIO\_Init@{GPIO\_Init}!GPIO.c@{GPIO.c}}
+\doxysubsubsection{\texorpdfstring{GPIO\_Init()}{GPIO\_Init()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Init (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structGPIOConfig__t}{GPIOConfig\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{Config }\end{DoxyParamCaption})}
+
+
+
+{\bfseries{Description\+:}} 
+
+This function is used to initialize the GPIO based on the configuration table defined in GPIO\+\_\+cfg module.
+
+PRE-\/\+CONDITION\+: Port\+\_\+\+Init() should be called before any action PRE-\/\+CONDITION\+: Configuration table needs to populated (sizeof \texorpdfstring{$>$}{>} 0) ~\newline
+ PRE-\/\+CONDITION\+: NUMBER\+\_\+\+OF\+\_\+\+CHANNELS\+\_\+\+PER\+\_\+\+PORT \texorpdfstring{$>$}{>} 0 ~\newline
+ PRE-\/\+CONDITION\+: NUMBER\+\_\+\+OF\+\_\+\+PORTS \texorpdfstring{$>$}{>} 0 ~\newline
+ PRE-\/\+CONDITION\+: The MCU clocks must be configured and enabled. POST-\/\+CONDITION\+: The GPIO peripheral is set up with the configuration settings.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Config} & is a pointer to the configuration table that contains the initialization for the peripheral.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+{\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{const}\ \mbox{\hyperlink{structGPIOConfig__t}{GPIOConfig\_t}}\ *GPIOConfig\ =\ GPIO\_ConfigGet();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\mbox{\hyperlink{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3}{GPIO\_Init}}(GPIOConfig);}
+
+\end{DoxyCode}
+
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3}{GPIO\+\_\+\+Init} 
+
+\doxylink{GPIO_8c_add1921d56b189cbf0beaf38c688c2fb0}{GPIO\+\_\+\+Channel\+Read} 
+
+\doxylink{GPIO_8c_a42f221be2b3c514bcc839425fed8a527}{GPIO\+\_\+\+Channel\+Write} 
+
+\doxylink{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93}{GPIO\+\_\+\+Channel\+Toggle} 
+
+\doxylink{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594}{GPIO\+\_\+\+Register\+Write} 
+
+\doxylink{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17}{GPIO\+\_\+\+Register\+Read} 
+
+GPIO\+\_\+\+Callback\+Register 
+\end{DoxySeeAlso}
+\Hypertarget{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17}\label{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17} 
+\index{GPIO.c@{GPIO.c}!GPIO\_RegisterRead@{GPIO\_RegisterRead}}
+\index{GPIO\_RegisterRead@{GPIO\_RegisterRead}!GPIO.c@{GPIO.c}}
+\doxysubsubsection{\texorpdfstring{GPIO\_RegisterRead()}{GPIO\_RegisterRead()}}
+{\footnotesize\ttfamily uint32 GPIO\+\_\+\+Register\+Read (\begin{DoxyParamCaption}\item[{uint32}]{Address }\end{DoxyParamCaption})}
+
+
+
+{\bfseries{Description\+:}} 
+
+This function is used to directly address a GPIO register. The function should be used to access specialied functionality in the GPIO peripheral that is not exposed by any other function of the interface.
+
+PRE-\/\+CONDITION\+: Address is within the boundaries of the GPIO register addresss space
+
+POST-\/\+CONDITION\+: The value stored in the register is returned to the caller
+
+
+\begin{DoxyParams}{Parameters}
+{\em Address} & is the address of the GPIO register to read\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The current value of the GPIO register.
+\end{DoxyReturn}
+{\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{GPIOValue\ =\ \mbox{\hyperlink{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17}{GPIO\_RegisterRead}}(0x1000);}
+
+\end{DoxyCode}
+
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3}{GPIO\+\_\+\+Init} 
+
+\doxylink{GPIO_8c_add1921d56b189cbf0beaf38c688c2fb0}{GPIO\+\_\+\+Channel\+Read} 
+
+\doxylink{GPIO_8c_a42f221be2b3c514bcc839425fed8a527}{GPIO\+\_\+\+Channel\+Write} 
+
+\doxylink{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93}{GPIO\+\_\+\+Channel\+Toggle} 
+
+\doxylink{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594}{GPIO\+\_\+\+Register\+Write} 
+
+\doxylink{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17}{GPIO\+\_\+\+Register\+Read} 
+
+GPIO\+\_\+\+Callback\+Register 
+\end{DoxySeeAlso}
+\Hypertarget{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594}\label{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594} 
+\index{GPIO.c@{GPIO.c}!GPIO\_RegisterWrite@{GPIO\_RegisterWrite}}
+\index{GPIO\_RegisterWrite@{GPIO\_RegisterWrite}!GPIO.c@{GPIO.c}}
+\doxysubsubsection{\texorpdfstring{GPIO\_RegisterWrite()}{GPIO\_RegisterWrite()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Register\+Write (\begin{DoxyParamCaption}\item[{uint32}]{Address,  }\item[{uint32}]{Value }\end{DoxyParamCaption})}
+
+
+
+{\bfseries{Description\+:}} 
+
+This function is used to directly address and modify a GPIO register. The function should be used to access specialied functionality in the GPIO peripheral that is not exposed by any other function of the interface.
+
+PRE-\/\+CONDITION\+: Address is within the boundaries of the GPIO register addresss space
+
+POST-\/\+CONDITION\+: The register located at Address with be updated with Value
+
+
+\begin{DoxyParams}{Parameters}
+{\em Address} & is a register address within the GPIO peripheral map \\
+\hline
+{\em Value} & is the value to set the GPIO register to\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+{\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594}{GPIO\_RegisterWrite}}(0x1000,\ 0x15);}
+
+\end{DoxyCode}
+
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{GPIO_8c_a519aaf9989630458c6b0c3179c49bdb3}{GPIO\+\_\+\+Init} 
+
+\doxylink{GPIO_8c_add1921d56b189cbf0beaf38c688c2fb0}{GPIO\+\_\+\+Channel\+Read} 
+
+\doxylink{GPIO_8c_a42f221be2b3c514bcc839425fed8a527}{GPIO\+\_\+\+Channel\+Write} 
+
+\doxylink{GPIO_8c_a86e8008ee4ae3b91aac1c00c11d3fe93}{GPIO\+\_\+\+Channel\+Toggle} 
+
+\doxylink{GPIO_8c_aa9e909ef11b6eee00e8b3dd3f6021594}{GPIO\+\_\+\+Register\+Write} 
+
+\doxylink{GPIO_8c_aede670bc43b93f6b9afaef9f47babf17}{GPIO\+\_\+\+Register\+Read} 
+
+GPIO\+\_\+\+Callback\+Register 
+\end{DoxySeeAlso}

@@ -76,8 +76,8 @@ void Spi_Init(SpiConfig_t const * const SPIConfigs){
             while(1);
         }
 
-        mySPI->SSICR0 |= (SCR_Value - 1) << 8;
-        mySPI->SSICPSR |= CPSDVSR;
+        mySPI->SSICR0 |= (CPSDVSR - 1) << 8;
+        mySPI->SSICPSR |= SCR_Value;
 
         /*
          * 6 - configure the clockPhase, ProtocolMode and DataSize
@@ -109,7 +109,7 @@ void Spi_Init(SpiConfig_t const * const SPIConfigs){
     }
 }
 
-void Spi_Transfer(SSI_Channel_t channelNumber, uint16 *data, uint8 length){
+void Spi_Transfer(SSI_Channel_t channelNumber, uint16 * const data, uint8 length){
     volatile uint8 status;
     uint8 i ;
     volatile SPI_Module_regs* mySPI;
