@@ -87,5 +87,5 @@ uint32 GPIO_RegisterRead(uint32 Address);
 } // extern "C"
 #endif
 
-#endif /*GPIO_H_*/
 /*** End of File ******************************************************/
+#endif /*GPIO_H_*/

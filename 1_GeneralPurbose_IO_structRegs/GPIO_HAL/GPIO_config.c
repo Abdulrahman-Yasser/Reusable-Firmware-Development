@@ -125,4 +125,5 @@ GPIOConfig_t const* GPIO_ConfigGet(void)
     */
     return (GPIOConfig_t const*)&GPIOConfig[0];
 }
+
 /*************** END OF FUNCTIONS ********************************/

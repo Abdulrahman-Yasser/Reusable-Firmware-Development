@@ -83,7 +83,7 @@ peripheral.
 **********************************************************************/
 void GPIO_Init(const GPIOConfig_t * Config)
 {
-    /* TODO: Define implementation */
+    /* : Define implementation */
     volatile GPIO_Module_regs* my_GPIO_regs;
     uint8 i = 0; // Loop counter variable
     uint8 number = 0; // Port Number
@@ -101,15 +101,15 @@ void GPIO_Init(const GPIOConfig_t * Config)
         my_GPIO_regs = (GPIO_Module_regs*)GPIO_bases_Regs[number];
 
         if (Config[i].Direction == OUTPUT){
-            *(my_GPIO_regs->GPIODIR) |= (1UL<<(position));
+            (my_GPIO_regs->GPIODIR) |= (1UL<<(position));
         }else{
-            *(my_GPIO_regs->GPIODIR) &= ~(1UL<<(position));
+            (my_GPIO_regs->GPIODIR) &= ~(1UL<<(position));
         }
         // Set the Data register bit for this channel
         if (Config[i].Data == GPIO_HIGH){
-            *(my_GPIO_regs->GPIODATA) |= (1UL<<(position));
+            (my_GPIO_regs->GPIODATA) |= (1UL<<(position));
         }else{
-            *(my_GPIO_regs->GPIODATA) &= ~(1UL<<(position));
+            (my_GPIO_regs->GPIODATA) &= ~(1UL<<(position));
         }
     }
 }
@@ -156,7 +156,7 @@ GPIOPinState_t GPIO_ChannelRead(GPIOChannel_t Channel)
     volatile GPIO_Module_regs* my_GPIO_regs = (GPIO_Module_regs*)GPIO_bases_Regs[number];
 
 
-    dataRegister = *(my_GPIO_regs->GPIODATA) ;
+    dataRegister = (my_GPIO_regs->GPIODATA) ;
     dataRegister = (dataRegister >> position) & 0x01;
     if (dataRegister == GPIO_HIGH){
         return GPIO_HIGH;
@@ -213,9 +213,9 @@ void GPIO_ChannelWrite(GPIOChannel_t Channel, GPIOPinState_t State)
 
     // Set the Data register bit for this channel
     if (State == GPIO_HIGH){
-        *(my_GPIO_regs->GPIODATA) |= (1UL<<(position));
+        (my_GPIO_regs->GPIODATA) |= (1UL<<(position));
     }else{
-        *(my_GPIO_regs->GPIODATA) &= ~(1UL<<(position));
+        (my_GPIO_regs->GPIODATA) &= ~(1UL<<(position));
     }
 }
 /**************************************************************************

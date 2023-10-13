@@ -124,7 +124,7 @@ typedef enum
 extern "C"{
 #endif
 
-const GPIOConfig_t * const GPIO_ConfigGet(void);
+GPIOConfig_t const* GPIO_ConfigGet(void);
 
 #ifdef __cplusplus
 } // extern "C"
