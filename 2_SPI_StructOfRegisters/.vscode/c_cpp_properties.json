@@ -12,5 +12,6 @@
             "intelliSenseMode": "linux-gcc-x64"
         }
     ],
+    "doxygen_runner.configuration_file_override": "${workspaceFolder}/some/path/to/your/documentation/Doxyfile",
     "version": 4
 }

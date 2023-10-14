@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,60,107"/>
+<area shape="rect" id="Node000002" href="$group__main__functions.html#ga8a6cb65e5d772c880352c0c7bcff8883" title=" " alt="" coords="108,5,219,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,79,107,48,127,35,130,40,109,52,57,84"/>
+<area shape="rect" id="Node000003" href="$group__SPI__functions.html#gad27c5ca2d2f9101a66e14beda3a50c70" title=" " alt="" coords="267,31,368,56"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="60,87,253,52,254,57,60,92"/>
+<area shape="rect" id="Node000004" href="$group__SPI__functions.html#gac72c3e39a417da3102fc2029d3fab47e" title="the function returns your SPI module configurations" alt="" coords="108,107,219,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="61,97,95,103,94,109,60,102"/>
+<area shape="rect" id="Node000005" href="$group__SPI__functions.html#gaff29dcfc1e30fc1bfae1d748a8268b68" title=" " alt="" coords="128,156,199,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="53,105,109,141,121,147,119,152,107,146,50,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,24,253,30,252,35,218,30"/>
+</map>

@@ -1,0 +1,91 @@
+\doxysection{SPI.\+h}
+\hypertarget{SPI_8h_source}{}\label{SPI_8h_source}\index{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI.h@{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI.h}}
+\mbox{\hyperlink{SPI_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00041\ \textcolor{comment}{//\ *\ }}
+\DoxyCodeLine{00042\ \textcolor{comment}{//\ *\ This\ is\ the\ header\ file\ for\ the\ SPI\ module\ that\ contains\ all\ the\ shared\ APIs!}}
+\DoxyCodeLine{00043\ \textcolor{comment}{//\ *\ this\ module\ lays\ in\ the\ MCAL\ layer.}}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#ifndef\ SPI\_H\_}}
+\DoxyCodeLine{00047\ \textcolor{preprocessor}{\#define\ SPI\_H\_}}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ \textcolor{comment}{/******************************************************************************}}
+\DoxyCodeLine{00053\ \textcolor{comment}{*\ Includes}}
+\DoxyCodeLine{00054\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{SPI__config_8h}{SPI\_config.h}}"{}}}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{comment}{/******************************************************************************}}
+\DoxyCodeLine{00059\ \textcolor{comment}{*\ Preprocessor\ Constants}}
+\DoxyCodeLine{00060\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00061\ \textcolor{comment}{//\ /**}}
+\DoxyCodeLine{00062\ \textcolor{comment}{//\ \ *\ This\ constant\ is\ an\ example}}
+\DoxyCodeLine{00063\ \textcolor{comment}{//\ \ */}}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00065\ \textcolor{comment}{/******************************************************************************}}
+\DoxyCodeLine{00066\ \textcolor{comment}{*\ Configuration\ Constants}}
+\DoxyCodeLine{00067\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00070\ \textcolor{comment}{/******************************************************************************}}
+\DoxyCodeLine{00071\ \textcolor{comment}{*\ Macros}}
+\DoxyCodeLine{00072\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00075\ \ \ \ \ }
+\DoxyCodeLine{00076\ \textcolor{comment}{/******************************************************************************}}
+\DoxyCodeLine{00077\ \textcolor{comment}{*\ Typedefs}}
+\DoxyCodeLine{00078\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00080\ \textcolor{comment}{//\ /**}}
+\DoxyCodeLine{00081\ \textcolor{comment}{//\ \ *\ This\ enumeration\ is\ a\ list\ of\ test\ types}}
+\DoxyCodeLine{00082\ \textcolor{comment}{//\ \ */}}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00084\ \textcolor{comment}{/******************************************************************************}}
+\DoxyCodeLine{00085\ \textcolor{comment}{*\ Variables}}
+\DoxyCodeLine{00086\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00091\ \textcolor{preprocessor}{\#define\ NUMBER\_OF\_SPI\_CHANNELS\ 4U}}
+\DoxyCodeLine{00092\ }
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00095\ \textcolor{comment}{/******************************************************************************}}
+\DoxyCodeLine{00096\ \textcolor{comment}{*\ Function\ Prototypes}}
+\DoxyCodeLine{00097\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00098\ \textcolor{preprocessor}{\#ifdef\ \_\_cplusplus}}
+\DoxyCodeLine{00099\ \textcolor{keyword}{extern}\ \textcolor{stringliteral}{"{}C"{}}\{}
+\DoxyCodeLine{00100\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00102\ }
+\DoxyCodeLine{00107\ \textcolor{comment}{/*********************************************************************}}
+\DoxyCodeLine{00108\ \textcolor{comment}{*\ Function\ :\ Spi\_Init()}}
+\DoxyCodeLine{00109\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00145\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__SPI__functions_gaff29dcfc1e30fc1bfae1d748a8268b68}{Spi\_Init}}(\mbox{\hyperlink{structSpiConfig__t}{SpiConfig\_t}}\ \textcolor{keyword}{const}\ *\ \textcolor{keyword}{const}\ \mbox{\hyperlink{SPI__config_8c_ab39aee926c9445d7767326dd3f7e20d3}{SPIConfigs}});}
+\DoxyCodeLine{00146\ }
+\DoxyCodeLine{00147\ }
+\DoxyCodeLine{00148\ \textcolor{comment}{/*********************************************************************}}
+\DoxyCodeLine{00149\ \textcolor{comment}{*\ Function\ :\ Spi\_Transfer()}}
+\DoxyCodeLine{00150\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00180\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__SPI__functions_gad27c5ca2d2f9101a66e14beda3a50c70}{Spi\_Transfer}}(\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\_Channel\_t}}\ channelNumber,\ uint16\ *\ \textcolor{keyword}{const}\ data,\ uint8\ length);}
+\DoxyCodeLine{00181\ }
+\DoxyCodeLine{00182\ }
+\DoxyCodeLine{00183\ \textcolor{comment}{/*********************************************************************}}
+\DoxyCodeLine{00184\ \textcolor{comment}{*\ Function\ :\ Spi\_CallbackRegister()}}
+\DoxyCodeLine{00185\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00221\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__SPI__functions_ga451e1b2d3855527b301219bab05273c6}{Spi\_CallbackRegister}}(\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\_Channel\_t}}\ \textcolor{keyword}{const}\ ssi\_channel,\ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9}{SSI\_Interrupt\_Type}}\ \textcolor{keyword}{const}\ Trigger,\ \textcolor{keywordtype}{void}\ (*CallbackFunction)(\textcolor{keywordtype}{void}));}
+\DoxyCodeLine{00222\ }
+\DoxyCodeLine{00224\ \textcolor{preprocessor}{\#ifdef\ \_\_cplusplus}}
+\DoxyCodeLine{00225\ \}\ \textcolor{comment}{//\ extern\ "{}C"{}}}
+\DoxyCodeLine{00226\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00227\ }
+\DoxyCodeLine{00228\ \textcolor{comment}{//TODO:\ UPDATE\ COMMENT\ BELOW}}
+\DoxyCodeLine{00229\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*File\_H\_*/}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00230\ }
+\DoxyCodeLine{00231\ \textcolor{comment}{/***\ End\ of\ File\ **************************************************************/}}
+
+\end{DoxyCode}

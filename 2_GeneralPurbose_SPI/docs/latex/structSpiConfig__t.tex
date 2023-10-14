@@ -1,0 +1,134 @@
+\doxysection{Spi\+Config\+\_\+t Struct Reference}
+\hypertarget{structSpiConfig__t}{}\label{structSpiConfig__t}\index{SpiConfig\_t@{SpiConfig\_t}}
+
+
+SPI container that collect all of it\textquotesingle{}s configurations.  
+
+
+
+
+{\ttfamily \#include $<$SPI\+\_\+datatypes.\+h$>$}
+
+
+
+Collaboration diagram for Spi\+Config\+\_\+t\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=179pt]{structSpiConfig__t__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}} \mbox{\hyperlink{structSpiConfig__t_a01e42215697290f1a284c8f95d9fb50b}{channel\+Number}}
+\item 
+Std\+\_\+\+Bool\+Return\+Type \mbox{\hyperlink{structSpiConfig__t_af7a78c83807f613421faa03c61468353}{Clock\+Polarity}}
+\item 
+uint8 \mbox{\hyperlink{structSpiConfig__t_a3c93b35597eeb9f9f69cdf0645b5ba95}{Data\+Size}}
+\item 
+\mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28}{SSI\+\_\+\+Protocol\+Mode\+\_\+t}} \mbox{\hyperlink{structSpiConfig__t_a9ff3d25941205ececfa71d47ad5c5eef}{protocol\+Mode}}
+\item 
+\mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79ae}{SSI\+\_\+\+Interrupt\+Mode\+\_\+t}} \mbox{\hyperlink{structSpiConfig__t_a6c5681152acd5ae0edca38626aa02cc1}{Interrupt}}
+\item 
+\mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2d}{SSI\+\_\+\+Clock\+Src\+\_\+t}} \mbox{\hyperlink{structSpiConfig__t_a5a3ce7257f1515d4e456ab79327e39e4}{Clk\+Src}}
+\item 
+uint32 \mbox{\hyperlink{structSpiConfig__t_a900e782052f4d8bf78ba54dfc8053c40}{Baud\+Rate}}
+\item 
+\mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2}{SSI\+\_\+\+DMA\+\_\+t}} \mbox{\hyperlink{structSpiConfig__t_a1be53438d697438c4a2286e739f681a4}{DMA\+\_\+\+State}}
+\item 
+\mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6d}{SSI\+\_\+\+Slave\+Master\+\_\+t}} \mbox{\hyperlink{structSpiConfig__t_a6bd06fb5c159c94f8c035ad91e0c04a0}{Slave\+Or\+Master}}
+\item 
+uint8 \mbox{\hyperlink{structSpiConfig__t_ab5c811f2a05cfafd6e4b87dee3e1c046}{Interrupt\+Mask}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+SPI container that collect all of it\textquotesingle{}s configurations. 
+
+{\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{*\textcolor{keyword}{const}\ \mbox{\hyperlink{structSpiConfig__t}{SpiConfig\_t}}\ \mbox{\hyperlink{SPI__config_8c_ab39aee926c9445d7767326dd3f7e20d3}{SPIConfigs}}[]\ =\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \{.\mbox{\hyperlink{structSpiConfig__t_a01e42215697290f1a284c8f95d9fb50b}{channelNumber}}\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91}{SSI\_Channel\_NotUsed}}\},}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \{.channelNumber\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91}{SSI\_Channel\_NotUsed}}\},}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \{.BaudRate\ =\ 1000,\ .ClkSrc\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da48e66fc9e03d0739e67f607a757c4616}{SSI\_SysClk}},\ .ClockPolarity\ =\ E\_FALSE,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ .DMA\_State\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a5600a053f5c98b25930e7a72c202b105}{SSI\_DMA\_NotAvailable}},\ .DataSize\ =\ 8,\ .Interrupt\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aea314ae03c5e98d85e8e8589a25ccbbbd0}{SSI\_HALF\_FIFO}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ .SlaveOrMaster\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dab92e8d61b99e34408652e6217fe2e767}{SSI\_Master}},\ .channelNumber\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a739944d2ea7b1e755707808c078d3d29}{SSI\_Channel\_2}},\ .protocolMode\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28ae15f262c9932696818f5b063a7d10d6b}{SSI\_Protocol\_SPI}}\},}
+\DoxyCodeLine{\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \{.channelNumber\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91}{SSI\_Channel\_NotUsed}}\}}
+\DoxyCodeLine{\ \};}
+
+\end{DoxyCode}
+ \begin{DoxySeeAlso}{See also}
+\doxylink{SPI__config_8c_ab39aee926c9445d7767326dd3f7e20d3}{SPIConfigs} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{structSpiConfig__t_a900e782052f4d8bf78ba54dfc8053c40}\label{structSpiConfig__t_a900e782052f4d8bf78ba54dfc8053c40} 
+\index{SpiConfig\_t@{SpiConfig\_t}!BaudRate@{BaudRate}}
+\index{BaudRate@{BaudRate}!SpiConfig\_t@{SpiConfig\_t}}
+\doxysubsubsection{\texorpdfstring{BaudRate}{BaudRate}}
+{\footnotesize\ttfamily uint32 Spi\+Config\+\_\+t\+::\+Baud\+Rate}
+
+SSI baud\+Rate . \Hypertarget{structSpiConfig__t_a01e42215697290f1a284c8f95d9fb50b}\label{structSpiConfig__t_a01e42215697290f1a284c8f95d9fb50b} 
+\index{SpiConfig\_t@{SpiConfig\_t}!channelNumber@{channelNumber}}
+\index{channelNumber@{channelNumber}!SpiConfig\_t@{SpiConfig\_t}}
+\doxysubsubsection{\texorpdfstring{channelNumber}{channelNumber}}
+{\footnotesize\ttfamily \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}} Spi\+Config\+\_\+t\+::channel\+Number}
+
+SSI channel number . \Hypertarget{structSpiConfig__t_a5a3ce7257f1515d4e456ab79327e39e4}\label{structSpiConfig__t_a5a3ce7257f1515d4e456ab79327e39e4} 
+\index{SpiConfig\_t@{SpiConfig\_t}!ClkSrc@{ClkSrc}}
+\index{ClkSrc@{ClkSrc}!SpiConfig\_t@{SpiConfig\_t}}
+\doxysubsubsection{\texorpdfstring{ClkSrc}{ClkSrc}}
+{\footnotesize\ttfamily \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2d}{SSI\+\_\+\+Clock\+Src\+\_\+t}} Spi\+Config\+\_\+t\+::\+Clk\+Src}
+
+Clock source for SSI module. \Hypertarget{structSpiConfig__t_af7a78c83807f613421faa03c61468353}\label{structSpiConfig__t_af7a78c83807f613421faa03c61468353} 
+\index{SpiConfig\_t@{SpiConfig\_t}!ClockPolarity@{ClockPolarity}}
+\index{ClockPolarity@{ClockPolarity}!SpiConfig\_t@{SpiConfig\_t}}
+\doxysubsubsection{\texorpdfstring{ClockPolarity}{ClockPolarity}}
+{\footnotesize\ttfamily Std\+\_\+\+Bool\+Return\+Type Spi\+Config\+\_\+t\+::\+Clock\+Polarity}
+
+Clock polarity \Hypertarget{structSpiConfig__t_a3c93b35597eeb9f9f69cdf0645b5ba95}\label{structSpiConfig__t_a3c93b35597eeb9f9f69cdf0645b5ba95} 
+\index{SpiConfig\_t@{SpiConfig\_t}!DataSize@{DataSize}}
+\index{DataSize@{DataSize}!SpiConfig\_t@{SpiConfig\_t}}
+\doxysubsubsection{\texorpdfstring{DataSize}{DataSize}}
+{\footnotesize\ttfamily uint8 Spi\+Config\+\_\+t\+::\+Data\+Size}
+
+SSI data\+Size 4-\/bit \+: 16 . \Hypertarget{structSpiConfig__t_a1be53438d697438c4a2286e739f681a4}\label{structSpiConfig__t_a1be53438d697438c4a2286e739f681a4} 
+\index{SpiConfig\_t@{SpiConfig\_t}!DMA\_State@{DMA\_State}}
+\index{DMA\_State@{DMA\_State}!SpiConfig\_t@{SpiConfig\_t}}
+\doxysubsubsection{\texorpdfstring{DMA\_State}{DMA\_State}}
+{\footnotesize\ttfamily \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2}{SSI\+\_\+\+DMA\+\_\+t}} Spi\+Config\+\_\+t\+::\+DMA\+\_\+\+State}
+
+DMA usage . \Hypertarget{structSpiConfig__t_a6c5681152acd5ae0edca38626aa02cc1}\label{structSpiConfig__t_a6c5681152acd5ae0edca38626aa02cc1} 
+\index{SpiConfig\_t@{SpiConfig\_t}!Interrupt@{Interrupt}}
+\index{Interrupt@{Interrupt}!SpiConfig\_t@{SpiConfig\_t}}
+\doxysubsubsection{\texorpdfstring{Interrupt}{Interrupt}}
+{\footnotesize\ttfamily \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79ae}{SSI\+\_\+\+Interrupt\+Mode\+\_\+t}} Spi\+Config\+\_\+t\+::\+Interrupt}
+
+Interrupt mode for SSI . \Hypertarget{structSpiConfig__t_ab5c811f2a05cfafd6e4b87dee3e1c046}\label{structSpiConfig__t_ab5c811f2a05cfafd6e4b87dee3e1c046} 
+\index{SpiConfig\_t@{SpiConfig\_t}!InterruptMask@{InterruptMask}}
+\index{InterruptMask@{InterruptMask}!SpiConfig\_t@{SpiConfig\_t}}
+\doxysubsubsection{\texorpdfstring{InterruptMask}{InterruptMask}}
+{\footnotesize\ttfamily uint8 Spi\+Config\+\_\+t\+::\+Interrupt\+Mask}
+
+the interrupt that SSI will react on \Hypertarget{structSpiConfig__t_a9ff3d25941205ececfa71d47ad5c5eef}\label{structSpiConfig__t_a9ff3d25941205ececfa71d47ad5c5eef} 
+\index{SpiConfig\_t@{SpiConfig\_t}!protocolMode@{protocolMode}}
+\index{protocolMode@{protocolMode}!SpiConfig\_t@{SpiConfig\_t}}
+\doxysubsubsection{\texorpdfstring{protocolMode}{protocolMode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28}{SSI\+\_\+\+Protocol\+Mode\+\_\+t}} Spi\+Config\+\_\+t\+::protocol\+Mode}
+
+Frame Format. SPI, TISS or micro\+Wire . \Hypertarget{structSpiConfig__t_a6bd06fb5c159c94f8c035ad91e0c04a0}\label{structSpiConfig__t_a6bd06fb5c159c94f8c035ad91e0c04a0} 
+\index{SpiConfig\_t@{SpiConfig\_t}!SlaveOrMaster@{SlaveOrMaster}}
+\index{SlaveOrMaster@{SlaveOrMaster}!SpiConfig\_t@{SpiConfig\_t}}
+\doxysubsubsection{\texorpdfstring{SlaveOrMaster}{SlaveOrMaster}}
+{\footnotesize\ttfamily \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6d}{SSI\+\_\+\+Slave\+Master\+\_\+t}} Spi\+Config\+\_\+t\+::\+Slave\+Or\+Master}
+
+whether it\textquotesingle{}s slave or master . 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/abdu/\+Study/\+Reusable-\/\+Firmware-\/\+Development/2\+\_\+\+General\+Purbose\+\_\+\+SPI/\+SPI\+\_\+\+HAL/\mbox{\hyperlink{SPI__datatypes_8h}{SPI\+\_\+datatypes.\+h}}\end{DoxyCompactItemize}

@@ -1,14 +1,28 @@
-/****************************************************************************
-* Title                 :   SPI module
-* Filename              :   SPI.h
-* Author                :   Abdulrahman Yasser
-* Origin Date           :   12/10/2023
-* Version               :   1.0.0
-* Compiler              :   GCC
-* Target                :   TM4C123GH6PM
-* Notes                 :   None
+/*!
+
+    @mainpage SPI module
+    @author Abdulrahman Yasser
+    @brief reusable, portable and well documented bare-metal driver for SPI module
+    @details reusable, portable and well documented bare-metal driver for
+    SPI module on Tiva-c (TM4C123GH6PM).
+
+*/
+
+/** 
+* @file  SPI.h
+* @brief This file contains all APIs of SPI module
 *
-* THIS SOFTWARE IS PROVIDED BY Abdulrahman Yasser : COMPANY "AS IS" AND ANY EXPRESSED
+* for using this driver you should read this file and know how to 
+* use it's API in your way
+*
+* @author Abdulrahman Yasser
+* @date 12/10/2023
+* @version 1.0.0
+* @copyright GNU Public License
+* @bug it just send uint16 in Transfer function
+* @subsection Step1 Cmake
+* @subsection Step2 make
+* @note                 THIS SOFTWARE IS PROVIDED BY Abdulrahman Yasser : COMPANY "AS IS" AND ANY EXPRESSED
 * OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
 * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
 * IN NO EVENT SHALL BENINGO ENGINEERING OR ITS CONTRIBUTORS BE LIABLE FOR ANY
@@ -18,16 +32,16 @@
 * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
 * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
 * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
-* THE POSSIBILITY OF SUCH DAMAGE.
+* THE POSSIBILITY OF SUCH DAMAGE.<br>
+* Compiler              GCC<br>
+* Target                TM4C123GH6PM
 *
 *****************************************************************************/
 
-/** @file: SPI.h
- *  @brief This module contains all APIs of SPI module
- * 
- *  This is the header file for the SPI module that contains all the shared APIs!
- *  this module lays in the MCAL layer.
- */
+// * 
+// * This is the header file for the SPI module that contains all the shared APIs!
+// * this module lays in the MCAL layer.
+
 
 #ifndef SPI_H_
 #define SPI_H_
@@ -85,25 +99,32 @@
 extern "C"{
 #endif
 
+
+/** @defgroup SPI_functions
+ *  all the usable functions in SPI module
+ *  @{
+ */
 /*********************************************************************
 * Function : Spi_Init()
 *//**
 * \b Description:
 *
 * This function is used to initialize the SPI based on the configuration
-* table defined in SPI_cfg module.
+* table defined in SPI_cfg.c module.
 *
-* PRE-CONDITION: Port_Init() should be called before any action
+* PRE-CONDITION: Port_Init() should be called before any action to initialize the pins on the SoC<br>
+* PRE-CONDITION: PLL_Init() should be called before any action to initialize the MCU clock<br>
 * PRE-CONDITION: Configuration table needs to populated (sizeof > 0) <br>
 * PRE-CONDITION: NUMBER_OF_DEFINED_SPI > 0 <br>
 * PRE-CONDITION: NUMBER_OF_BOARD_SPI_CHANNELS > 0 <br>
 * PRE-CONDITION: The MCU clocks must be configured and enabled.
-** POST-CONDITION: The SPI peripheral is set up with the configuration
+*
+* POST-CONDITION: The SPI peripheral is set up with the configuration
 * settings.
 *
-* @param[in] Config is a pointer to the configuration table that
+* @param[in] SPIConfigs is a pointer to the configuration table that
 * contains the initialization for the
-peripheral.
+* peripheral.
 *
 * @return void
 *
@@ -113,14 +134,13 @@ peripheral.
 *
 * Spi_Init(SpiConfig_t);
 * @endcode
+* @code
+* Spi_Init( SPI_ConfigGet() );
+* @endcode
 *
-* @see Spi_Init
-* @see Spi_Transfer
-* @see Spi_RegisterWrite
-* @see Spi_RegisterWrite
-* @see Spi_RegisterRead
-* @see Spi_CallbackRegister
-*
+* @see SPI_getConfig
+* @link SPI_Config.c
+* @link SPI_Config.h
 **********************************************************************/
 void Spi_Init(SpiConfig_t const * const SPIConfigs);
 
@@ -132,34 +152,29 @@ void Spi_Init(SpiConfig_t const * const SPIConfigs);
 *
 * This function transfer the data via SPI module 
 *
-* PRE-CONDITION: Port_Init() should be called before any action
-* PRE-CONDITION: Spi_Init() should be called before using the Spi module
-* PRE-CONDITION: Configuration table needs to populated (sizeof > 0) <br>
-* PRE-CONDITION: NUMBER_OF_DEFINED_SPI > 0 <br>
-* PRE-CONDITION: NUMBER_OF_BOARD_SPI_CHANNELS > 0 <br>
-* PRE-CONDITION: The MCU clocks must be configured and enabled.
-** POST-CONDITION: The SPI peripheral is set up with the configuration
-* settings.
+* PRE-CONDITION: Spi_Init() should be called before using the Spi module to initialize it
 *
-* @param[in] SPIConfigs is a transmission way, either in or out
+* POST-CONDITION: The data is transfered from SPI to the Slave
+*
+* @param[in] channelNumber SPI channel number
+* @param[in] data an array of uint16 type that contains data
+* @param[in] length the length of the array need to be send
 *
 * @return void
 *
 * \b Example:
 * @code
+*
 * const SPIConfig_t *SPIConfig_t = SPI_ConfigGet();
 *
 * Spi_Init(SpiConfig_t);
-* 
-* Spi_Transfer(SpiTransfer_t);
+*
+* char* msg_1 = 'i   w i l l   k i l l   y o u ';
+*
+* Spi_Transfer(SSI_Channel_2, (uint16*)msg_1, 15);
+*
 * @endcode
 *
-* @see Spi_Init
-* @see Spi_Transfer
-* @see Spi_RegisterWrite
-* @see Spi_RegisterWrite
-* @see Spi_RegisterRead
-* @see Spi_CallbackRegister
 *
 **********************************************************************/
 void Spi_Transfer(SSI_Channel_t channelNumber, uint16 * const data, uint8 length);
@@ -173,41 +188,39 @@ void Spi_Transfer(SSI_Channel_t channelNumber, uint16 * const data, uint8 length
 * This function is used to register the callBack function for any
 * response to a higher layer module
 *
-* PRE-CONDITION: Port_Init() should be called before any action
-* PRE-CONDITION: Spi_Init() should be called before using the Spi module
-* PRE-CONDITION: Configuration table needs to populated (sizeof > 0) <br>
-* PRE-CONDITION: NUMBER_OF_DEFINED_SPI > 0 <br>
-* PRE-CONDITION: NUMBER_OF_BOARD_SPI_CHANNELS > 0 <br>
-* PRE-CONDITION: The MCU clocks must be configured and enabled.
-** POST-CONDITION: The SPI peripheral is set up with the configuration
-* settings.
+* PRE-CONDITION: Spi_Init() should be called before using the Spi module to initialize it
 *
-* @param[in] Function the event which the callbackFunction will be called when it happens 
-* @param[in] CallbackFunction the function that will be called when (Function) event
-* get trigger
+* POST-CONDITION: Callback function should be set to it's trigger type.
+*
+* @param[in] ssi_channel the channel that will call the function when the trigger happens
+* @param[in] Trigger the event which the callbackFunction will be called when it happens 
+* @param[in] CallbackFunction a pointer to a void function that passed through a higher layer architecture
+* to be responsed to when the trigger happens
 *
 * @return void
 *
 * \b Example:
 * @code
-* const SPIConfig_t *SPIConfig_t = SPI_ConfigGet();
+* void HigherLayerFunction(void){
+*    
+* }
+* void main(){
+*   const SPIConfig_t *SPIConfig_t = SPI_ConfigGet();
 * 
-* Spi_init()
+*   Spi_init()
 *
-* Spi_CallbackRegister(Spi_Callback_t const Function,
-*                         void (*CallbackFunction)(void));
+*   void Spi_CallbackRegister( SSI_Channel_2,
+*                                SSI_transmit_callback, 
+*                                HigherLayerFunction );
+* }
+*
 * @endcode
 *
-* @see Spi_Init
-* @see Spi_Transfer
-* @see Spi_RegisterWrite
-* @see Spi_RegisterWrite
-* @see Spi_RegisterRead
-* @see Spi_CallbackRegister
 *
 **********************************************************************/
-void Spi_CallbackRegister(Spi_Callback_t const Function, void (*CallbackFunction)(void));
+void Spi_CallbackRegister(SSI_Channel_t const ssi_channel, SSI_Interrupt_Type const Trigger, void (*CallbackFunction)(void));
 
+//! @}
 #ifdef __cplusplus
 } // extern "C"
 #endif

@@ -1,0 +1,271 @@
+\doxysection{/home/abdu/\+Study/\+Reusable-\/\+Firmware-\/\+Development/2\+\_\+\+General\+Purbose\+\_\+\+SPI/\+SPI\+\_\+\+HAL/\+SPI\+\_\+datatypes.h File Reference}
+\hypertarget{SPI__datatypes_8h}{}\label{SPI__datatypes_8h}\index{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI\_datatypes.h@{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI\_datatypes.h}}
+
+
+This file contains all the data\+Types that is used in that module.  
+
+
+{\ttfamily \#include "{}Std\+\_\+\+Types.\+h"{}}\newline
+Include dependency graph for SPI\+\_\+datatypes.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{SPI__datatypes_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{SPI__datatypes_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structSpiConfig__t}{Spi\+Config\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em SPI container that collect all of it\textquotesingle{}s configurations. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}} \{ \newline
+\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57aeb1a9abd5cd3192aa52e4f2ca8cfd67f}{SSI\+\_\+\+Channel\+\_\+0}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a03bd8163791bba4b1f23843ae7630241}{SSI\+\_\+\+Channel\+\_\+1}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a739944d2ea7b1e755707808c078d3d29}{SSI\+\_\+\+Channel\+\_\+2}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a44e792fe68db41e02531b6a582e67b9e}{SSI\+\_\+\+Channel\+\_\+3}}
+, \newline
+\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91}{SSI\+\_\+\+Channel\+\_\+\+Not\+Used}}
+ \}
+\begin{DoxyCompactList}\small\item\em Datatype that represent which SPI channel you are using. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9}{SSI\+\_\+\+Interrupt\+\_\+\+Type}} \{ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a8ded3d73d87e235b3e69396da6be68a3}{Rx\+\_\+\+Over\+Run}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a60790201539948cf106347459b37712a}{Rx\+\_\+\+Time\+Out}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9afaa528859bd00af15872596b1eafd0ca}{Rx\+\_\+\+IM}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a87f8b2d4d2c15de379486f075e50e229}{Tx\+\_\+\+IM}}
+ \}
+\begin{DoxyCompactList}\small\item\em interrupt trigger type \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28}{SSI\+\_\+\+Protocol\+Mode\+\_\+t}} \{ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28ae15f262c9932696818f5b063a7d10d6b}{SSI\+\_\+\+Protocol\+\_\+\+SPI}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28a5b600c860036e7dc0f89e96dc4f57489}{SSI\+\_\+\+Protocol\+\_\+\+TISS}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28a7269a9f3ae3c738df90fb2e6a8b2a668}{SSI\+\_\+\+Protocol\+\_\+\+Micro\+Wire}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28aa392260cee1d2662c589f3e026c49c6b}{SSI\+\_\+\+Protocol\+\_\+not\+\_\+available}}
+ \}
+\begin{DoxyCompactList}\small\item\em SSI chosen frame format (protocol) \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6d}{SSI\+\_\+\+Slave\+Master\+\_\+t}} \{ \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dab92e8d61b99e34408652e6217fe2e767}{SSI\+\_\+\+Master}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dabd23cdafddfc2fd2a574971e5851cda3}{SSI\+\_\+\+SLAVE\+\_\+\+OUTPUT\+\_\+\+EN}} = 4
+, \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6da0a5c6eec87ca4a0e7acc6864a475a45b}{SSI\+\_\+\+SLAVE\+\_\+\+OUTPUT\+\_\+\+DIS}} = 0xc
+ \}
+\begin{DoxyCompactList}\small\item\em SSI as a slve or master. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79ae}{SSI\+\_\+\+Interrupt\+Mode\+\_\+t}} \{ \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aeadcca505688efe861e86a985d11af7eee}{SSI\+\_\+\+EOT}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aea314ae03c5e98d85e8e8589a25ccbbbd0}{SSI\+\_\+\+HALF\+\_\+\+FIFO}}
+ \}
+\begin{DoxyCompactList}\small\item\em SSI transmit action (EOT or 1/2 FIFO trigger) \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2d}{SSI\+\_\+\+Clock\+Src\+\_\+t}} \{ \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da48e66fc9e03d0739e67f607a757c4616}{SSI\+\_\+\+Sys\+Clk}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da3898f51fcc403a83f9300fbafac6b48c}{SSI\+\_\+\+PIOSC}}
+ \}
+\begin{DoxyCompactList}\small\item\em the chosen Clock for the SSI \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2}{SSI\+\_\+\+DMA\+\_\+t}} \{ \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a7e3b2b9d2d4ad544003c1df1d2e6b4ed}{SSI\+\_\+\+DMA\+\_\+\+Receive}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a4f66998b1a1c2f77e8b9680554569aac}{SSI\+\_\+\+DMA\+\_\+\+Transmit}}
+, \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a5600a053f5c98b25930e7a72c202b105}{SSI\+\_\+\+DMA\+\_\+\+Not\+Available}}
+ \}
+\begin{DoxyCompactList}\small\item\em DMA usage in SSI. Receive, transmit or both. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains all the data\+Types that is used in that module. 
+
+\begin{DoxyAuthor}{Author}
+Abdulrahman Yasser 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+12/10/2023 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0.\+0 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+GNU Public License 
+\end{DoxyCopyright}
+\hypertarget{SysCtl__Registers_8h_Step1}{}\doxysubsubsection{\texorpdfstring{Cmake}{Cmake}}\label{SysCtl__Registers_8h_Step1}
+\hypertarget{SysCtl__Registers_8h_Step2}{}\doxysubsubsection{\texorpdfstring{make}{make}}\label{SysCtl__Registers_8h_Step2}
+\begin{DoxyNote}{Note}
+THIS SOFTWARE IS PROVIDED BY Abdulrahman Yasser \+: COMPANY "{}\+AS IS"{} AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BENINGO ENGINEERING OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. Compiler GCC Target TM4\+C123\+GH6\+PM 
+\end{DoxyNote}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}\label{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57} 
+\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Channel\_t@{SSI\_Channel\_t}}
+\index{SSI\_Channel\_t@{SSI\_Channel\_t}!SPI\_datatypes.h@{SPI\_datatypes.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_Channel\_t}{SSI\_Channel\_t}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}}}
+
+
+
+Datatype that represent which SPI channel you are using. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_Channel\_0@{SSI\_Channel\_0}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Channel\_0@{SSI\_Channel\_0}}}\Hypertarget{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57aeb1a9abd5cd3192aa52e4f2ca8cfd67f}\label{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57aeb1a9abd5cd3192aa52e4f2ca8cfd67f} 
+SSI\+\_\+\+Channel\+\_\+0&Channel number 0 \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_Channel\_1@{SSI\_Channel\_1}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Channel\_1@{SSI\_Channel\_1}}}\Hypertarget{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a03bd8163791bba4b1f23843ae7630241}\label{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a03bd8163791bba4b1f23843ae7630241} 
+SSI\+\_\+\+Channel\+\_\+1&Channel number 1 \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_Channel\_2@{SSI\_Channel\_2}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Channel\_2@{SSI\_Channel\_2}}}\Hypertarget{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a739944d2ea7b1e755707808c078d3d29}\label{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a739944d2ea7b1e755707808c078d3d29} 
+SSI\+\_\+\+Channel\+\_\+2&Channel number 2 \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_Channel\_3@{SSI\_Channel\_3}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Channel\_3@{SSI\_Channel\_3}}}\Hypertarget{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a44e792fe68db41e02531b6a582e67b9e}\label{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a44e792fe68db41e02531b6a582e67b9e} 
+SSI\+\_\+\+Channel\+\_\+3&Channel number 3 \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_Channel\_NotUsed@{SSI\_Channel\_NotUsed}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Channel\_NotUsed@{SSI\_Channel\_NotUsed}}}\Hypertarget{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91}\label{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91} 
+SSI\+\_\+\+Channel\+\_\+\+Not\+Used&Channel is not used \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2d}\label{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2d} 
+\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_ClockSrc\_t@{SSI\_ClockSrc\_t}}
+\index{SSI\_ClockSrc\_t@{SSI\_ClockSrc\_t}!SPI\_datatypes.h@{SPI\_datatypes.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_ClockSrc\_t}{SSI\_ClockSrc\_t}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2d}{SSI\+\_\+\+Clock\+Src\+\_\+t}}}
+
+
+
+the chosen Clock for the SSI 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_SysClk@{SSI\_SysClk}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_SysClk@{SSI\_SysClk}}}\Hypertarget{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da48e66fc9e03d0739e67f607a757c4616}\label{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da48e66fc9e03d0739e67f607a757c4616} 
+SSI\+\_\+\+Sys\+Clk&System Control Clock source. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_PIOSC@{SSI\_PIOSC}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_PIOSC@{SSI\_PIOSC}}}\Hypertarget{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da3898f51fcc403a83f9300fbafac6b48c}\label{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da3898f51fcc403a83f9300fbafac6b48c} 
+SSI\+\_\+\+PIOSC&PIOSC . \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2}\label{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2} 
+\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_DMA\_t@{SSI\_DMA\_t}}
+\index{SSI\_DMA\_t@{SSI\_DMA\_t}!SPI\_datatypes.h@{SPI\_datatypes.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_DMA\_t}{SSI\_DMA\_t}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2}{SSI\+\_\+\+DMA\+\_\+t}}}
+
+
+
+DMA usage in SSI. Receive, transmit or both. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_DMA\_Receive@{SSI\_DMA\_Receive}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_DMA\_Receive@{SSI\_DMA\_Receive}}}\Hypertarget{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a7e3b2b9d2d4ad544003c1df1d2e6b4ed}\label{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a7e3b2b9d2d4ad544003c1df1d2e6b4ed} 
+SSI\+\_\+\+DMA\+\_\+\+Receive&Receive DMA Enable. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_DMA\_Transmit@{SSI\_DMA\_Transmit}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_DMA\_Transmit@{SSI\_DMA\_Transmit}}}\Hypertarget{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a4f66998b1a1c2f77e8b9680554569aac}\label{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a4f66998b1a1c2f77e8b9680554569aac} 
+SSI\+\_\+\+DMA\+\_\+\+Transmit&Transmit DMA Enable. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_DMA\_NotAvailable@{SSI\_DMA\_NotAvailable}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_DMA\_NotAvailable@{SSI\_DMA\_NotAvailable}}}\Hypertarget{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a5600a053f5c98b25930e7a72c202b105}\label{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a5600a053f5c98b25930e7a72c202b105} 
+SSI\+\_\+\+DMA\+\_\+\+Not\+Available&Transmit and Receive DMA Enable. Transmit DMA Disabled. \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9}\label{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9} 
+\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Interrupt\_Type@{SSI\_Interrupt\_Type}}
+\index{SSI\_Interrupt\_Type@{SSI\_Interrupt\_Type}!SPI\_datatypes.h@{SPI\_datatypes.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_Interrupt\_Type}{SSI\_Interrupt\_Type}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9}{SSI\+\_\+\+Interrupt\+\_\+\+Type}}}
+
+
+
+interrupt trigger type 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Rx\_OverRun@{Rx\_OverRun}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!Rx\_OverRun@{Rx\_OverRun}}}\Hypertarget{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a8ded3d73d87e235b3e69396da6be68a3}\label{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a8ded3d73d87e235b3e69396da6be68a3} 
+Rx\+\_\+\+Over\+Run&SSI Receive Overrun Interrupt Mask \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Rx\_TimeOut@{Rx\_TimeOut}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!Rx\_TimeOut@{Rx\_TimeOut}}}\Hypertarget{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a60790201539948cf106347459b37712a}\label{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a60790201539948cf106347459b37712a} 
+Rx\+\_\+\+Time\+Out&SSI Receive Time-\/\+Out Interrupt Mask \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Rx\_IM@{Rx\_IM}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!Rx\_IM@{Rx\_IM}}}\Hypertarget{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9afaa528859bd00af15872596b1eafd0ca}\label{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9afaa528859bd00af15872596b1eafd0ca} 
+Rx\+\_\+\+IM&SSI Receive FIFO Interrupt Mask \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Tx\_IM@{Tx\_IM}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!Tx\_IM@{Tx\_IM}}}\Hypertarget{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a87f8b2d4d2c15de379486f075e50e229}\label{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a87f8b2d4d2c15de379486f075e50e229} 
+Tx\+\_\+\+IM&SSI Transmit FIFO Interrupt Mask \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79ae}\label{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79ae} 
+\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_InterruptMode\_t@{SSI\_InterruptMode\_t}}
+\index{SSI\_InterruptMode\_t@{SSI\_InterruptMode\_t}!SPI\_datatypes.h@{SPI\_datatypes.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_InterruptMode\_t}{SSI\_InterruptMode\_t}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79ae}{SSI\+\_\+\+Interrupt\+Mode\+\_\+t}}}
+
+
+
+SSI transmit action (EOT or 1/2 FIFO trigger) 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_EOT@{SSI\_EOT}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_EOT@{SSI\_EOT}}}\Hypertarget{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aeadcca505688efe861e86a985d11af7eee}\label{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aeadcca505688efe861e86a985d11af7eee} 
+SSI\+\_\+\+EOT&The End of Transmit interrupt mode for the TXRIS interrupt . \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_HALF\_FIFO@{SSI\_HALF\_FIFO}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_HALF\_FIFO@{SSI\_HALF\_FIFO}}}\Hypertarget{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aea314ae03c5e98d85e8e8589a25ccbbbd0}\label{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aea314ae03c5e98d85e8e8589a25ccbbbd0} 
+SSI\+\_\+\+HALF\+\_\+\+FIFO&The TXRIS interrupt indicates that the transmit FIFO is half full or less. . \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28}\label{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28} 
+\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_ProtocolMode\_t@{SSI\_ProtocolMode\_t}}
+\index{SSI\_ProtocolMode\_t@{SSI\_ProtocolMode\_t}!SPI\_datatypes.h@{SPI\_datatypes.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_ProtocolMode\_t}{SSI\_ProtocolMode\_t}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28}{SSI\+\_\+\+Protocol\+Mode\+\_\+t}}}
+
+
+
+SSI chosen frame format (protocol) 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_Protocol\_SPI@{SSI\_Protocol\_SPI}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Protocol\_SPI@{SSI\_Protocol\_SPI}}}\Hypertarget{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28ae15f262c9932696818f5b063a7d10d6b}\label{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28ae15f262c9932696818f5b063a7d10d6b} 
+SSI\+\_\+\+Protocol\+\_\+\+SPI&Freescale SPI Frame Format \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_Protocol\_TISS@{SSI\_Protocol\_TISS}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Protocol\_TISS@{SSI\_Protocol\_TISS}}}\Hypertarget{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28a5b600c860036e7dc0f89e96dc4f57489}\label{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28a5b600c860036e7dc0f89e96dc4f57489} 
+SSI\+\_\+\+Protocol\+\_\+\+TISS&Texas Instruments Synchronous Serial Frame Format ~\newline
+ \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_Protocol\_MicroWire@{SSI\_Protocol\_MicroWire}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Protocol\_MicroWire@{SSI\_Protocol\_MicroWire}}}\Hypertarget{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28a7269a9f3ae3c738df90fb2e6a8b2a668}\label{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28a7269a9f3ae3c738df90fb2e6a8b2a668} 
+SSI\+\_\+\+Protocol\+\_\+\+Micro\+Wire&MICROWIRE Frame Format \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_Protocol\_not\_available@{SSI\_Protocol\_not\_available}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Protocol\_not\_available@{SSI\_Protocol\_not\_available}}}\Hypertarget{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28aa392260cee1d2662c589f3e026c49c6b}\label{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28aa392260cee1d2662c589f3e026c49c6b} 
+SSI\+\_\+\+Protocol\+\_\+not\+\_\+available&Protocol of the channel is SPI \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6d}\label{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6d} 
+\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_SlaveMaster\_t@{SSI\_SlaveMaster\_t}}
+\index{SSI\_SlaveMaster\_t@{SSI\_SlaveMaster\_t}!SPI\_datatypes.h@{SPI\_datatypes.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_SlaveMaster\_t}{SSI\_SlaveMaster\_t}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6d}{SSI\+\_\+\+Slave\+Master\+\_\+t}}}
+
+
+
+SSI as a slve or master. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_Master@{SSI\_Master}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_Master@{SSI\_Master}}}\Hypertarget{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dab92e8d61b99e34408652e6217fe2e767}\label{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dab92e8d61b99e34408652e6217fe2e767} 
+SSI\+\_\+\+Master&The SSI is configured as a master. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_SLAVE\_OUTPUT\_EN@{SSI\_SLAVE\_OUTPUT\_EN}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_SLAVE\_OUTPUT\_EN@{SSI\_SLAVE\_OUTPUT\_EN}}}\Hypertarget{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dabd23cdafddfc2fd2a574971e5851cda3}\label{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dabd23cdafddfc2fd2a574971e5851cda3} 
+SSI\+\_\+\+SLAVE\+\_\+\+OUTPUT\+\_\+\+EN&The SSI is configured as a slave (output enabled). \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SSI\_SLAVE\_OUTPUT\_DIS@{SSI\_SLAVE\_OUTPUT\_DIS}!SPI\_datatypes.h@{SPI\_datatypes.h}}\index{SPI\_datatypes.h@{SPI\_datatypes.h}!SSI\_SLAVE\_OUTPUT\_DIS@{SSI\_SLAVE\_OUTPUT\_DIS}}}\Hypertarget{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6da0a5c6eec87ca4a0e7acc6864a475a45b}\label{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6da0a5c6eec87ca4a0e7acc6864a475a45b} 
+SSI\+\_\+\+SLAVE\+\_\+\+OUTPUT\+\_\+\+DIS&slave mode (output disabled) . \\
+\hline
+
+\end{DoxyEnumFields}

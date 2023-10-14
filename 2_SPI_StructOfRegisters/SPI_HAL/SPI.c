@@ -1,8 +1,46 @@
+/** 
+* @file  SPI.c
+* @brief This file contains all imlpementation of APIs of SPI module
+*
+* This is a reusable, portable, readable and well documented implementation for driver for SPI module
+* on Tiva-C (TM4C123GH6PM)
+*
+* @author Abdulrahman Yasser
+* @date 12/10/2023
+* @version 1.0.0
+* @copyright GNU Public License
+* @bug it just send uint16 in Transfer function
+* @subsection Step1 Cmake
+* @subsection Step2 make
+* @note                 THIS SOFTWARE IS PROVIDED BY Abdulrahman Yasser : COMPANY "AS IS" AND ANY EXPRESSED
+* OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+* OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+* IN NO EVENT SHALL BENINGO ENGINEERING OR ITS CONTRIBUTORS BE LIABLE FOR ANY
+* DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+* (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+* SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+* HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+* STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+* IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+* THE POSSIBILITY OF SUCH DAMAGE.
+* Compiler              GCC
+* Target                TM4C123GH6PM
+*
+*****************************************************************************/
+
+
 #include "SPI.h"
 #include "SPI_registers.h"
 #include "CPU_resources.h"
 #include "../SysCtl/SysCtl_Registers.h"
 
+
+/**
+ * @brief the ISR function that will be called in Tx Interrupt trigger
+ * @details this is what get changed when calling Spi_CallbackRegister function
+ * 
+ * @see Spi_CallbackRegister
+ */
 static void (*SPI_Tx_n_handler[])(void) = {
                                  defaultCallback,
                                  defaultCallback,
@@ -10,6 +48,13 @@ static void (*SPI_Tx_n_handler[])(void) = {
                                  defaultCallback
 };
 
+/**
+ * @brief the ISR function that will be called in Rx Interrupt trigger
+ * @details this is what get changed when calling Spi_CallbackRegister function
+ * 
+ * @see Spi_CallbackRegister
+ * 
+ */
 static void (*SPI_Rx_n_handler[])(void) = {
                                  defaultCallback,
                                  defaultCallback,
@@ -140,17 +185,17 @@ static void Spi_Transmit_one_package(SSI_Channel_t const ssi_channel, uint16 con
 
 
 
-void Spi_CallbackRegister(Spi_Callback_t const Function, void (*CallbackFunction)(void)){
-    switch(Function){
-    case SSI_transmit_callback:
-        SPI_Tx_n_handler[Function] = CallbackFunction;
+void Spi_CallbackRegister(SSI_Channel_t const ssi_channel, SSI_Interrupt_Type const Trigger, void (*CallbackFunction)(void)){
+    switch(Trigger){
+    case Tx_IM:
+        SPI_Tx_n_handler[ssi_channel] = CallbackFunction;
         break;
-    case SSI_receive_callback:
-        SPI_Rx_n_handler[Function] = CallbackFunction;
+    case Rx_IM:
+        SPI_Rx_n_handler[ssi_channel] = CallbackFunction;
         break;
-    case SSI_timeout_callback:
+    case Rx_TimeOut:
         break;
-    case SSI_overrun_callback:
+    case Rx_OverRun:
         break;
     default:
         break;

@@ -31,6 +31,9 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -229,1637 +232,1613 @@ SPI_HAL/SPI_config.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/SPI_HAL/SPI_config.c.s
 .PHONY : SPI_HAL/SPI_config.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.s
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.o
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.i
 
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.o: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.i: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.s: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.o: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.i: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.s: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.o: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.i: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.s: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.o: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.i: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.s: home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.o: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.i: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.s: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.o: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.i: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.s: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.o: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.i: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.s: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.o: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.i: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.s: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.o: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.i: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.s: home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.o: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.i: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.s: home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.s
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.o: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.o
 
 # target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.o
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.o
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.o
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.i: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.i
 
 # target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.i
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.i
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.i
 
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.s: home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.s
 
 # target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.c.s
-
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.o
-
-# target to build an object file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.o
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.o
-
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.i
-
-# target to preprocess a source file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.i
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.i
-
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.s
-
-# target to generate assembly for a file
-home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.s
-.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.c.s
+home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.s
+.PHONY : home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.c.s
 
 main.o: main.c.o
 .PHONY : main.o
@@ -1928,210 +1907,207 @@ help:
 	@echo "... SPI_HAL/SPI_config.o"
 	@echo "... SPI_HAL/SPI_config.i"
 	@echo "... SPI_HAL/SPI_config.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DIO_ISR/Testing_DIO.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_DS1037/Testing_DS1307.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C/Testing_I2C.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_I2C_2/Testing_I2C_2.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD/Testing_LCD.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SysTick/Testing_SysTick.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/FunctionQueue/FunctionQueue.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Queue/static/src/Queue.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/DataStructure/Stack/Static/src/Stack.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Std_Types_Helper.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/.metadata/.plugins/org.eclipse.cdt.make.core/specs.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Button_Interface/Static/src/Button.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/DC_Motor/Static/Src/Motor.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Keypad/Static/src/keypad.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/LCD/Static/src/LCD.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/MP3/Static/src/MP3.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Sensor/Static/src/Sensor.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/SevenSegment/Static/src/SevenSegment.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/ADC/Static/src/ADC.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/src/DIO.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/GPT/Static/src/GPT.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/I2C/Static/Src/I2C.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/src/IntCtrl.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PLL/Static/src/PLL.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PORT/Static/src/PORT.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysTick/Static/src/SysTick.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/UART/Static/src/UART.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.s"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.o"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.i"
-	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/WDT/Static/src/WDT.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DIO_ISR/Testing_DIO.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_DS1037/Testing_DS1307.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_HAL_Temp_Smoke_Water_Humanity_LCD_Buzzer_LED/Testing_HAL_1.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C/Testing_I2C.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_I2C_2/Testing_I2C_2.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_Keypad_LCD/Testing_Keypad_LCD.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD/Testing_LCD.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_ADC/Testing_LCD_and_ADC.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_LCD_and_SpecificDriverTemp/Testing_LCD_and_SpecificDriverTemp.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_PLL/Testing_PLL.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SPI/Testing_SPI.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_SysTick/Testing_SysTick.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/LightDriver_WeatherStation/LightDriver_WeatherStation.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/SmokeDriver_WeatherStation/SmokeDriver_WeatherStation.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/TemperatureDriver_WeatherStation/TempratureDriver_WeatherStation.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/APP_Layer/WaterDriver_WeatherStation/WaterDriver_WeatherStation.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/FunctionQueue/FunctionQueue.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/src/Normal_Queue.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Queue/static/src/Queue.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Dynamic/src/Stack_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Stack/Static/src/Stack.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types_Helper.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Button_Interface/Static/src/Button.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Dynamic/Src/Motor_Cfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/DC_Motor/Static/Src/Motor.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Dynamic/src/keypad_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Keypad/Static/src/keypad.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Dynamic/src/LCD_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/LCD/Static/src/LCD.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Dynamic/src/MP3_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/MP3/Static/src/MP3.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Dynamic/src/RTC_I2C_DS1307_Cfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS1307/Static/src/RTC_I2C_DS1307.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Dynamic/src/RTC_I2C_DS3231_Cfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/RTC_I2C_DS3231/Static/src/RTC_I2C_DS3231.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Dynamic/src/Sensor_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Sensor/Static/src/Sensor.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Dynamic/src/SevenSegment_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/SevenSegment/Static/src/SevenSegment.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Dynamic/src/TempratureSensor_HAL_Cfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/TempratureSensor_HAL/Static/src/TempratureSensor_HAL.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/src/ADC_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/src/ADC.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/src/DIO_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/src/DIO.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Dynamic/src/GPT_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/GPT/Static/src/GPT.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Dynamic/Src/I2C_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/I2C/Static/Src/I2C.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/src/IntCtrl_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/src/IntCtrl.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Dynamic/src/PLL_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PLL/Static/src/PLL.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/src/PORT_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/src/PORT.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Dynamic/src/PWM_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PWM/Static/src/PWM.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysCtl/Static/src/SysCtl.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Dynamic/src/SysTick_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/SysTick/Static/src/SysTick.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Dynamic/src/UART_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/UART/Static/src/UART.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Dynamic/src/WDT_Lcfg.s"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.o"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.i"
+	@echo "... home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/WDT/Static/src/WDT.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

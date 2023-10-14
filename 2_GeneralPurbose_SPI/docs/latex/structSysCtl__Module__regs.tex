@@ -1,0 +1,185 @@
+\doxysection{Sys\+Ctl\+\_\+\+Module\+\_\+regs Struct Reference}
+\hypertarget{structSysCtl__Module__regs}{}\label{structSysCtl__Module__regs}\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+
+
+a typedef for all the register in System Control module  
+
+
+
+
+{\ttfamily \#include $<$Sys\+Ctl\+\_\+\+Registers.\+h$>$}
+
+
+
+Collaboration diagram for Sys\+Ctl\+\_\+\+Module\+\_\+regs\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{structSysCtl__Module__regs__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_a3a3cd886153527e8e718e4abff9d5ac2}{RCGCWD}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_aae3662d391abeb096a8650bc68ee2ed3}{RCGCTIMER}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_a8dbdbe7899e8e4c951a26c0c37a369a9}{RCGCGPIO}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_aa385aab9ad9baab17cd1479d3820797d}{RCGCDMA}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_ad53e040ab64ebd2257ba30af81ad608b}{Not\+Used}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_a594d6da88058e25d44d0b1228a19d161}{RCGCHIB}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_aa6badf60f9d65572a559c9542263309f}{RCGCUART}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_a3c19888498c8ddd40b6cb148ffc193df}{RCGCSSI}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_ab281acd1275949fc326a582f835b077c}{RCGCI2C}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_afe116ebfe9bc2f4ae1126b80f139fee5}{RCGCUSB}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_abfba31159e44d7278feb460a5e4f2ba8}{RCGCCAN}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_aa05556a052895b7e473d92eb608c058a}{RCGCADC}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_ab63e628fa692c3f594546ad1d1c30e91}{RCGCACMP}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_af8750f5c0a3137b30fd1be2e0e994ca8}{RCGCPWM}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_acf09afdcf5204d8ed5efb1723b6d301a}{RCGCQEI}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_aca3df90ee18c746151fd79ef249a994e}{RCGCEEPROM}}
+\item 
+volatile uint32 \mbox{\hyperlink{structSysCtl__Module__regs_afe4c18c18123541a19ee68a35c6d9c18}{RCGCWTIMER}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+a typedef for all the register in System Control module 
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000004}{Bug}}]it\textquotesingle{}s only usable till RCGCI2C, after that it needs a space because there is a reserved 4 bytes i guess, go back to the register table in the datasheet \end{DoxyRefDesc}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]go back to datasheet and represent the whole registers in the right way to fix the bug {\bfseries{Example\+:}} \end{DoxyRefDesc}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{volatile}\ \mbox{\hyperlink{structSysCtl__Module__regs}{SysCtl\_Module\_regs}}*\ \textcolor{keyword}{const}\ my\_SysCtl\_RCGC\_Registers\_g\ =\ (\mbox{\hyperlink{structSysCtl__Module__regs}{SysCtl\_Module\_regs}}*)\mbox{\hyperlink{SysCtl__Registers_8h_af24d3f0bab75d03a1378e2636fabb253}{SysCtl\_RCGC\_Base}};}
+\DoxyCodeLine{my\_SysCtl\_RCGC\_Registers\_g-\/>\mbox{\hyperlink{structSysCtl__Module__regs_a3c19888498c8ddd40b6cb148ffc193df}{RCGCSSI}}\ |=\ \ 1\ <<\ \mbox{\hyperlink{SPI__config_8c_ab39aee926c9445d7767326dd3f7e20d3}{SPIConfigs}}[i].\mbox{\hyperlink{structSpiConfig__t_a01e42215697290f1a284c8f95d9fb50b}{channelNumber}}\ ;}
+
+\end{DoxyCode}
+ \begin{DoxySeeAlso}{See also}
+my\+\_\+\+Sys\+Ctl\+\_\+\+RCGC\+\_\+\+Registers\+\_\+g 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{structSysCtl__Module__regs_ad53e040ab64ebd2257ba30af81ad608b}\label{structSysCtl__Module__regs_ad53e040ab64ebd2257ba30af81ad608b} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!NotUsed@{NotUsed}}
+\index{NotUsed@{NotUsed}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{NotUsed}{NotUsed}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+Not\+Used}
+
+\Hypertarget{structSysCtl__Module__regs_ab63e628fa692c3f594546ad1d1c30e91}\label{structSysCtl__Module__regs_ab63e628fa692c3f594546ad1d1c30e91} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCACMP@{RCGCACMP}}
+\index{RCGCACMP@{RCGCACMP}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCACMP}{RCGCACMP}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCACMP}
+
+Analog Comparator Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_aa05556a052895b7e473d92eb608c058a}\label{structSysCtl__Module__regs_aa05556a052895b7e473d92eb608c058a} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCADC@{RCGCADC}}
+\index{RCGCADC@{RCGCADC}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCADC}{RCGCADC}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCADC}
+
+Analog-\/to-\/\+Digital Converter Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_abfba31159e44d7278feb460a5e4f2ba8}\label{structSysCtl__Module__regs_abfba31159e44d7278feb460a5e4f2ba8} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCCAN@{RCGCCAN}}
+\index{RCGCCAN@{RCGCCAN}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCCAN}{RCGCCAN}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCCAN}
+
+Controller Area Network Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_aa385aab9ad9baab17cd1479d3820797d}\label{structSysCtl__Module__regs_aa385aab9ad9baab17cd1479d3820797d} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCDMA@{RCGCDMA}}
+\index{RCGCDMA@{RCGCDMA}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCDMA}{RCGCDMA}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCDMA}
+
+Micro Direct Memory Access Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_aca3df90ee18c746151fd79ef249a994e}\label{structSysCtl__Module__regs_aca3df90ee18c746151fd79ef249a994e} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCEEPROM@{RCGCEEPROM}}
+\index{RCGCEEPROM@{RCGCEEPROM}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCEEPROM}{RCGCEEPROM}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCEEPROM}
+
+EEPROM Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_a8dbdbe7899e8e4c951a26c0c37a369a9}\label{structSysCtl__Module__regs_a8dbdbe7899e8e4c951a26c0c37a369a9} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCGPIO@{RCGCGPIO}}
+\index{RCGCGPIO@{RCGCGPIO}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCGPIO}{RCGCGPIO}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCGPIO}
+
+General-\/\+Purpose Input/\+Output Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_a594d6da88058e25d44d0b1228a19d161}\label{structSysCtl__Module__regs_a594d6da88058e25d44d0b1228a19d161} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCHIB@{RCGCHIB}}
+\index{RCGCHIB@{RCGCHIB}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCHIB}{RCGCHIB}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCHIB}
+
+Hibernation Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_ab281acd1275949fc326a582f835b077c}\label{structSysCtl__Module__regs_ab281acd1275949fc326a582f835b077c} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCI2C@{RCGCI2C}}
+\index{RCGCI2C@{RCGCI2C}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCI2C}{RCGCI2C}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCI2C}
+
+Inter-\/\+Integrated Circuit Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_af8750f5c0a3137b30fd1be2e0e994ca8}\label{structSysCtl__Module__regs_af8750f5c0a3137b30fd1be2e0e994ca8} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCPWM@{RCGCPWM}}
+\index{RCGCPWM@{RCGCPWM}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCPWM}{RCGCPWM}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCPWM}
+
+Pulse Width Modulator Run Mode Clock Gating Contro. \Hypertarget{structSysCtl__Module__regs_acf09afdcf5204d8ed5efb1723b6d301a}\label{structSysCtl__Module__regs_acf09afdcf5204d8ed5efb1723b6d301a} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCQEI@{RCGCQEI}}
+\index{RCGCQEI@{RCGCQEI}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCQEI}{RCGCQEI}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCQEI}
+
+Quadrature Encoder Interface Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_a3c19888498c8ddd40b6cb148ffc193df}\label{structSysCtl__Module__regs_a3c19888498c8ddd40b6cb148ffc193df} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCSSI@{RCGCSSI}}
+\index{RCGCSSI@{RCGCSSI}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCSSI}{RCGCSSI}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCSSI}
+
+Synchronous Serial Interface Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_aae3662d391abeb096a8650bc68ee2ed3}\label{structSysCtl__Module__regs_aae3662d391abeb096a8650bc68ee2ed3} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCTIMER@{RCGCTIMER}}
+\index{RCGCTIMER@{RCGCTIMER}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCTIMER}{RCGCTIMER}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCTIMER}
+
+16/32-\/\+Bit General-\/\+Purpose Timer Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_aa6badf60f9d65572a559c9542263309f}\label{structSysCtl__Module__regs_aa6badf60f9d65572a559c9542263309f} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCUART@{RCGCUART}}
+\index{RCGCUART@{RCGCUART}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCUART}{RCGCUART}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCUART}
+
+Universal Asynchronous Receiver/\+Transmitter Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_afe116ebfe9bc2f4ae1126b80f139fee5}\label{structSysCtl__Module__regs_afe116ebfe9bc2f4ae1126b80f139fee5} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCUSB@{RCGCUSB}}
+\index{RCGCUSB@{RCGCUSB}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCUSB}{RCGCUSB}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCUSB}
+
+Universal Serial Bus Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_a3a3cd886153527e8e718e4abff9d5ac2}\label{structSysCtl__Module__regs_a3a3cd886153527e8e718e4abff9d5ac2} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCWD@{RCGCWD}}
+\index{RCGCWD@{RCGCWD}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCWD}{RCGCWD}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCWD}
+
+Watchdog Timer Run Mode Clock Gating Control. \Hypertarget{structSysCtl__Module__regs_afe4c18c18123541a19ee68a35c6d9c18}\label{structSysCtl__Module__regs_afe4c18c18123541a19ee68a35c6d9c18} 
+\index{SysCtl\_Module\_regs@{SysCtl\_Module\_regs}!RCGCWTIMER@{RCGCWTIMER}}
+\index{RCGCWTIMER@{RCGCWTIMER}!SysCtl\_Module\_regs@{SysCtl\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{RCGCWTIMER}{RCGCWTIMER}}
+{\footnotesize\ttfamily volatile uint32 Sys\+Ctl\+\_\+\+Module\+\_\+regs\+::\+RCGCWTIMER}
+
+32/64-\/\+Bit Wide General-\/\+Purpose Timer Run Mode Clock Gating Control. 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/abdu/\+Study/\+Reusable-\/\+Firmware-\/\+Development/2\+\_\+\+General\+Purbose\+\_\+\+SPI/\+Sys\+Ctl/\mbox{\hyperlink{SysCtl__Registers_8h}{Sys\+Ctl\+\_\+\+Registers.\+h}}\end{DoxyCompactItemize}
