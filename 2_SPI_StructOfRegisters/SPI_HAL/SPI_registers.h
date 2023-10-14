@@ -40,7 +40,7 @@ typedef struct {
 }SPI_Module_regs;
 
 
-volatile uint32* SPI_bases_ptr = {
+volatile uint32* SPI_bases_ptr[] = {
     (uint32*)0x40008000, 
     (uint32*)0x40009000, 
     (uint32*)0x4000A000, 
