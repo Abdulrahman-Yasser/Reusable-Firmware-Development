@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o: \
  /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c \
  /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Dynamic/inc/Digital_Interface_Cfg.h \
@@ -8,6 +9,18 @@ CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HA
  /home/abdu/Study/PatternDesign-In-C/myLibraries/Common/Compiler.h \
  /home/abdu/Study/PatternDesign-In-C/myLibraries/HAL_Layer/Digital_Intrface/Static/Src/../inc/Digital_Interface.h \
  /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/inc/DIO_Types.h \
+=======
+CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c.o: \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/Digital_Interface.c \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Dynamic/inc/Digital_Interface_Cfg.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/inc/DIO_Cfg.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Dynamic/inc/../../Static/inc/DIO_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Platform_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Compiler.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/HAL_Layer/Digital_Intrface/Static/Src/../inc/Digital_Interface.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/inc/DIO_Types.h \
+>>>>>>> done documented SPI
  /home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h \
  /home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
  /home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
@@ -25,5 +38,10 @@ CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/HA
  /home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
  /home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h \
  /home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h \
+<<<<<<< HEAD
  /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/inc/DIO.h \
  /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/DIO/Static/inc/DIO_Types.h
+=======
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/inc/DIO.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/DIO/Static/inc/DIO_Types.h
+>>>>>>> done documented SPI

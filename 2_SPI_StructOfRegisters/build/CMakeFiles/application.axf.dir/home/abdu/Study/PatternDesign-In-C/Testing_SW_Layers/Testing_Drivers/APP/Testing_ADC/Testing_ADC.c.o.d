@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c.o: \
  /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.c \
  /home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_ADC/Testing_ADC.h \
@@ -21,6 +22,31 @@ CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Lay
  /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/inc/IntCtrl.h \
  /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/inc/../../Dynamic/inc/IntCtrl_Cfg.h \
  /home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/IntCtrl/Static/inc/IntCtrl_Types.h \
+=======
+CMakeFiles/application.axf.dir/home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c.o: \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.c \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/APP/Testing_ADC/Testing_ADC.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/inc/ADC_Cfg.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Dynamic/inc/../../Static/inc/ADC_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Std_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Platform_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/Compiler.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/inc/Normal_Queue.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/inc/../../../../Platform_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/inc/Normal_Queue_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/Common/DataStructure/Normal_Queue/static/inc/../../dynamic/inc/Normal_Queue_Cfg.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/inc/PORT_Cfg.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Dynamic/inc/../../Static/inc/PORT_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/inc/IntCtrl_Cfg.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Dynamic/inc/../../Static/inc/IntCtrl_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/inc/ADC.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/ADC/Static/inc/../inc/ADC_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/inc/PORT.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/PORT/Static/inc/PORT_Types.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/inc/IntCtrl.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/inc/../../Dynamic/inc/IntCtrl_Cfg.h \
+ /home/abdu/Study/BareMetal-TIVA-c_Drivers/MCAL_Layer/IntCtrl/Static/inc/IntCtrl_Types.h \
+>>>>>>> done documented SPI
  /home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
  /home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
  /home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \

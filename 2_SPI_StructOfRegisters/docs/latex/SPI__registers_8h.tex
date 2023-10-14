@@ -1,0 +1,233 @@
+\doxysection{/home/abdu/\+Study/\+Reusable-\/\+Firmware-\/\+Development/2\+\_\+\+General\+Purbose\+\_\+\+SPI/\+SPI\+\_\+\+HAL/\+SPI\+\_\+registers.h File Reference}
+\hypertarget{SPI__registers_8h}{}\label{SPI__registers_8h}\index{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI\_registers.h@{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI\_registers.h}}
+
+
+This file contains all the register of SPI in TIVA-\/C (TM4\+C123\+GH6\+PM)  
+
+
+{\ttfamily \#include "{}SPI\+\_\+datatypes.\+h"{}}\newline
+Include dependency graph for SPI\+\_\+registers.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{SPI__registers_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{SPI__registers_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structSPI__Module__regs}{SPI\+\_\+\+Module\+\_\+regs}}
+\begin{DoxyCompactList}\small\item\em a typedef for all the register in SPI module {\bfseries{Example\+:}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_ab4ed6a53c80dd4697102fc4976c271eb}{SSI0\+\_\+\+BASE\+\_\+\+ADDERSS}}~0x40008000
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a51a7a8f9f536c8e31082253959507395}{SSI1\+\_\+\+BASE\+\_\+\+ADDERSS}}~0x40009000
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_aed8dfe2d4c75de09eb9af7e7f4c5fc80}{SSI2\+\_\+\+BASE\+\_\+\+ADDERSS}}~0x4000\+A000
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a1b562d9d75652ec9ca4bb6fe43607b26}{SSI3\+\_\+\+BASE\+\_\+\+ADDERSS}}~0x4000\+B000
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a959469a88ba0d266ad1d77804f25da1d}{SSI\+\_\+\+IM\+\_\+\+TX}}~(1 $<$$<$ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a87f8b2d4d2c15de379486f075e50e229}{Tx\+\_\+\+IM}})
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a3f3ba14cdcd6d64fd3e880fc6cecf467}{SSI\+\_\+\+IM\+\_\+\+RX}}~(1 $<$$<$ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9afaa528859bd00af15872596b1eafd0ca}{Rx\+\_\+\+IM}})
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a2fbc708ec778935ecdbb59d43a3b3af5}{SSI\+\_\+\+IM\+\_\+\+RT}}~(1 $<$$<$ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a60790201539948cf106347459b37712a}{Rx\+\_\+\+Time\+Out}})
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a0aabd6f0c4cd7d733e0acdbf15c6626a}{SSI\+\_\+\+IM\+\_\+\+POR}}~(1 $<$$<$ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a8ded3d73d87e235b3e69396da6be68a3}{Rx\+\_\+\+Over\+Run}})
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_ae78ad6b0a9a36daaea7ba516b1d0fbc2}{SSI\+\_\+\+BSY\+\_\+\+FLAGG}}~4
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a5fbc1625acda6c38d35875cbb2f198fa}{SSI\+\_\+\+RFF\+\_\+\+FLAGG}}~3
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_ae8d73eb114d32e4d91fa444614a80f73}{SSI\+\_\+\+RNE\+\_\+\+FLAGG}}~2
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a203c4402f0a70066ccb3a56eb2c3ad35}{SSI\+\_\+\+TNF\+\_\+\+FLAGG}}~1
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a2c82f4ffa78bce4ea60cc617011dcda7}{SSI\+\_\+\+TFE\+\_\+\+FLAGG}}~0
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a24b4bf27c4807c267a70d7db213fa7cf}{SSI\+\_\+\+CR1\+\_\+\+SSE\+\_\+bit\+OFFSET}}~1
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a97a7ca7a0d964c74d1e350c44053efbb}{SSI\+\_\+\+Serial\+Clock\+Polarity\+\_\+\+Offset}}~6
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_aeea241a3b6cb3d549ae2e921f7f809f8}{SSI\+\_\+\+Protocol\+Mode\+\_\+\+Offset}}~4
+\item 
+\#define \mbox{\hyperlink{SPI__registers_8h_a7239064c0a02d251ff0be5b90614e075}{SSI\+\_\+\+Data\+Size\+\_\+\+Offset}}~0
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile uint32 \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{SPI__registers_8h_aca88edc64f746f64616f6a6a2b1cc89e}{SPI\+\_\+bases\+\_\+ptr}}
+\begin{DoxyCompactList}\small\item\em a typedef for all the base addresses of SPI module channels {\bfseries{Example\+:}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains all the register of SPI in TIVA-\/C (TM4\+C123\+GH6\+PM) 
+
+The registers here represented as a struct of registers. which is the most reusable way to represent your registers in your code. This file contains all the registers that TIVA-\/C SPI module have. porting this module to another SoC will need to check the arrengement of the registers to fit your Soc.
+
+\begin{DoxyAuthor}{Author}
+Abdulrahman Yasser 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+12/10/2023 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0.\+0 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+GNU Public License 
+\end{DoxyCopyright}
+\hypertarget{SysCtl__Registers_8h_Step1}{}\doxysubsubsection{\texorpdfstring{Cmake}{Cmake}}\label{SysCtl__Registers_8h_Step1}
+\hypertarget{SysCtl__Registers_8h_Step2}{}\doxysubsubsection{\texorpdfstring{make}{make}}\label{SysCtl__Registers_8h_Step2}
+@ \begin{DoxyNote}{Note}
+THIS SOFTWARE IS PROVIDED BY Abdulrahman Yasser \+: COMPANY "{}\+AS IS"{} AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BENINGO ENGINEERING OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. Compiler GCC Target TM4\+C123\+GH6\+PM 
+\end{DoxyNote}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{SPI__registers_8h_ab4ed6a53c80dd4697102fc4976c271eb}\label{SPI__registers_8h_ab4ed6a53c80dd4697102fc4976c271eb} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI0\_BASE\_ADDERSS@{SSI0\_BASE\_ADDERSS}}
+\index{SSI0\_BASE\_ADDERSS@{SSI0\_BASE\_ADDERSS}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI0\_BASE\_ADDERSS}{SSI0\_BASE\_ADDERSS}}
+{\footnotesize\ttfamily \#define SSI0\+\_\+\+BASE\+\_\+\+ADDERSS~0x40008000}
+
+Base address of SPI channel 0 \Hypertarget{SPI__registers_8h_a51a7a8f9f536c8e31082253959507395}\label{SPI__registers_8h_a51a7a8f9f536c8e31082253959507395} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI1\_BASE\_ADDERSS@{SSI1\_BASE\_ADDERSS}}
+\index{SSI1\_BASE\_ADDERSS@{SSI1\_BASE\_ADDERSS}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI1\_BASE\_ADDERSS}{SSI1\_BASE\_ADDERSS}}
+{\footnotesize\ttfamily \#define SSI1\+\_\+\+BASE\+\_\+\+ADDERSS~0x40009000}
+
+Base address of SPI channel 1 \Hypertarget{SPI__registers_8h_aed8dfe2d4c75de09eb9af7e7f4c5fc80}\label{SPI__registers_8h_aed8dfe2d4c75de09eb9af7e7f4c5fc80} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI2\_BASE\_ADDERSS@{SSI2\_BASE\_ADDERSS}}
+\index{SSI2\_BASE\_ADDERSS@{SSI2\_BASE\_ADDERSS}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI2\_BASE\_ADDERSS}{SSI2\_BASE\_ADDERSS}}
+{\footnotesize\ttfamily \#define SSI2\+\_\+\+BASE\+\_\+\+ADDERSS~0x4000\+A000}
+
+Base address of SPI channel 2 \Hypertarget{SPI__registers_8h_a1b562d9d75652ec9ca4bb6fe43607b26}\label{SPI__registers_8h_a1b562d9d75652ec9ca4bb6fe43607b26} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI3\_BASE\_ADDERSS@{SSI3\_BASE\_ADDERSS}}
+\index{SSI3\_BASE\_ADDERSS@{SSI3\_BASE\_ADDERSS}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI3\_BASE\_ADDERSS}{SSI3\_BASE\_ADDERSS}}
+{\footnotesize\ttfamily \#define SSI3\+\_\+\+BASE\+\_\+\+ADDERSS~0x4000\+B000}
+
+Base address of SPI channel 3 \Hypertarget{SPI__registers_8h_ae78ad6b0a9a36daaea7ba516b1d0fbc2}\label{SPI__registers_8h_ae78ad6b0a9a36daaea7ba516b1d0fbc2} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_BSY\_FLAGG@{SSI\_BSY\_FLAGG}}
+\index{SSI\_BSY\_FLAGG@{SSI\_BSY\_FLAGG}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_BSY\_FLAGG}{SSI\_BSY\_FLAGG}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+BSY\+\_\+\+FLAGG~4}
+
+SSI Busy Bit. \Hypertarget{SPI__registers_8h_a24b4bf27c4807c267a70d7db213fa7cf}\label{SPI__registers_8h_a24b4bf27c4807c267a70d7db213fa7cf} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_CR1\_SSE\_bitOFFSET@{SSI\_CR1\_SSE\_bitOFFSET}}
+\index{SSI\_CR1\_SSE\_bitOFFSET@{SSI\_CR1\_SSE\_bitOFFSET}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_CR1\_SSE\_bitOFFSET}{SSI\_CR1\_SSE\_bitOFFSET}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+CR1\+\_\+\+SSE\+\_\+bit\+OFFSET~1}
+
+SSI Synchronous Serial Port Enable bit for disabling and enabling SPI channel. \Hypertarget{SPI__registers_8h_a7239064c0a02d251ff0be5b90614e075}\label{SPI__registers_8h_a7239064c0a02d251ff0be5b90614e075} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_DataSize\_Offset@{SSI\_DataSize\_Offset}}
+\index{SSI\_DataSize\_Offset@{SSI\_DataSize\_Offset}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_DataSize\_Offset}{SSI\_DataSize\_Offset}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+Data\+Size\+\_\+\+Offset~0}
+
+SSI Data Size Select offset in SSI Control 0 register. \Hypertarget{SPI__registers_8h_a0aabd6f0c4cd7d733e0acdbf15c6626a}\label{SPI__registers_8h_a0aabd6f0c4cd7d733e0acdbf15c6626a} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_IM\_POR@{SSI\_IM\_POR}}
+\index{SSI\_IM\_POR@{SSI\_IM\_POR}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_IM\_POR}{SSI\_IM\_POR}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+IM\+\_\+\+POR~(1 $<$$<$ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a8ded3d73d87e235b3e69396da6be68a3}{Rx\+\_\+\+Over\+Run}})}
+
+representing 1 in place of Rx\+\_\+\+Over\+Run flag. \Hypertarget{SPI__registers_8h_a2fbc708ec778935ecdbb59d43a3b3af5}\label{SPI__registers_8h_a2fbc708ec778935ecdbb59d43a3b3af5} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_IM\_RT@{SSI\_IM\_RT}}
+\index{SSI\_IM\_RT@{SSI\_IM\_RT}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_IM\_RT}{SSI\_IM\_RT}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+IM\+\_\+\+RT~(1 $<$$<$ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a60790201539948cf106347459b37712a}{Rx\+\_\+\+Time\+Out}})}
+
+representing 1 in place of Rx\+\_\+\+Time\+Out flag. \Hypertarget{SPI__registers_8h_a3f3ba14cdcd6d64fd3e880fc6cecf467}\label{SPI__registers_8h_a3f3ba14cdcd6d64fd3e880fc6cecf467} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_IM\_RX@{SSI\_IM\_RX}}
+\index{SSI\_IM\_RX@{SSI\_IM\_RX}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_IM\_RX}{SSI\_IM\_RX}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+IM\+\_\+\+RX~(1 $<$$<$ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9afaa528859bd00af15872596b1eafd0ca}{Rx\+\_\+\+IM}})}
+
+representing 1 in place of Rx\+\_\+\+IM flag. \Hypertarget{SPI__registers_8h_a959469a88ba0d266ad1d77804f25da1d}\label{SPI__registers_8h_a959469a88ba0d266ad1d77804f25da1d} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_IM\_TX@{SSI\_IM\_TX}}
+\index{SSI\_IM\_TX@{SSI\_IM\_TX}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_IM\_TX}{SSI\_IM\_TX}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+IM\+\_\+\+TX~(1 $<$$<$ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a87f8b2d4d2c15de379486f075e50e229}{Tx\+\_\+\+IM}})}
+
+representing 1 in place of Tx flag. \Hypertarget{SPI__registers_8h_aeea241a3b6cb3d549ae2e921f7f809f8}\label{SPI__registers_8h_aeea241a3b6cb3d549ae2e921f7f809f8} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_ProtocolMode\_Offset@{SSI\_ProtocolMode\_Offset}}
+\index{SSI\_ProtocolMode\_Offset@{SSI\_ProtocolMode\_Offset}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_ProtocolMode\_Offset}{SSI\_ProtocolMode\_Offset}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+Protocol\+Mode\+\_\+\+Offset~4}
+
+SSI Frame Format Select offset in SSI Control 0 register. \Hypertarget{SPI__registers_8h_a5fbc1625acda6c38d35875cbb2f198fa}\label{SPI__registers_8h_a5fbc1625acda6c38d35875cbb2f198fa} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_RFF\_FLAGG@{SSI\_RFF\_FLAGG}}
+\index{SSI\_RFF\_FLAGG@{SSI\_RFF\_FLAGG}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_RFF\_FLAGG}{SSI\_RFF\_FLAGG}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+RFF\+\_\+\+FLAGG~3}
+
+SSI Receive FIFO Full. \Hypertarget{SPI__registers_8h_ae8d73eb114d32e4d91fa444614a80f73}\label{SPI__registers_8h_ae8d73eb114d32e4d91fa444614a80f73} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_RNE\_FLAGG@{SSI\_RNE\_FLAGG}}
+\index{SSI\_RNE\_FLAGG@{SSI\_RNE\_FLAGG}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_RNE\_FLAGG}{SSI\_RNE\_FLAGG}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+RNE\+\_\+\+FLAGG~2}
+
+SSI Receive FIFO Not Empty. \Hypertarget{SPI__registers_8h_a97a7ca7a0d964c74d1e350c44053efbb}\label{SPI__registers_8h_a97a7ca7a0d964c74d1e350c44053efbb} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_SerialClockPolarity\_Offset@{SSI\_SerialClockPolarity\_Offset}}
+\index{SSI\_SerialClockPolarity\_Offset@{SSI\_SerialClockPolarity\_Offset}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_SerialClockPolarity\_Offset}{SSI\_SerialClockPolarity\_Offset}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+Serial\+Clock\+Polarity\+\_\+\+Offset~6}
+
+SSI Serial Clock Polarity offset in SSI Control 0 register. \Hypertarget{SPI__registers_8h_a2c82f4ffa78bce4ea60cc617011dcda7}\label{SPI__registers_8h_a2c82f4ffa78bce4ea60cc617011dcda7} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_TFE\_FLAGG@{SSI\_TFE\_FLAGG}}
+\index{SSI\_TFE\_FLAGG@{SSI\_TFE\_FLAGG}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_TFE\_FLAGG}{SSI\_TFE\_FLAGG}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+TFE\+\_\+\+FLAGG~0}
+
+SSI Transmit FIFO Empty. \Hypertarget{SPI__registers_8h_a203c4402f0a70066ccb3a56eb2c3ad35}\label{SPI__registers_8h_a203c4402f0a70066ccb3a56eb2c3ad35} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SSI\_TNF\_FLAGG@{SSI\_TNF\_FLAGG}}
+\index{SSI\_TNF\_FLAGG@{SSI\_TNF\_FLAGG}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SSI\_TNF\_FLAGG}{SSI\_TNF\_FLAGG}}
+{\footnotesize\ttfamily \#define SSI\+\_\+\+TNF\+\_\+\+FLAGG~1}
+
+SSI Transmit FIFO Not Full. 
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{SPI__registers_8h_aca88edc64f746f64616f6a6a2b1cc89e}\label{SPI__registers_8h_aca88edc64f746f64616f6a6a2b1cc89e} 
+\index{SPI\_registers.h@{SPI\_registers.h}!SPI\_bases\_ptr@{SPI\_bases\_ptr}}
+\index{SPI\_bases\_ptr@{SPI\_bases\_ptr}!SPI\_registers.h@{SPI\_registers.h}}
+\doxysubsubsection{\texorpdfstring{SPI\_bases\_ptr}{SPI\_bases\_ptr}}
+{\footnotesize\ttfamily volatile uint32 \texorpdfstring{$\ast$}{*} SPI\+\_\+bases\+\_\+ptr}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ (uint32*)0x40008000,\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ (uint32*)0x40009000,\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ (uint32*)0x4000A000,\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ (uint32*)0x4000B000\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+a typedef for all the base addresses of SPI module channels {\bfseries{Example\+:}} 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{volatile}\ \mbox{\hyperlink{structSPI__Module__regs}{SPI\_Module\_regs}}*\ mySPI\ =\ (\mbox{\hyperlink{structSPI__Module__regs}{SPI\_Module\_regs}}*)\ \mbox{\hyperlink{SPI__registers_8h_aca88edc64f746f64616f6a6a2b1cc89e}{SPI\_bases\_ptr}}[\ ssi\_channel\ ];}
+\DoxyCodeLine{mySPI-\/>\mbox{\hyperlink{structSPI__Module__regs_abce55a686420e1611009d47600889220}{SSICR0}}\ |=\ (CPSDVSR\ -\/\ 1)\ <<\ 8;}
+\DoxyCodeLine{mySPI-\/>\mbox{\hyperlink{structSPI__Module__regs_aedac340a9e8207b674ceef16ebd86b15}{SSICPSR}}\ |=\ SCR\_Value;}
+
+\end{DoxyCode}
+
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{structSPI__Module__regs}{SPI\+\_\+\+Module\+\_\+regs} 
+\end{DoxySeeAlso}

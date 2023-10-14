@@ -1,0 +1,134 @@
+\doxysection{SPI\+\_\+\+Module\+\_\+regs Struct Reference}
+\hypertarget{structSPI__Module__regs}{}\label{structSPI__Module__regs}\index{SPI\_Module\_regs@{SPI\_Module\_regs}}
+
+
+a typedef for all the register in SPI module {\bfseries{Example\+:}}  
+
+
+
+
+{\ttfamily \#include $<$SPI\+\_\+registers.\+h$>$}
+
+
+
+Collaboration diagram for SPI\+\_\+\+Module\+\_\+regs\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{structSPI__Module__regs__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_abce55a686420e1611009d47600889220}{SSICR0}}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_ab32c05928c909b11bb730f07f1705a30}{SSICR1}}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_a529e70a74bf70fef963eefb1fe541692}{SSIDR}}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_aa54ce06a33a3c20675ac0175f3c3db68}{SSISR}}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_aedac340a9e8207b674ceef16ebd86b15}{SSICPSR}}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_a582b8be267e433f163d7a39ae3aec5eb}{SSIIM}}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_a0b22c2d721633bfcae2204fc89eb0bcf}{SSIRIS}}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_af33a00771b39b49424a43a5baf3921f3}{SSIMIS}}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_aa2b9cc0f76e50acd2f4c2697f72ae97c}{SSIICR}}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_a9ddd42dfcd8f02b96abc890d018fb1fc}{SSIDMACTL}}
+\item 
+uint32 \mbox{\hyperlink{structSPI__Module__regs_a60b6fa4df52640a112683d8c38fc7016}{SSICC}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+a typedef for all the register in SPI module {\bfseries{Example\+:}} 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{volatile}\ \mbox{\hyperlink{structSPI__Module__regs}{SPI\_Module\_regs}}*\ mySPI\ =\ (\mbox{\hyperlink{structSPI__Module__regs}{SPI\_Module\_regs}}*)\ \mbox{\hyperlink{SPI__registers_8h_aca88edc64f746f64616f6a6a2b1cc89e}{SPI\_bases\_ptr}}[\ ssi\_channel\ ];}
+\DoxyCodeLine{mySPI-\/>\mbox{\hyperlink{structSPI__Module__regs_abce55a686420e1611009d47600889220}{SSICR0}}\ |=\ (CPSDVSR\ -\/\ 1)\ <<\ 8;}
+\DoxyCodeLine{mySPI-\/>\mbox{\hyperlink{structSPI__Module__regs_aedac340a9e8207b674ceef16ebd86b15}{SSICPSR}}\ |=\ SCR\_Value;}
+
+\end{DoxyCode}
+ \begin{DoxySeeAlso}{See also}
+\doxylink{SPI__registers_8h_aca88edc64f746f64616f6a6a2b1cc89e}{SPI\+\_\+bases\+\_\+ptr} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{structSPI__Module__regs_a60b6fa4df52640a112683d8c38fc7016}\label{structSPI__Module__regs_a60b6fa4df52640a112683d8c38fc7016} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSICC@{SSICC}}
+\index{SSICC@{SSICC}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSICC}{SSICC}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSICC}
+
+SSI Clock Configuration. \Hypertarget{structSPI__Module__regs_aedac340a9e8207b674ceef16ebd86b15}\label{structSPI__Module__regs_aedac340a9e8207b674ceef16ebd86b15} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSICPSR@{SSICPSR}}
+\index{SSICPSR@{SSICPSR}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSICPSR}{SSICPSR}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSICPSR}
+
+SSI Clock Prescale. \Hypertarget{structSPI__Module__regs_abce55a686420e1611009d47600889220}\label{structSPI__Module__regs_abce55a686420e1611009d47600889220} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSICR0@{SSICR0}}
+\index{SSICR0@{SSICR0}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSICR0}{SSICR0}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSICR0}
+
+SSI Control 0. \Hypertarget{structSPI__Module__regs_ab32c05928c909b11bb730f07f1705a30}\label{structSPI__Module__regs_ab32c05928c909b11bb730f07f1705a30} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSICR1@{SSICR1}}
+\index{SSICR1@{SSICR1}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSICR1}{SSICR1}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSICR1}
+
+SSI Control 1. \Hypertarget{structSPI__Module__regs_a9ddd42dfcd8f02b96abc890d018fb1fc}\label{structSPI__Module__regs_a9ddd42dfcd8f02b96abc890d018fb1fc} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSIDMACTL@{SSIDMACTL}}
+\index{SSIDMACTL@{SSIDMACTL}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSIDMACTL}{SSIDMACTL}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSIDMACTL}
+
+SSI DMA Control. \Hypertarget{structSPI__Module__regs_a529e70a74bf70fef963eefb1fe541692}\label{structSPI__Module__regs_a529e70a74bf70fef963eefb1fe541692} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSIDR@{SSIDR}}
+\index{SSIDR@{SSIDR}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSIDR}{SSIDR}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSIDR}
+
+SSI Data. \Hypertarget{structSPI__Module__regs_aa2b9cc0f76e50acd2f4c2697f72ae97c}\label{structSPI__Module__regs_aa2b9cc0f76e50acd2f4c2697f72ae97c} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSIICR@{SSIICR}}
+\index{SSIICR@{SSIICR}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSIICR}{SSIICR}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSIICR}
+
+SSI Interrupt Clear. \Hypertarget{structSPI__Module__regs_a582b8be267e433f163d7a39ae3aec5eb}\label{structSPI__Module__regs_a582b8be267e433f163d7a39ae3aec5eb} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSIIM@{SSIIM}}
+\index{SSIIM@{SSIIM}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSIIM}{SSIIM}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSIIM}
+
+SSI Interrupt Mask. \Hypertarget{structSPI__Module__regs_af33a00771b39b49424a43a5baf3921f3}\label{structSPI__Module__regs_af33a00771b39b49424a43a5baf3921f3} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSIMIS@{SSIMIS}}
+\index{SSIMIS@{SSIMIS}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSIMIS}{SSIMIS}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSIMIS}
+
+SSI Masked Interrupt Status. \Hypertarget{structSPI__Module__regs_a0b22c2d721633bfcae2204fc89eb0bcf}\label{structSPI__Module__regs_a0b22c2d721633bfcae2204fc89eb0bcf} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSIRIS@{SSIRIS}}
+\index{SSIRIS@{SSIRIS}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSIRIS}{SSIRIS}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSIRIS}
+
+SSI Raw Interrupt Status. \Hypertarget{structSPI__Module__regs_aa54ce06a33a3c20675ac0175f3c3db68}\label{structSPI__Module__regs_aa54ce06a33a3c20675ac0175f3c3db68} 
+\index{SPI\_Module\_regs@{SPI\_Module\_regs}!SSISR@{SSISR}}
+\index{SSISR@{SSISR}!SPI\_Module\_regs@{SPI\_Module\_regs}}
+\doxysubsubsection{\texorpdfstring{SSISR}{SSISR}}
+{\footnotesize\ttfamily uint32 SPI\+\_\+\+Module\+\_\+regs\+::\+SSISR}
+
+SSI Status. 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/abdu/\+Study/\+Reusable-\/\+Firmware-\/\+Development/2\+\_\+\+General\+Purbose\+\_\+\+SPI/\+SPI\+\_\+\+HAL/\mbox{\hyperlink{SPI__registers_8h}{SPI\+\_\+registers.\+h}}\end{DoxyCompactItemize}

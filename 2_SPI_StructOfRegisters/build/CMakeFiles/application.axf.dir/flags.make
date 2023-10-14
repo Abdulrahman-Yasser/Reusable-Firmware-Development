@@ -4,7 +4,7 @@
 # compile C with /home/abdu/Downloads/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/abdu/Study/PatternDesign-In-C/myLibraries -I/home/abdu/Study/PatternDesign-In-C/myLibraries/Common -I/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers
+C_INCLUDES = -I/home/abdu/Study/BareMetal-TIVA-c_Drivers -I/home/abdu/Study/BareMetal-TIVA-c_Drivers/Common
 
 C_FLAGS =  -ffunction-sections -fcommon -fdata-sections -mthumb -mabi=aapcs -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs="nosys.specs" -Wl,--gc-sections -Wl,--script "/home/abdu/Study/Reusable-Firmware-Development/2_GeneralPurbose_SPI/tm4c123gh6pm.lds"
 

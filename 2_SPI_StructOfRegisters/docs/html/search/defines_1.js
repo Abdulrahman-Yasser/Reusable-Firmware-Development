@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['ssi0_5fbase_5fadderss_0',['SSI0_BASE_ADDERSS',['../SPI__registers_8h.html#ab4ed6a53c80dd4697102fc4976c271eb',1,'SPI_registers.h']]],
+  ['ssi1_5fbase_5fadderss_1',['SSI1_BASE_ADDERSS',['../SPI__registers_8h.html#a51a7a8f9f536c8e31082253959507395',1,'SPI_registers.h']]],
+  ['ssi2_5fbase_5fadderss_2',['SSI2_BASE_ADDERSS',['../SPI__registers_8h.html#aed8dfe2d4c75de09eb9af7e7f4c5fc80',1,'SPI_registers.h']]],
+  ['ssi3_5fbase_5fadderss_3',['SSI3_BASE_ADDERSS',['../SPI__registers_8h.html#a1b562d9d75652ec9ca4bb6fe43607b26',1,'SPI_registers.h']]],
+  ['ssi_5fbsy_5fflagg_4',['SSI_BSY_FLAGG',['../SPI__registers_8h.html#ae78ad6b0a9a36daaea7ba516b1d0fbc2',1,'SPI_registers.h']]],
+  ['ssi_5fcr1_5fsse_5fbitoffset_5',['SSI_CR1_SSE_bitOFFSET',['../SPI__registers_8h.html#a24b4bf27c4807c267a70d7db213fa7cf',1,'SPI_registers.h']]],
+  ['ssi_5fdatasize_5foffset_6',['SSI_DataSize_Offset',['../SPI__registers_8h.html#a7239064c0a02d251ff0be5b90614e075',1,'SPI_registers.h']]],
+  ['ssi_5fim_5fpor_7',['SSI_IM_POR',['../SPI__registers_8h.html#a0aabd6f0c4cd7d733e0acdbf15c6626a',1,'SPI_registers.h']]],
+  ['ssi_5fim_5frt_8',['SSI_IM_RT',['../SPI__registers_8h.html#a2fbc708ec778935ecdbb59d43a3b3af5',1,'SPI_registers.h']]],
+  ['ssi_5fim_5frx_9',['SSI_IM_RX',['../SPI__registers_8h.html#a3f3ba14cdcd6d64fd3e880fc6cecf467',1,'SPI_registers.h']]],
+  ['ssi_5fim_5ftx_10',['SSI_IM_TX',['../SPI__registers_8h.html#a959469a88ba0d266ad1d77804f25da1d',1,'SPI_registers.h']]],
+  ['ssi_5fprotocolmode_5foffset_11',['SSI_ProtocolMode_Offset',['../SPI__registers_8h.html#aeea241a3b6cb3d549ae2e921f7f809f8',1,'SPI_registers.h']]],
+  ['ssi_5frff_5fflagg_12',['SSI_RFF_FLAGG',['../SPI__registers_8h.html#a5fbc1625acda6c38d35875cbb2f198fa',1,'SPI_registers.h']]],
+  ['ssi_5frne_5fflagg_13',['SSI_RNE_FLAGG',['../SPI__registers_8h.html#ae8d73eb114d32e4d91fa444614a80f73',1,'SPI_registers.h']]],
+  ['ssi_5fserialclockpolarity_5foffset_14',['SSI_SerialClockPolarity_Offset',['../SPI__registers_8h.html#a97a7ca7a0d964c74d1e350c44053efbb',1,'SPI_registers.h']]],
+  ['ssi_5ftfe_5fflagg_15',['SSI_TFE_FLAGG',['../SPI__registers_8h.html#a2c82f4ffa78bce4ea60cc617011dcda7',1,'SPI_registers.h']]],
+  ['ssi_5ftnf_5fflagg_16',['SSI_TNF_FLAGG',['../SPI__registers_8h.html#a203c4402f0a70066ccb3a56eb2c3ad35',1,'SPI_registers.h']]],
+  ['sysctl_5frcgc_5fbase_17',['SysCtl_RCGC_Base',['../SysCtl__Registers_8h.html#af24d3f0bab75d03a1378e2636fabb253',1,'SysCtl_Registers.h']]]
+];

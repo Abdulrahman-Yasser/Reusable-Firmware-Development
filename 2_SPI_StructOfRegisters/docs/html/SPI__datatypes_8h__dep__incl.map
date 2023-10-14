@@ -1,0 +1,16 @@
+<map id="/home/abdu/Study/Reusable&#45;Firmware&#45;Development/2_GeneralPurbose_SPI/SPI_HAL/SPI_datatypes.h" name="/home/abdu/Study/Reusable&#45;Firmware&#45;Development/2_GeneralPurbose_SPI/SPI_HAL/SPI_datatypes.h">
+<area shape="rect" id="Node000001" title="This file contains all the dataTypes that is used in that module." alt="" coords="260,5,464,75"/>
+<area shape="rect" id="Node000002" href="$SPI__config_8h.html" title="include this file to access your SPI configurations" alt="" coords="147,123,351,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="321,87,284,124,280,121,317,83"/>
+<area shape="rect" id="Node000007" href="$SPI__registers_8h.html" title="This file contains all the register of SPI in TIVA&#45;C (TM4C123GH6PM)" alt="" coords="375,123,579,192"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="407,83,445,121,441,124,404,87"/>
+<area shape="rect" id="Node000003" href="$SPI_8h.html" title="This file contains all APIs of SPI module." alt="" coords="7,240,211,309"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="199,203,152,242,148,238,196,199"/>
+<area shape="rect" id="Node000006" href="$SPI__config_8c.html" title="This file contains all configurations of your SPI." alt="" coords="235,240,439,309"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="285,202,313,238,309,241,281,205"/>
+<area shape="rect" id="Node000004" href="$SPI_8c.html" title="This file contains all imlpementation of APIs of SPI module." alt="" coords="305,357,509,427"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="209,312,321,355,319,360,207,317"/>
+<area shape="rect" id="Node000005" href="$main_8c.html" title=" " alt="" coords="5,365,212,419"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="111,323,111,364,106,364,106,323"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="475,206,467,257,453,310,430,358,425,356,447,308,461,256,469,205"/>
+</map>

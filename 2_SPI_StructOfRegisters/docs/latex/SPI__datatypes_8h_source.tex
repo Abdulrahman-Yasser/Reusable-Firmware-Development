@@ -1,0 +1,68 @@
+\doxysection{SPI\+\_\+datatypes.\+h}
+\hypertarget{SPI__datatypes_8h_source}{}\label{SPI__datatypes_8h_source}\index{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI\_datatypes.h@{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI\_datatypes.h}}
+\mbox{\hyperlink{SPI__datatypes_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#include\ "{}Std\_Types.h"{}}}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00037\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57aeb1a9abd5cd3192aa52e4f2ca8cfd67f}{SSI\_Channel\_0}},\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00039\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a03bd8163791bba4b1f23843ae7630241}{SSI\_Channel\_1}},\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00040\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a739944d2ea7b1e755707808c078d3d29}{SSI\_Channel\_2}},\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00041\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a44e792fe68db41e02531b6a582e67b9e}{SSI\_Channel\_3}},\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00042\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91}{SSI\_Channel\_NotUsed}}\ \ \ \ \ }
+\DoxyCodeLine{00043\ \}\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\_Channel\_t}};}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00049\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00050\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a8ded3d73d87e235b3e69396da6be68a3}{Rx\_OverRun}},\ \ \ \ \ }
+\DoxyCodeLine{00051\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a60790201539948cf106347459b37712a}{Rx\_TimeOut}},\ \ \ \ \ }
+\DoxyCodeLine{00052\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9afaa528859bd00af15872596b1eafd0ca}{Rx\_IM}},\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00053\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9a87f8b2d4d2c15de379486f075e50e229}{Tx\_IM}}\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00054\ \}\mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9}{SSI\_Interrupt\_Type}};}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00060\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00061\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28ae15f262c9932696818f5b063a7d10d6b}{SSI\_Protocol\_SPI}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00062\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28a5b600c860036e7dc0f89e96dc4f57489}{SSI\_Protocol\_TISS}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00063\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28a7269a9f3ae3c738df90fb2e6a8b2a668}{SSI\_Protocol\_MicroWire}},\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00064\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28aa392260cee1d2662c589f3e026c49c6b}{SSI\_Protocol\_not\_available}}\ \ \ \ \ \ }
+\DoxyCodeLine{00065\ \}\mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28}{SSI\_ProtocolMode\_t}};}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00071\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00072\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dab92e8d61b99e34408652e6217fe2e767}{SSI\_Master}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00073\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dabd23cdafddfc2fd2a574971e5851cda3}{SSI\_SLAVE\_OUTPUT\_EN}}\ =\ 4,\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00074\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6da0a5c6eec87ca4a0e7acc6864a475a45b}{SSI\_SLAVE\_OUTPUT\_DIS}}\ =\ 0xc\ \ \ \ \ \ }
+\DoxyCodeLine{00075\ \}\mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6d}{SSI\_SlaveMaster\_t}};}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00082\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00083\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aeadcca505688efe861e86a985d11af7eee}{SSI\_EOT}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00084\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aea314ae03c5e98d85e8e8589a25ccbbbd0}{SSI\_HALF\_FIFO}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00085\ \}\mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79ae}{SSI\_InterruptMode\_t}};}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00091\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00092\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da48e66fc9e03d0739e67f607a757c4616}{SSI\_SysClk}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00093\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da3898f51fcc403a83f9300fbafac6b48c}{SSI\_PIOSC}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00094\ \}\mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2d}{SSI\_ClockSrc\_t}};}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00100\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00101\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a7e3b2b9d2d4ad544003c1df1d2e6b4ed}{SSI\_DMA\_Receive}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00102\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a4f66998b1a1c2f77e8b9680554569aac}{SSI\_DMA\_Transmit}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00103\ \ \ \ \ SSI\_DMA\_ReceiveTransmit\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00104\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a5600a053f5c98b25930e7a72c202b105}{SSI\_DMA\_NotAvailable}},\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00105\ \}\mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2}{SSI\_DMA\_t}};}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00127\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}\{}
+\DoxyCodeLine{00128\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\_Channel\_t}}\ \mbox{\hyperlink{structSpiConfig__t_a01e42215697290f1a284c8f95d9fb50b}{channelNumber}};\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00129\ \ \ \ \ Std\_BoolReturnType\ \mbox{\hyperlink{structSpiConfig__t_af7a78c83807f613421faa03c61468353}{ClockPolarity}};\ \ \ }
+\DoxyCodeLine{00130\ \ \ \ \ uint8\ \mbox{\hyperlink{structSpiConfig__t_a3c93b35597eeb9f9f69cdf0645b5ba95}{DataSize}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00131\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28}{SSI\_ProtocolMode\_t}}\ \mbox{\hyperlink{structSpiConfig__t_a9ff3d25941205ececfa71d47ad5c5eef}{protocolMode}};\ \ \ \ }
+\DoxyCodeLine{00132\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79ae}{SSI\_InterruptMode\_t}}\ \mbox{\hyperlink{structSpiConfig__t_a6c5681152acd5ae0edca38626aa02cc1}{Interrupt}};\ \ \ \ \ \ }
+\DoxyCodeLine{00133\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2d}{SSI\_ClockSrc\_t}}\ \mbox{\hyperlink{structSpiConfig__t_a5a3ce7257f1515d4e456ab79327e39e4}{ClkSrc}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00134\ \ \ \ \ uint32\ \mbox{\hyperlink{structSpiConfig__t_a900e782052f4d8bf78ba54dfc8053c40}{BaudRate}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00135\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2}{SSI\_DMA\_t}}\ \mbox{\hyperlink{structSpiConfig__t_a1be53438d697438c4a2286e739f681a4}{DMA\_State}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00136\ \ \ \ \ \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6d}{SSI\_SlaveMaster\_t}}\ \mbox{\hyperlink{structSpiConfig__t_a6bd06fb5c159c94f8c035ad91e0c04a0}{SlaveOrMaster}};\ \ \ \ }
+\DoxyCodeLine{00137\ \ \ \ \ uint8\ \mbox{\hyperlink{structSpiConfig__t_ab5c811f2a05cfafd6e4b87dee3e1c046}{InterruptMask}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00138\ \}\mbox{\hyperlink{structSpiConfig__t}{SpiConfig\_t}};}
+
+\end{DoxyCode}
