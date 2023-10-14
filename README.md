@@ -7,3 +7,5 @@ i will apply all the examples in Reusable-Firmware-Development on TIVA-C  (tm4c1
 - Separate Implementation from Configuration
 - Create a simple low-level interface
 - Provide error detection
+- The StructOfRegister is the most reusable technique you can use
+- with StructOfRegister you can collect all the bases for the module into one array, easier implementation
