@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['ssi_5fchannel_5f0_0',['SSI_Channel_0',['../SPI__datatypes_8h.html#a871ccbbd588327f8b08dbb667371ce57aeb1a9abd5cd3192aa52e4f2ca8cfd67f',1,'SPI_datatypes.h']]],
+  ['ssi_5fchannel_5f1_1',['SSI_Channel_1',['../SPI__datatypes_8h.html#a871ccbbd588327f8b08dbb667371ce57a03bd8163791bba4b1f23843ae7630241',1,'SPI_datatypes.h']]],
+  ['ssi_5fchannel_5f2_2',['SSI_Channel_2',['../SPI__datatypes_8h.html#a871ccbbd588327f8b08dbb667371ce57a739944d2ea7b1e755707808c078d3d29',1,'SPI_datatypes.h']]],
+  ['ssi_5fchannel_5f3_3',['SSI_Channel_3',['../SPI__datatypes_8h.html#a871ccbbd588327f8b08dbb667371ce57a44e792fe68db41e02531b6a582e67b9e',1,'SPI_datatypes.h']]],
+  ['ssi_5fchannel_5fnotused_4',['SSI_Channel_NotUsed',['../SPI__datatypes_8h.html#a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91',1,'SPI_datatypes.h']]],
+  ['ssi_5fdma_5fnotavailable_5',['SSI_DMA_NotAvailable',['../SPI__datatypes_8h.html#a7c21f9573d674d4ebaf8a4d1e537c2a2a5600a053f5c98b25930e7a72c202b105',1,'SPI_datatypes.h']]],
+  ['ssi_5fdma_5freceive_6',['SSI_DMA_Receive',['../SPI__datatypes_8h.html#a7c21f9573d674d4ebaf8a4d1e537c2a2a7e3b2b9d2d4ad544003c1df1d2e6b4ed',1,'SPI_datatypes.h']]],
+  ['ssi_5fdma_5ftransmit_7',['SSI_DMA_Transmit',['../SPI__datatypes_8h.html#a7c21f9573d674d4ebaf8a4d1e537c2a2a4f66998b1a1c2f77e8b9680554569aac',1,'SPI_datatypes.h']]],
+  ['ssi_5feot_8',['SSI_EOT',['../SPI__datatypes_8h.html#a44cba0420f0473f1ce675a7fe01e79aeadcca505688efe861e86a985d11af7eee',1,'SPI_datatypes.h']]],
+  ['ssi_5fhalf_5ffifo_9',['SSI_HALF_FIFO',['../SPI__datatypes_8h.html#a44cba0420f0473f1ce675a7fe01e79aea314ae03c5e98d85e8e8589a25ccbbbd0',1,'SPI_datatypes.h']]],
+  ['ssi_5fmaster_10',['SSI_Master',['../SPI__datatypes_8h.html#a89a9f19c8d177befc2595fee44ea8e6dab92e8d61b99e34408652e6217fe2e767',1,'SPI_datatypes.h']]],
+  ['ssi_5fpiosc_11',['SSI_PIOSC',['../SPI__datatypes_8h.html#a8cc2caf6e72fec87eacedd6807834e2da3898f51fcc403a83f9300fbafac6b48c',1,'SPI_datatypes.h']]],
+  ['ssi_5fprotocol_5fmicrowire_12',['SSI_Protocol_MicroWire',['../SPI__datatypes_8h.html#a344af613869a0ceef8588836d8bc6b28a7269a9f3ae3c738df90fb2e6a8b2a668',1,'SPI_datatypes.h']]],
+  ['ssi_5fprotocol_5fnot_5favailable_13',['SSI_Protocol_not_available',['../SPI__datatypes_8h.html#a344af613869a0ceef8588836d8bc6b28aa392260cee1d2662c589f3e026c49c6b',1,'SPI_datatypes.h']]],
+  ['ssi_5fprotocol_5fspi_14',['SSI_Protocol_SPI',['../SPI__datatypes_8h.html#a344af613869a0ceef8588836d8bc6b28ae15f262c9932696818f5b063a7d10d6b',1,'SPI_datatypes.h']]],
+  ['ssi_5fprotocol_5ftiss_15',['SSI_Protocol_TISS',['../SPI__datatypes_8h.html#a344af613869a0ceef8588836d8bc6b28a5b600c860036e7dc0f89e96dc4f57489',1,'SPI_datatypes.h']]],
+  ['ssi_5fslave_5foutput_5fdis_16',['SSI_SLAVE_OUTPUT_DIS',['../SPI__datatypes_8h.html#a89a9f19c8d177befc2595fee44ea8e6da0a5c6eec87ca4a0e7acc6864a475a45b',1,'SPI_datatypes.h']]],
+  ['ssi_5fslave_5foutput_5fen_17',['SSI_SLAVE_OUTPUT_EN',['../SPI__datatypes_8h.html#a89a9f19c8d177befc2595fee44ea8e6dabd23cdafddfc2fd2a574971e5851cda3',1,'SPI_datatypes.h']]],
+  ['ssi_5fsysclk_18',['SSI_SysClk',['../SPI__datatypes_8h.html#a8cc2caf6e72fec87eacedd6807834e2da48e66fc9e03d0739e67f607a757c4616',1,'SPI_datatypes.h']]]
+];

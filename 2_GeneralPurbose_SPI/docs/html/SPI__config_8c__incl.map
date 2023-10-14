@@ -1,0 +1,9 @@
+<map id="/home/abdu/Study/Reusable&#45;Firmware&#45;Development/2_GeneralPurbose_SPI/SPI_HAL/SPI_config.c" name="/home/abdu/Study/Reusable&#45;Firmware&#45;Development/2_GeneralPurbose_SPI/SPI_HAL/SPI_config.c">
+<area shape="rect" id="Node000001" title="This file contains all configurations of your SPI." alt="" coords="5,5,209,75"/>
+<area shape="rect" id="Node000002" href="$SPI__config_8h.html" title="include this file to access your SPI configurations" alt="" coords="57,123,157,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,75,110,109,105,109,105,75"/>
+<area shape="rect" id="Node000003" href="$SPI__datatypes_8h.html" title="This file contains all the dataTypes that is used in that module." alt="" coords="44,196,171,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,148,110,182,105,182,105,148"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="58,269,157,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,222,110,256,105,256,105,222"/>
+</map>

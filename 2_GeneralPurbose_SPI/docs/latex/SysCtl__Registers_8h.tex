@@ -1,0 +1,68 @@
+\doxysection{/home/abdu/\+Study/\+Reusable-\/\+Firmware-\/\+Development/2\+\_\+\+General\+Purbose\+\_\+\+SPI/\+Sys\+Ctl/\+Sys\+Ctl\+\_\+\+Registers.h File Reference}
+\hypertarget{SysCtl__Registers_8h}{}\label{SysCtl__Registers_8h}\index{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SysCtl/SysCtl\_Registers.h@{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SysCtl/SysCtl\_Registers.h}}
+
+
+This file contains all the registers the System Control module contains.  
+
+
+{\ttfamily \#include "{}Std\+\_\+\+Types.\+h"{}}\newline
+Include dependency graph for Sys\+Ctl\+\_\+\+Registers.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{SysCtl__Registers_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{SysCtl__Registers_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structSysCtl__Module__regs}{Sys\+Ctl\+\_\+\+Module\+\_\+regs}}
+\begin{DoxyCompactList}\small\item\em a typedef for all the register in System Control module \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{SysCtl__Registers_8h_af24d3f0bab75d03a1378e2636fabb253}{Sys\+Ctl\+\_\+\+RCGC\+\_\+\+Base}}~0x400\+FE600
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains all the registers the System Control module contains. 
+
+you will need to include that file to access your Sys\+Ctl registers. The registers here represented as a struct of registers. which is the most reusable way to represent your registers in your code. This file contains all the registers that TIVA-\/C System Control module have. porting this module to another SoC will need to check the arrengement of the registers to fit your Soc.
+
+\begin{DoxyAuthor}{Author}
+Abdulrahman Yasser 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+12/10/2023 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0.\+0 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+GNU Public License 
+\end{DoxyCopyright}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000003}{Bug}}]it doesn\textquotesingle{}t include all the registers, it only have the ones that we used in that module. Still need repair if it\textquotesingle{}s usage extended \end{DoxyRefDesc}
+\hypertarget{SysCtl__Registers_8h_Step1}{}\doxysubsubsection{\texorpdfstring{Cmake}{Cmake}}\label{SysCtl__Registers_8h_Step1}
+\hypertarget{SysCtl__Registers_8h_Step2}{}\doxysubsubsection{\texorpdfstring{make}{make}}\label{SysCtl__Registers_8h_Step2}
+\begin{DoxyNote}{Note}
+THIS SOFTWARE IS PROVIDED BY Abdulrahman Yasser \+: COMPANY "{}\+AS IS"{} AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BENINGO ENGINEERING OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. Compiler GCC Target TM4\+C123\+GH6\+PM 
+\end{DoxyNote}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{SysCtl__Registers_8h_af24d3f0bab75d03a1378e2636fabb253}\label{SysCtl__Registers_8h_af24d3f0bab75d03a1378e2636fabb253} 
+\index{SysCtl\_Registers.h@{SysCtl\_Registers.h}!SysCtl\_RCGC\_Base@{SysCtl\_RCGC\_Base}}
+\index{SysCtl\_RCGC\_Base@{SysCtl\_RCGC\_Base}!SysCtl\_Registers.h@{SysCtl\_Registers.h}}
+\doxysubsubsection{\texorpdfstring{SysCtl\_RCGC\_Base}{SysCtl\_RCGC\_Base}}
+{\footnotesize\ttfamily \#define Sys\+Ctl\+\_\+\+RCGC\+\_\+\+Base~0x400\+FE600}
+
+Base address for Run Mode Clock Gating Control registers in System Control module. 

@@ -1,0 +1,186 @@
+\doxysection{SPI\+\_\+\+Functions}
+\hypertarget{group__SPI__Functions}{}\label{group__SPI__Functions}\index{SPI\_Functions@{SPI\_Functions}}
+
+
+the function returns your SPI module configurations  
+
+
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__SPI__Functions_gaff29dcfc1e30fc1bfae1d748a8268b68}{Spi\+\_\+\+Init}} (\mbox{\hyperlink{structSpiConfig__t}{Spi\+Config\+\_\+t}} const \texorpdfstring{$\ast$}{*}const \mbox{\hyperlink{SPI__config_8c_ab39aee926c9445d7767326dd3f7e20d3}{SPIConfigs}})
+\item 
+void \mbox{\hyperlink{group__SPI__Functions_gad27c5ca2d2f9101a66e14beda3a50c70}{Spi\+\_\+\+Transfer}} (\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}} channel\+Number, uint16 \texorpdfstring{$\ast$}{*}const data, uint8 length)
+\item 
+void \mbox{\hyperlink{group__SPI__Functions_ga451e1b2d3855527b301219bab05273c6}{Spi\+\_\+\+Callback\+Register}} (\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}} const ssi\+\_\+channel, \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9}{SSI\+\_\+\+Interrupt\+\_\+\+Type}} const Trigger, void(\texorpdfstring{$\ast$}{*}Callback\+Function)(void))
+\item 
+\mbox{\hyperlink{structSpiConfig__t}{Spi\+Config\+\_\+t}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__SPI__Functions_gac72c3e39a417da3102fc2029d3fab47e}{SPI\+\_\+get\+Config}} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+the function returns your SPI module configurations 
+
+{\bfseries{Description\+:}} 
+
+This function is used to initialize the SPI based on the configuration table defined in SPI\+\_\+cfg.\+c module.
+
+PRE-\/\+CONDITION\+: Port\+\_\+\+Init() should be called before any action to initialize the pins on the SoC PRE-\/\+CONDITION\+: PLL\+\_\+\+Init() should be called before any action to initialize the MCU clock PRE-\/\+CONDITION\+: Configuration table needs to populated (sizeof \texorpdfstring{$>$}{>} 0) ~\newline
+ PRE-\/\+CONDITION\+: NUMBER\+\_\+\+OF\+\_\+\+DEFINED\+\_\+\+SPI \texorpdfstring{$>$}{>} 0 ~\newline
+ PRE-\/\+CONDITION\+: NUMBER\+\_\+\+OF\+\_\+\+BOARD\+\_\+\+SPI\+\_\+\+CHANNELS \texorpdfstring{$>$}{>} 0 ~\newline
+ PRE-\/\+CONDITION\+: The MCU clocks must be configured and enabled. POST-\/\+CONDITION\+: The SPI peripheral is set up with the configuration settings.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em SPIConfigs} & is a pointer to the configuration table that contains the initialization for the peripheral.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+{\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{const}\ SPIConfig\_t\ *SPIConfig\_t\ =\ SPI\_ConfigGet();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\mbox{\hyperlink{group__SPI__Functions_gaff29dcfc1e30fc1bfae1d748a8268b68}{Spi\_Init}}(\mbox{\hyperlink{structSpiConfig__t}{SpiConfig\_t}});}
+
+\end{DoxyCode}
+ 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{group__SPI__Functions_gaff29dcfc1e30fc1bfae1d748a8268b68}{Spi\_Init}}(\ SPI\_ConfigGet()\ );}
+
+\end{DoxyCode}
+
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{group__SPI__Functions_gac72c3e39a417da3102fc2029d3fab47e}{SPI\+\_\+get\+Config} \doxylink{}{SPI\+\_\+\+Config.\+h  the function returns your SPI module configurations} The function must be used to initialize SPI~\newline
+ The function should be called when you need to use your configuration~\newline
+ {\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{const}\ SPIConfig\_t\ *SPIConfig\_t\ =\ SPI\_ConfigGet();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\mbox{\hyperlink{group__SPI__Functions_gaff29dcfc1e30fc1bfae1d748a8268b68}{Spi\_Init}}(\mbox{\hyperlink{structSpiConfig__t}{SpiConfig\_t}});}
+
+\end{DoxyCode}
+
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+Spi\+Config\+\_\+t\texorpdfstring{$\ast$}{*}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\doxylink{group__SPI__Functions_gac72c3e39a417da3102fc2029d3fab47e}{SPI\+\_\+get\+Config} \doxylink{}{SPI\+\_\+\+Config.\+h }
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__SPI__Functions_ga451e1b2d3855527b301219bab05273c6}\label{group__SPI__Functions_ga451e1b2d3855527b301219bab05273c6} 
+\index{SPI\_Functions@{SPI\_Functions}!Spi\_CallbackRegister@{Spi\_CallbackRegister}}
+\index{Spi\_CallbackRegister@{Spi\_CallbackRegister}!SPI\_Functions@{SPI\_Functions}}
+\doxysubsubsection{\texorpdfstring{Spi\_CallbackRegister()}{Spi\_CallbackRegister()}}
+{\footnotesize\ttfamily void Spi\+\_\+\+Callback\+Register (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}} const}]{ssi\+\_\+channel,  }\item[{\mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9}{SSI\+\_\+\+Interrupt\+\_\+\+Type}} const}]{Trigger,  }\item[{void(\texorpdfstring{$\ast$}{*})(void)}]{Callback\+Function }\end{DoxyParamCaption})}
+
+{\bfseries{Description\+:}} 
+
+This function is used to register the call\+Back function for any response to a higher layer module
+
+PRE-\/\+CONDITION\+: \doxylink{group__SPI__Functions_gaff29dcfc1e30fc1bfae1d748a8268b68}{Spi\+\_\+\+Init()} should be called before using the Spi module to initialize it POST-\/\+CONDITION\+: Callback function should be set to it\textquotesingle{}s trigger type.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em ssi\+\_\+channel} & the channel that will call the function when the trigger happens \\
+\hline
+\mbox{\texttt{ in}}  & {\em Trigger} & the event which the callback\+Function will be called when it happens \\
+\hline
+\mbox{\texttt{ in}}  & {\em Callback\+Function} & a pointer to a void function that passed through a higher layer architecture to be responsed to when the trigger happens\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+{\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ HigherLayerFunction(\textcolor{keywordtype}{void})\{}
+\DoxyCodeLine{\ \ \ }
+\DoxyCodeLine{\}}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__main__functions_gae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()\{}
+\DoxyCodeLine{\ \ \textcolor{keyword}{const}\ SPIConfig\_t\ *SPIConfig\_t\ =\ SPI\_ConfigGet();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ Spi\_init()}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ void\ \mbox{\hyperlink{group__SPI__Functions_ga451e1b2d3855527b301219bab05273c6}{Spi\_CallbackRegister}}(\ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a739944d2ea7b1e755707808c078d3d29}{SSI\_Channel\_2}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ SSI\_transmit\_callback,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ HigherLayerFunction\ );}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{group__SPI__Functions_gac72c3e39a417da3102fc2029d3fab47e}\label{group__SPI__Functions_gac72c3e39a417da3102fc2029d3fab47e} 
+\index{SPI\_Functions@{SPI\_Functions}!SPI\_getConfig@{SPI\_getConfig}}
+\index{SPI\_getConfig@{SPI\_getConfig}!SPI\_Functions@{SPI\_Functions}}
+\doxysubsubsection{\texorpdfstring{SPI\_getConfig()}{SPI\_getConfig()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structSpiConfig__t}{Spi\+Config\+\_\+t}} \texorpdfstring{$\ast$}{*} SPI\+\_\+get\+Config (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__SPI__Functions_gac72c3e39a417da3102fc2029d3fab47e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__SPI__Functions_gaff29dcfc1e30fc1bfae1d748a8268b68}\label{group__SPI__Functions_gaff29dcfc1e30fc1bfae1d748a8268b68} 
+\index{SPI\_Functions@{SPI\_Functions}!Spi\_Init@{Spi\_Init}}
+\index{Spi\_Init@{Spi\_Init}!SPI\_Functions@{SPI\_Functions}}
+\doxysubsubsection{\texorpdfstring{Spi\_Init()}{Spi\_Init()}}
+{\footnotesize\ttfamily void Spi\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSpiConfig__t}{Spi\+Config\+\_\+t}} const \texorpdfstring{$\ast$}{*}const}]{SPIConfigs }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__SPI__Functions_gaff29dcfc1e30fc1bfae1d748a8268b68_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__SPI__Functions_gad27c5ca2d2f9101a66e14beda3a50c70}\label{group__SPI__Functions_gad27c5ca2d2f9101a66e14beda3a50c70} 
+\index{SPI\_Functions@{SPI\_Functions}!Spi\_Transfer@{Spi\_Transfer}}
+\index{Spi\_Transfer@{Spi\_Transfer}!SPI\_Functions@{SPI\_Functions}}
+\doxysubsubsection{\texorpdfstring{Spi\_Transfer()}{Spi\_Transfer()}}
+{\footnotesize\ttfamily void Spi\+\_\+\+Transfer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}}}]{channel\+Number,  }\item[{uint16 \texorpdfstring{$\ast$}{*}const}]{data,  }\item[{uint8}]{length }\end{DoxyParamCaption})}
+
+{\bfseries{Description\+:}} 
+
+This function transfer the data via SPI module
+
+PRE-\/\+CONDITION\+: \doxylink{group__SPI__Functions_gaff29dcfc1e30fc1bfae1d748a8268b68}{Spi\+\_\+\+Init()} should be called before using the Spi module to initialize it POST-\/\+CONDITION\+: The data is transfered from SPI to the Slave
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em channel\+Number} & SPI channel number \\
+\hline
+\mbox{\texttt{ in}}  & {\em data} & an array of uint16 type that contains data \\
+\hline
+\mbox{\texttt{ in}}  & {\em length} & the length of the array need to be send\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+{\bfseries{Example\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{const}\ SPIConfig\_t\ *SPIConfig\_t\ =\ SPI\_ConfigGet();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\mbox{\hyperlink{group__SPI__Functions_gaff29dcfc1e30fc1bfae1d748a8268b68}{Spi\_Init}}(\mbox{\hyperlink{structSpiConfig__t}{SpiConfig\_t}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keywordtype}{char}*\ msg\_1\ =\ \textcolor{stringliteral}{'i\ \ \ w\ i\ l\ l\ \ \ k\ i\ l\ l\ \ \ y\ o\ u\ '};}
+\DoxyCodeLine{}
+\DoxyCodeLine{\mbox{\hyperlink{group__SPI__Functions_gad27c5ca2d2f9101a66e14beda3a50c70}{Spi\_Transfer}}(\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a739944d2ea7b1e755707808c078d3d29}{SSI\_Channel\_2}},\ (uint16*)msg\_1,\ 15);}
+
+\end{DoxyCode}
+ Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__SPI__Functions_gad27c5ca2d2f9101a66e14beda3a50c70_icgraph}
+\end{center}
+\end{figure}

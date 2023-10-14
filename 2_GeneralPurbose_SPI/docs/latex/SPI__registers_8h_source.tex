@@ -1,0 +1,49 @@
+\doxysection{SPI\+\_\+registers.\+h}
+\hypertarget{SPI__registers_8h_source}{}\label{SPI__registers_8h_source}\index{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI\_registers.h@{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI\_registers.h}}
+\mbox{\hyperlink{SPI__registers_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00035\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{SPI__datatypes_8h}{SPI\_datatypes.h}}"{}}}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{preprocessor}{\#define\ SSI0\_BASE\_ADDERSS\ \ \ \ \ \ \ 0x40008000\ \ \ \ \ \ }}
+\DoxyCodeLine{00039\ \textcolor{preprocessor}{\#define\ SSI1\_BASE\_ADDERSS\ \ \ \ \ \ \ 0x40009000\ \ \ \ \ \ }}
+\DoxyCodeLine{00040\ \textcolor{preprocessor}{\#define\ SSI2\_BASE\_ADDERSS\ \ \ \ \ \ \ 0x4000A000\ \ \ \ \ \ }}
+\DoxyCodeLine{00041\ \textcolor{preprocessor}{\#define\ SSI3\_BASE\_ADDERSS\ \ \ \ \ \ \ 0x4000B000\ \ \ \ \ \ }}
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#define\ SSI\_IM\_TX\ \ \ (1\ <<\ Tx\_IM)\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#define\ SSI\_IM\_RX\ \ \ (1\ <<\ Rx\_IM)\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#define\ SSI\_IM\_RT\ \ \ (1\ <<\ Rx\_TimeOut)\ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#define\ SSI\_IM\_POR\ \ (1\ <<\ Rx\_OverRun)\ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00048\ \textcolor{preprocessor}{\#define\ SSI\_BSY\_FLAGG\ 4\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00049\ \textcolor{preprocessor}{\#define\ SSI\_RFF\_FLAGG\ 3\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00050\ \textcolor{preprocessor}{\#define\ SSI\_RNE\_FLAGG\ 2\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#define\ SSI\_TNF\_FLAGG\ 1\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#define\ SSI\_TFE\_FLAGG\ 0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00053\ \textcolor{preprocessor}{\#define\ SSI\_CR1\_SSE\_bitOFFSET\ 1\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00055\ \textcolor{comment}{/*\ CR0\ register\ */}}
+\DoxyCodeLine{00056\ \textcolor{preprocessor}{\#define\ SSI\_SerialClockPolarity\_Offset\ 6\ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#define\ SSI\_ProtocolMode\_Offset\ 4\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00058\ \textcolor{preprocessor}{\#define\ SSI\_DataSize\_Offset\ 0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00071\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00072\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_abce55a686420e1611009d47600889220}{SSICR0}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00073\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_ab32c05928c909b11bb730f07f1705a30}{SSICR1}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00074\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_a529e70a74bf70fef963eefb1fe541692}{SSIDR}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00075\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_aa54ce06a33a3c20675ac0175f3c3db68}{SSISR}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00076\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_aedac340a9e8207b674ceef16ebd86b15}{SSICPSR}};\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00077\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_a582b8be267e433f163d7a39ae3aec5eb}{SSIIM}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00078\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_a0b22c2d721633bfcae2204fc89eb0bcf}{SSIRIS}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00079\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_af33a00771b39b49424a43a5baf3921f3}{SSIMIS}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00080\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_aa2b9cc0f76e50acd2f4c2697f72ae97c}{SSIICR}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00081\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_a9ddd42dfcd8f02b96abc890d018fb1fc}{SSIDMACTL}};\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00082\ \ \ \ \ uint32\ \mbox{\hyperlink{structSPI__Module__regs_a60b6fa4df52640a112683d8c38fc7016}{SSICC}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00083\ \}\mbox{\hyperlink{structSPI__Module__regs}{SPI\_Module\_regs}};}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00097\ \textcolor{keyword}{volatile}\ uint32*\ \mbox{\hyperlink{SPI__registers_8h_aca88edc64f746f64616f6a6a2b1cc89e}{SPI\_bases\_ptr}}\ =\ \{}
+\DoxyCodeLine{00098\ \ \ \ \ (uint32*)0x40008000,\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00099\ \ \ \ \ (uint32*)0x40009000,\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00100\ \ \ \ \ (uint32*)0x4000A000,\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00101\ \ \ \ \ (uint32*)0x4000B000\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00102\ \};}
+
+\end{DoxyCode}

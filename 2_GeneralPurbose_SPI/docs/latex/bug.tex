@@ -1,0 +1,19 @@
+\chapter{Bug List}
+\hypertarget{bug}{}\label{bug}\index{Bug List@{Bug List}}
+
+\begin{DoxyRefList}
+\item[File \doxylink{SPI_8c}{SPI.c} ]\label{bug__bug000001}%
+\Hypertarget{bug__bug000001}%
+it just send uint16 in Transfer function  
+\item[File \doxylink{SPI_8h}{SPI.h} ]\label{bug__bug000002}%
+\Hypertarget{bug__bug000002}%
+it just send uint16 in Transfer function  
+\item[Struct \doxylink{structSysCtl__Module__regs}{Sys\+Ctl\+\_\+\+Module\+\_\+regs} ]\label{bug__bug000004}%
+\Hypertarget{bug__bug000004}%
+it\textquotesingle{}s only usable till RCGCI2C, after that it needs a space because there is a reserved 4 bytes i guess, go back to the register table in the datasheet 
+
+
+\item[File \doxylink{SysCtl__Registers_8h}{Sys\+Ctl\+\_\+\+Registers.h} ]\label{bug__bug000003}%
+\Hypertarget{bug__bug000003}%
+it doesn\textquotesingle{}t include all the registers, it only have the ones that we used in that module. Still need repair if it\textquotesingle{}s usage extended 
+\end{DoxyRefList}

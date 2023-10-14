@@ -1,0 +1,84 @@
+\doxysection{/home/abdu/\+Study/\+Reusable-\/\+Firmware-\/\+Development/2\+\_\+\+General\+Purbose\+\_\+\+SPI/\+SPI\+\_\+\+HAL/\+SPI\+\_\+config.c File Reference}
+\hypertarget{SPI__config_8c}{}\label{SPI__config_8c}\index{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI\_config.c@{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI\_config.c}}
+
+
+This file contains all configurations of your SPI.  
+
+
+{\ttfamily \#include "{}SPI\+\_\+config.\+h"{}}\newline
+Include dependency graph for SPI\+\_\+config.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{SPI__config_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structSpiConfig__t}{Spi\+Config\+\_\+t}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__SPI__functions_gac72c3e39a417da3102fc2029d3fab47e}{SPI\+\_\+get\+Config}} (void)
+\begin{DoxyCompactList}\small\item\em the function returns your SPI module configurations \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{structSpiConfig__t}{Spi\+Config\+\_\+t}} \mbox{\hyperlink{SPI__config_8c_ab39aee926c9445d7767326dd3f7e20d3}{SPIConfigs}} \mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em here you can put your custom configurations for SPI module \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains all configurations of your SPI. 
+
+if you are using this module you will need to change this file to your own usage and configuration.
+
+\begin{DoxyAuthor}{Author}
+Abdulrahman Yasser 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+12/10/2023 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0.\+0 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+GNU Public License 
+\end{DoxyCopyright}
+\hypertarget{SysCtl__Registers_8h_Step1}{}\doxysubsubsection{\texorpdfstring{Cmake}{Cmake}}\label{SysCtl__Registers_8h_Step1}
+\hypertarget{SysCtl__Registers_8h_Step2}{}\doxysubsubsection{\texorpdfstring{make}{make}}\label{SysCtl__Registers_8h_Step2}
+\begin{DoxyNote}{Note}
+THIS SOFTWARE IS PROVIDED BY Abdulrahman Yasser \+: COMPANY "{}\+AS IS"{} AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BENINGO ENGINEERING OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. Compiler GCC Target TM4\+C123\+GH6\+PM 
+\end{DoxyNote}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{SPI__config_8c_ab39aee926c9445d7767326dd3f7e20d3}\label{SPI__config_8c_ab39aee926c9445d7767326dd3f7e20d3} 
+\index{SPI\_config.c@{SPI\_config.c}!SPIConfigs@{SPIConfigs}}
+\index{SPIConfigs@{SPIConfigs}!SPI\_config.c@{SPI\_config.c}}
+\doxysubsubsection{\texorpdfstring{SPIConfigs}{SPIConfigs}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structSpiConfig__t}{Spi\+Config\+\_\+t}} SPIConfigs\mbox{[}$\,$\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \{.BaudRate\ =\ 1000,\ .ClkSrc\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da48e66fc9e03d0739e67f607a757c4616}{SSI\_SysClk}},\ .ClockPolarity\ =\ E\_FALSE,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ .DMA\_State\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a5600a053f5c98b25930e7a72c202b105}{SSI\_DMA\_NotAvailable}},\ .DataSize\ =\ 8,\ .Interrupt\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aea314ae03c5e98d85e8e8589a25ccbbbd0}{SSI\_HALF\_FIFO}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ .SlaveOrMaster\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dab92e8d61b99e34408652e6217fe2e767}{SSI\_Master}},\ .channelNumber\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91}{SSI\_Channel\_NotUsed}},\ .protocolMode\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28ae15f262c9932696818f5b063a7d10d6b}{SSI\_Protocol\_SPI}}\},}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \{.BaudRate\ =\ 1000,\ .ClkSrc\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da48e66fc9e03d0739e67f607a757c4616}{SSI\_SysClk}},\ .ClockPolarity\ =\ E\_FALSE,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ .DMA\_State\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a5600a053f5c98b25930e7a72c202b105}{SSI\_DMA\_NotAvailable}},\ .DataSize\ =\ 8,\ .Interrupt\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aea314ae03c5e98d85e8e8589a25ccbbbd0}{SSI\_HALF\_FIFO}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ .SlaveOrMaster\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dab92e8d61b99e34408652e6217fe2e767}{SSI\_Master}},\ .channelNumber\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91}{SSI\_Channel\_NotUsed}},\ .protocolMode\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28ae15f262c9932696818f5b063a7d10d6b}{SSI\_Protocol\_SPI}}\},}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \{.BaudRate\ =\ 1000,\ .ClkSrc\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da48e66fc9e03d0739e67f607a757c4616}{SSI\_SysClk}},\ .ClockPolarity\ =\ E\_FALSE,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ .DMA\_State\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a5600a053f5c98b25930e7a72c202b105}{SSI\_DMA\_NotAvailable}},\ .DataSize\ =\ 8,\ .Interrupt\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aea314ae03c5e98d85e8e8589a25ccbbbd0}{SSI\_HALF\_FIFO}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ .SlaveOrMaster\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dab92e8d61b99e34408652e6217fe2e767}{SSI\_Master}},\ .channelNumber\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57a739944d2ea7b1e755707808c078d3d29}{SSI\_Channel\_2}},\ .protocolMode\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28ae15f262c9932696818f5b063a7d10d6b}{SSI\_Protocol\_SPI}}\},}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \{.BaudRate\ =\ 1000,\ .ClkSrc\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a8cc2caf6e72fec87eacedd6807834e2da48e66fc9e03d0739e67f607a757c4616}{SSI\_SysClk}},\ .ClockPolarity\ =\ E\_FALSE,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ .DMA\_State\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a7c21f9573d674d4ebaf8a4d1e537c2a2a5600a053f5c98b25930e7a72c202b105}{SSI\_DMA\_NotAvailable}},\ .DataSize\ =\ 8,\ .Interrupt\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a44cba0420f0473f1ce675a7fe01e79aea314ae03c5e98d85e8e8589a25ccbbbd0}{SSI\_HALF\_FIFO}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ .SlaveOrMaster\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a89a9f19c8d177befc2595fee44ea8e6dab92e8d61b99e34408652e6217fe2e767}{SSI\_Master}},\ .channelNumber\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57acaed200c95332b9ca954ce7bd4f39f91}{SSI\_Channel\_NotUsed}},\ .protocolMode\ =\ \mbox{\hyperlink{SPI__datatypes_8h_a344af613869a0ceef8588836d8bc6b28ae15f262c9932696818f5b063a7d10d6b}{SSI\_Protocol\_SPI}}\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+here you can put your custom configurations for SPI module 
+
+/var const \doxylink{structSpiConfig__t}{Spi\+Config\+\_\+t} SPIConfigs\mbox{[}\mbox{]}

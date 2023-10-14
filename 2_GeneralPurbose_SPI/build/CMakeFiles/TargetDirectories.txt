@@ -1,0 +1,7 @@
+/home/abdu/Study/Reusable-Firmware-Development/2_GeneralPurbose_SPI/build/CMakeFiles/application.axf.dir
+/home/abdu/Study/Reusable-Firmware-Development/2_GeneralPurbose_SPI/build/CMakeFiles/application.bin.dir
+/home/abdu/Study/Reusable-Firmware-Development/2_GeneralPurbose_SPI/build/CMakeFiles/flash.dir
+/home/abdu/Study/Reusable-Firmware-Development/2_GeneralPurbose_SPI/build/CMakeFiles/flash_2.dir
+/home/abdu/Study/Reusable-Firmware-Development/2_GeneralPurbose_SPI/build/CMakeFiles/doc_doxygen.dir
+/home/abdu/Study/Reusable-Firmware-Development/2_GeneralPurbose_SPI/build/CMakeFiles/edit_cache.dir
+/home/abdu/Study/Reusable-Firmware-Development/2_GeneralPurbose_SPI/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,88 @@
+\doxysection{/home/abdu/\+Study/\+Reusable-\/\+Firmware-\/\+Development/2\+\_\+\+General\+Purbose\+\_\+\+SPI/\+SPI\+\_\+\+HAL/\+SPI.c File Reference}
+\hypertarget{SPI_8c}{}\label{SPI_8c}\index{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI.c@{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI.c}}
+
+
+This file contains all imlpementation of APIs of SPI module.  
+
+
+{\ttfamily \#include "{}SPI.\+h"{}}\newline
+{\ttfamily \#include "{}SPI\+\_\+registers.\+h"{}}\newline
+{\ttfamily \#include "{}CPU\+\_\+resources.\+h"{}}\newline
+{\ttfamily \#include "{}../\+Sys\+Ctl/\+Sys\+Ctl\+\_\+\+Registers.\+h"{}}\newline
+Include dependency graph for SPI.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{SPI_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{SPI_8c_a1b8cfaab7d01d88253d7782ab71a4bd5}{SSI0\+\_\+\+Interrupt\+\_\+\+Function}} (void)
+\item 
+void \mbox{\hyperlink{SPI_8c_a892c769a29c7d14839d4784e061cea35}{SSI1\+\_\+\+Interrupt\+\_\+\+Function}} (void)
+\item 
+void \mbox{\hyperlink{SPI_8c_ada4a59dfaeccb060b66d725a0aee4fd4}{SSI2\+\_\+\+Interrupt\+\_\+\+Function}} (void)
+\item 
+void \mbox{\hyperlink{SPI_8c_a45ce9d963d30c6a374a9beb774199b16}{SSI3\+\_\+\+Interrupt\+\_\+\+Function}} (void)
+\item 
+void \mbox{\hyperlink{group__SPI__functions_gaff29dcfc1e30fc1bfae1d748a8268b68}{Spi\+\_\+\+Init}} (\mbox{\hyperlink{structSpiConfig__t}{Spi\+Config\+\_\+t}} const \texorpdfstring{$\ast$}{*}const \mbox{\hyperlink{SPI__config_8c_ab39aee926c9445d7767326dd3f7e20d3}{SPIConfigs}})
+\item 
+void \mbox{\hyperlink{group__SPI__functions_gad27c5ca2d2f9101a66e14beda3a50c70}{Spi\+\_\+\+Transfer}} (\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}} channel\+Number, uint16 \texorpdfstring{$\ast$}{*}const data, uint8 length)
+\item 
+void \mbox{\hyperlink{group__SPI__functions_ga451e1b2d3855527b301219bab05273c6}{Spi\+\_\+\+Callback\+Register}} (\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}} const ssi\+\_\+channel, \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9}{SSI\+\_\+\+Interrupt\+\_\+\+Type}} const Trigger, void(\texorpdfstring{$\ast$}{*}Callback\+Function)(void))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains all imlpementation of APIs of SPI module. 
+
+This is a reusable, portable, readable and well documented implementation for driver for SPI module on Tiva-\/C (TM4\+C123\+GH6\+PM)
+
+\begin{DoxyAuthor}{Author}
+Abdulrahman Yasser 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+12/10/2023 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0.\+0 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+GNU Public License 
+\end{DoxyCopyright}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]it just send uint16 in Transfer function \end{DoxyRefDesc}
+\hypertarget{SysCtl__Registers_8h_Step1}{}\doxysubsubsection{\texorpdfstring{Cmake}{Cmake}}\label{SysCtl__Registers_8h_Step1}
+\hypertarget{SysCtl__Registers_8h_Step2}{}\doxysubsubsection{\texorpdfstring{make}{make}}\label{SysCtl__Registers_8h_Step2}
+\begin{DoxyNote}{Note}
+THIS SOFTWARE IS PROVIDED BY Abdulrahman Yasser \+: COMPANY "{}\+AS IS"{} AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BENINGO ENGINEERING OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. Compiler GCC Target TM4\+C123\+GH6\+PM 
+\end{DoxyNote}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{SPI_8c_a1b8cfaab7d01d88253d7782ab71a4bd5}\label{SPI_8c_a1b8cfaab7d01d88253d7782ab71a4bd5} 
+\index{SPI.c@{SPI.c}!SSI0\_Interrupt\_Function@{SSI0\_Interrupt\_Function}}
+\index{SSI0\_Interrupt\_Function@{SSI0\_Interrupt\_Function}!SPI.c@{SPI.c}}
+\doxysubsubsection{\texorpdfstring{SSI0\_Interrupt\_Function()}{SSI0\_Interrupt\_Function()}}
+{\footnotesize\ttfamily void SSI0\+\_\+\+Interrupt\+\_\+\+Function (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\Hypertarget{SPI_8c_a892c769a29c7d14839d4784e061cea35}\label{SPI_8c_a892c769a29c7d14839d4784e061cea35} 
+\index{SPI.c@{SPI.c}!SSI1\_Interrupt\_Function@{SSI1\_Interrupt\_Function}}
+\index{SSI1\_Interrupt\_Function@{SSI1\_Interrupt\_Function}!SPI.c@{SPI.c}}
+\doxysubsubsection{\texorpdfstring{SSI1\_Interrupt\_Function()}{SSI1\_Interrupt\_Function()}}
+{\footnotesize\ttfamily void SSI1\+\_\+\+Interrupt\+\_\+\+Function (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\Hypertarget{SPI_8c_ada4a59dfaeccb060b66d725a0aee4fd4}\label{SPI_8c_ada4a59dfaeccb060b66d725a0aee4fd4} 
+\index{SPI.c@{SPI.c}!SSI2\_Interrupt\_Function@{SSI2\_Interrupt\_Function}}
+\index{SSI2\_Interrupt\_Function@{SSI2\_Interrupt\_Function}!SPI.c@{SPI.c}}
+\doxysubsubsection{\texorpdfstring{SSI2\_Interrupt\_Function()}{SSI2\_Interrupt\_Function()}}
+{\footnotesize\ttfamily void SSI2\+\_\+\+Interrupt\+\_\+\+Function (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\Hypertarget{SPI_8c_a45ce9d963d30c6a374a9beb774199b16}\label{SPI_8c_a45ce9d963d30c6a374a9beb774199b16} 
+\index{SPI.c@{SPI.c}!SSI3\_Interrupt\_Function@{SSI3\_Interrupt\_Function}}
+\index{SSI3\_Interrupt\_Function@{SSI3\_Interrupt\_Function}!SPI.c@{SPI.c}}
+\doxysubsubsection{\texorpdfstring{SSI3\_Interrupt\_Function()}{SSI3\_Interrupt\_Function()}}
+{\footnotesize\ttfamily void SSI3\+\_\+\+Interrupt\+\_\+\+Function (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+

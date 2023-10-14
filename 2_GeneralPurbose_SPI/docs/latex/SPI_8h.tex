@@ -1,0 +1,74 @@
+\doxysection{/home/abdu/\+Study/\+Reusable-\/\+Firmware-\/\+Development/2\+\_\+\+General\+Purbose\+\_\+\+SPI/\+SPI\+\_\+\+HAL/\+SPI.h File Reference}
+\hypertarget{SPI_8h}{}\label{SPI_8h}\index{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI.h@{/home/abdu/Study/Reusable-\/Firmware-\/Development/2\_GeneralPurbose\_SPI/SPI\_HAL/SPI.h}}
+
+
+This file contains all APIs of SPI module.  
+
+
+{\ttfamily \#include "{}SPI\+\_\+config.\+h"{}}\newline
+Include dependency graph for SPI.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{SPI_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{SPI_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{SPI_8h_a42ec3dd9ed102a7b033963cf786e5e9c}{NUMBER\+\_\+\+OF\+\_\+\+SPI\+\_\+\+CHANNELS}}~4U
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__SPI__functions_gaff29dcfc1e30fc1bfae1d748a8268b68}{Spi\+\_\+\+Init}} (\mbox{\hyperlink{structSpiConfig__t}{Spi\+Config\+\_\+t}} const \texorpdfstring{$\ast$}{*}const \mbox{\hyperlink{SPI__config_8c_ab39aee926c9445d7767326dd3f7e20d3}{SPIConfigs}})
+\item 
+void \mbox{\hyperlink{group__SPI__functions_gad27c5ca2d2f9101a66e14beda3a50c70}{Spi\+\_\+\+Transfer}} (\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}} channel\+Number, uint16 \texorpdfstring{$\ast$}{*}const data, uint8 length)
+\item 
+void \mbox{\hyperlink{group__SPI__functions_ga451e1b2d3855527b301219bab05273c6}{Spi\+\_\+\+Callback\+Register}} (\mbox{\hyperlink{SPI__datatypes_8h_a871ccbbd588327f8b08dbb667371ce57}{SSI\+\_\+\+Channel\+\_\+t}} const ssi\+\_\+channel, \mbox{\hyperlink{SPI__datatypes_8h_a8fda463d0150a8e30616655227b28fa9}{SSI\+\_\+\+Interrupt\+\_\+\+Type}} const Trigger, void(\texorpdfstring{$\ast$}{*}Callback\+Function)(void))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains all APIs of SPI module. 
+
+for using this driver you should read this file and know how to use it\textquotesingle{}s API in your way
+
+\begin{DoxyAuthor}{Author}
+Abdulrahman Yasser 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+12/10/2023 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0.\+0 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+GNU Public License 
+\end{DoxyCopyright}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000002}{Bug}}]it just send uint16 in Transfer function \end{DoxyRefDesc}
+\hypertarget{SysCtl__Registers_8h_Step1}{}\doxysubsubsection{\texorpdfstring{Cmake}{Cmake}}\label{SysCtl__Registers_8h_Step1}
+\hypertarget{SysCtl__Registers_8h_Step2}{}\doxysubsubsection{\texorpdfstring{make}{make}}\label{SysCtl__Registers_8h_Step2}
+\begin{DoxyNote}{Note}
+THIS SOFTWARE IS PROVIDED BY Abdulrahman Yasser \+: COMPANY "{}\+AS IS"{} AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL BENINGO ENGINEERING OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.~\newline
+ Compiler GCC~\newline
+ Target TM4\+C123\+GH6\+PM 
+\end{DoxyNote}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{SPI_8h_a42ec3dd9ed102a7b033963cf786e5e9c}\label{SPI_8h_a42ec3dd9ed102a7b033963cf786e5e9c} 
+\index{SPI.h@{SPI.h}!NUMBER\_OF\_SPI\_CHANNELS@{NUMBER\_OF\_SPI\_CHANNELS}}
+\index{NUMBER\_OF\_SPI\_CHANNELS@{NUMBER\_OF\_SPI\_CHANNELS}!SPI.h@{SPI.h}}
+\doxysubsubsection{\texorpdfstring{NUMBER\_OF\_SPI\_CHANNELS}{NUMBER\_OF\_SPI\_CHANNELS}}
+{\footnotesize\ttfamily \#define NUMBER\+\_\+\+OF\+\_\+\+SPI\+\_\+\+CHANNELS~4U}
+
+Defines the number of spi channels on each processor port. 
