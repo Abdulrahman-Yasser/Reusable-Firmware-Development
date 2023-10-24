@@ -496,6 +496,30 @@ home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.s
 .PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c.s
 
+home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.o
+.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.o
+
+# target to build an object file
+home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.o
+.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.o
+
+home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.i: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.i
+.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.i
+
+# target to preprocess a source file
+home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.i
+.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.i
+
+home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.s: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.s
+.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.s
+
+# target to generate assembly for a file
+home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.s
+.PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c.s
+
 home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.o: home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.c.o
 .PHONY : home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.o
 
@@ -1672,6 +1696,54 @@ home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.s
 .PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.c.s
 
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.o
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.o
+
+# target to build an object file
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.o
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.o
+
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.i
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.i
+
+# target to preprocess a source file
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.i
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.i
+
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.s
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.s
+
+# target to generate assembly for a file
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.s
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c.s
+
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.o
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.o
+
+# target to build an object file
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.o
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.o
+
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.i: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.i
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.i
+
+# target to preprocess a source file
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.i
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.i
+
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.s: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.s
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.s
+
+# target to generate assembly for a file
+home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.axf.dir/build.make CMakeFiles/application.axf.dir/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.s
+.PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c.s
+
 home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.o: home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c.o
 .PHONY : home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.o
 
@@ -1940,6 +2012,9 @@ help:
 	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.o"
 	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.i"
 	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.s"
+	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.o"
+	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.i"
+	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.s"
 	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.o"
 	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.i"
 	@echo "... home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SevenSegment/Testing_SevenSegment.s"
@@ -2087,6 +2162,12 @@ help:
 	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.o"
 	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.i"
 	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/PWM/Static/src/PWM.s"
+	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.o"
+	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.i"
+	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.s"
+	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.o"
+	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.i"
+	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.s"
 	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.o"
 	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.i"
 	@echo "... home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.s"

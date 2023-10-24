@@ -34,7 +34,6 @@
 #include "CPU_resources.h"
 #include "../SysCtl/SysCtl_Registers.h"
 
-
 /**
  * @brief the ISR function that will be called in Tx Interrupt trigger
  * @details this is what get changed when calling Spi_CallbackRegister function

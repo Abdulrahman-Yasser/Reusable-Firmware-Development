@@ -118,9 +118,9 @@
 				52,
 				53,
 				54,
+				55,
 				56,
 				58,
-				59,
 				60,
 				61,
 				62,
@@ -133,7 +133,10 @@
 				69,
 				70,
 				71,
-				72
+				72,
+				73,
+				74,
+				75
 			]
 		}
 	],
@@ -221,9 +224,9 @@
 				52,
 				53,
 				54,
+				55,
 				56,
 				58,
-				59,
 				60,
 				61,
 				62,
@@ -236,15 +239,18 @@
 				69,
 				70,
 				71,
-				72
+				72,
+				73,
+				74,
+				75
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				55,
-				57
+				57,
+				59
 			]
 		}
 	],
@@ -535,6 +541,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Dynamic/SPI_Lcfg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SPI/Static/SPI.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "/home/abdu/Study/PatternDesign-In-C/myLibraries/MCAL_Layer/SysCtl/Static/src/SysCtl.c",
 			"sourceGroupIndex" : 0
 		},
@@ -672,6 +690,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_PLL/Testing_PLL.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/abdu/Study/PatternDesign-In-C/Testing_SW_Layers/Testing_Drivers/APP/Testing_SPI/Testing_SPI.c",
 			"sourceGroupIndex" : 0
 		},
 		{
